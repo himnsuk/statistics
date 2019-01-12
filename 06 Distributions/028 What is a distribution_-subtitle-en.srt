@@ -1,0 +1,208 @@
+﻿1
+00:00:00,910 --> 00:00:05,230
+Before we can talk about testing we have to learn what a distribution is.
+
+2
+00:00:05,230 --> 00:00:12,190
+And in this lesson we'll do just that in statistics when we use the term distribution we usually mean
+
+3
+00:00:12,220 --> 00:00:14,410
+a probability distribution.
+
+4
+00:00:14,410 --> 00:00:21,050
+Good examples are the normal distribution the binomial distribution and the uniform distribution.
+
+5
+00:00:21,080 --> 00:00:24,110
+All right let's start with a definition.
+
+6
+00:00:24,290 --> 00:00:30,810
+A distribution is a function that shows the possible values for a variable and how often they occur.
+
+7
+00:00:31,250 --> 00:00:35,970
+Think about Addai it has 6 sides numbered from 1 to 6.
+
+8
+00:00:36,110 --> 00:00:37,190
+We roll the die.
+
+9
+00:00:37,370 --> 00:00:40,350
+What is the probability of getting one.
+
+10
+00:00:40,400 --> 00:00:41,930
+It is 1 out of 6.
+
+11
+00:00:41,930 --> 00:00:43,830
+So 1 6 3.
+
+12
+00:00:44,240 --> 00:00:46,710
+What is the probability of getting 2.
+
+13
+00:00:46,820 --> 00:00:48,940
+Once again one sixth.
+
+14
+00:00:49,040 --> 00:00:53,030
+The same holds for 3 4 5 and 6.
+
+15
+00:00:53,050 --> 00:00:56,880
+Now what is the probability of getting a 7.
+
+16
+00:00:56,890 --> 00:00:59,830
+It is impossible to get a 7 when rolling a die.
+
+17
+00:00:59,890 --> 00:01:02,580
+Therefore the probability is zero.
+
+18
+00:01:03,490 --> 00:01:08,710
+The distribution of an event consists not only of the input values that can be observed but is made
+
+19
+00:01:08,710 --> 00:01:11,010
+up of all the possible values.
+
+20
+00:01:11,320 --> 00:01:17,660
+So the distribution of the event rolling a die will be given by the following table.
+
+21
+00:01:17,740 --> 00:01:26,150
+The probability of getting 1 is 0.17 the probability of getting 2 is 0.17 and so on.
+
+22
+00:01:26,440 --> 00:01:31,780
+You are sure that you have exhausted all possible values when the sum of the probabilities is equal
+
+23
+00:01:31,780 --> 00:01:35,230
+to 100 percent for all other values.
+
+24
+00:01:35,230 --> 00:01:37,710
+The probability of occurrence is zero.
+
+25
+00:01:38,590 --> 00:01:45,070
+Each probability distribution is associated with a graph describing the likelihood of occurrence of
+
+26
+00:01:45,190 --> 00:01:46,320
+every event.
+
+27
+00:01:46,570 --> 00:01:48,880
+Here's the graph for our example.
+
+28
+00:01:48,880 --> 00:01:52,560
+This type of distribution is called uniform distribution.
+
+29
+00:01:53,420 --> 00:01:59,420
+It is crucial to understand that the distribution is defined by the underlying probabilities and not
+
+30
+00:01:59,420 --> 00:02:00,620
+the graph.
+
+31
+00:02:00,620 --> 00:02:04,310
+The graph is just a visual representation.
+
+32
+00:02:04,430 --> 00:02:05,110
+All right.
+
+33
+00:02:05,290 --> 00:02:07,660
+Now think about rolling two dice.
+
+34
+00:02:07,690 --> 00:02:13,960
+What are the possibilities 1 and 1 2 and 1 1 and 2 and so on.
+
+35
+00:02:14,260 --> 00:02:17,360
+Here's a table with all the possible combinations.
+
+36
+00:02:17,700 --> 00:02:20,470
+We are interested in the sum of two dice.
+
+37
+00:02:20,680 --> 00:02:27,910
+So what's the probability of getting a sum of 1 0 as this event is impossible.
+
+38
+00:02:27,910 --> 00:02:30,750
+What's the probability of getting a sum of two.
+
+39
+00:02:30,760 --> 00:02:37,180
+There is only one combination that would give us the sum of two when both dice are equal to 1.
+
+40
+00:02:37,180 --> 00:02:45,190
+So 1 out of 36 total outcomes or zero point zero or three Similarily the probability of getting a sum
+
+41
+00:02:45,190 --> 00:02:51,080
+of three is given by the number of combinations that give a sum of three divided by 36.
+
+42
+00:02:51,220 --> 00:03:00,680
+Therefore two divided by 36 or 0.06 we continue this way until we have the full probability distribution.
+
+43
+00:03:00,700 --> 00:03:03,430
+Let's see the graph associated with it.
+
+44
+00:03:03,690 --> 00:03:09,690
+All right so looking at it we understand that when we roll two dice the probability of getting a seven
+
+45
+00:03:09,690 --> 00:03:11,070
+is the highest.
+
+46
+00:03:11,070 --> 00:03:17,010
+We can also compare different outcomes such as the probability of getting a 10 and the probability of
+
+47
+00:03:17,010 --> 00:03:18,070
+getting a 5.
+
+48
+00:03:18,360 --> 00:03:22,950
+It's evident that it's less likely that we'll get a 10 grade.
+
+49
+00:03:23,280 --> 00:03:27,030
+The examples that we saw here were of discrete variables.
+
+50
+00:03:27,030 --> 00:03:33,120
+Next we will focus on continuous distributions as they are more common in inferences.
+
+51
+00:03:33,120 --> 00:03:38,340
+In the next few lessons we'll examine some of the main types of continuous distributions starting with
+
+52
+00:03:38,340 --> 00:03:39,630
+the normal distribution.
+

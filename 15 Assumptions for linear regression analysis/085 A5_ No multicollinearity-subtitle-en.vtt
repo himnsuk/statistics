@@ -1,0 +1,142 @@
+WEBVTT
+
+00:00.450 --> 00:03.850
+The last assumption is no multi-collinearity.
+
+00:04.140 --> 00:09.250
+We observe multi-collinearity when two or more variables have high correlation.
+
+00:09.510 --> 00:18.090
+Let's exemplify this point with an equation A is equal to two plus 5 times B A and B are two variables
+
+00:18.090 --> 00:20.450
+with an exact linear combination.
+
+00:20.620 --> 00:27.840
+A can be represented using B and B can be represented using a in a model containing A and B we would
+
+00:27.840 --> 00:30.420
+have perfect multi-collinearity.
+
+00:30.420 --> 00:36.600
+This imposes a big problem to our regression model as the coefficients will be wrongly estimated.
+
+00:36.600 --> 00:42.210
+The reasoning is that if a can be represented using B there is no point using both.
+
+00:42.210 --> 00:45.480
+We can just keep one of them all right.
+
+00:45.510 --> 00:51.070
+Another example would be two variables C and D with a correlation of 90 percent.
+
+00:51.120 --> 00:57.570
+If we had a regression model using C and D We would also have multi-collinearity although not perfect
+
+00:58.110 --> 00:58.690
+here.
+
+00:58.710 --> 01:02.580
+The assumption is still violated and poses a problem to our model.
+
+01:03.460 --> 01:08.530
+Usually real life examples are helpful so let's provide one.
+
+01:08.540 --> 01:12.980
+There are two bars in the neighborhood bonkers and the Shakespeare bar.
+
+01:13.070 --> 01:15.950
+We want to predict the market share of bankers.
+
+01:16.010 --> 01:19.730
+Most people living in the neighborhood drink only beer in the bars.
+
+01:19.730 --> 01:23.990
+So a good approximation would be a model with three variables.
+
+01:23.990 --> 01:29.720
+The price of half a pint of beer at bonkers the price of a pint of beer at bonkers and the price of
+
+01:29.720 --> 01:31.840
+a pint of beer at Shakespear's.
+
+01:31.970 --> 01:34.130
+This is logical right.
+
+01:34.130 --> 01:40.190
+If one bar raises prices people would simply switch bars so the price in one bar is a predictor of the
+
+01:40.190 --> 01:43.000
+market share of the other bar.
+
+01:43.060 --> 01:43.820
+All right.
+
+01:44.050 --> 01:45.490
+Where's the problem.
+
+01:45.640 --> 01:53.830
+Half a pint of beer at bonkers costs around $1 and one pint costs 190 bonkers tries to gain market share
+
+01:53.830 --> 01:56.290
+by cutting its price to 90 cents.
+
+01:56.290 --> 02:01.810
+It cannot keep the price of one pint at 190 because people would just buy two times half a pint for
+
+02:01.810 --> 02:03.730
+one dollar eighty cents.
+
+02:03.880 --> 02:08.900
+Bonkers management lowers the price of the pint of beer to 1.70.
+
+02:08.930 --> 02:13.040
+Next we run a regression based on these three variables.
+
+02:13.040 --> 02:19.310
+The p value for the pint of beer at bonkers and half a pint at bonkers show they are insignificant.
+
+02:19.310 --> 02:24.170
+Why the underlying logic behind ever model was so rigid.
+
+02:24.170 --> 02:30.270
+Well no multi-collinearity is an assumption of the calculations behind the regression.
+
+02:30.410 --> 02:34.730
+The price of half a pint and a full pint at bonkers definitely move together.
+
+02:35.150 --> 02:40.490
+This messed up the calculations of the computer and it provided us with wrong estimates and wrong p
+
+02:40.490 --> 02:42.770
+values.
+
+02:42.810 --> 02:44.870
+So how do we fix it.
+
+02:44.880 --> 02:47.310
+There are three types of fixes.
+
+02:47.370 --> 02:50.940
+The first one is to drop one of the two variables.
+
+02:51.000 --> 02:54.680
+The second is to transform them into one variable.
+
+02:54.690 --> 02:56.980
+The third possibility is tricky.
+
+02:57.060 --> 03:03.380
+If you are super confident in your skills you can keep them both while treating them with extreme caution.
+
+03:03.390 --> 03:06.230
+The correct approach depends on the research at hand.
+
+03:07.320 --> 03:14.350
+Multi-collinearity is a big problem but it is also the easiest to notice before creating the regression.
+
+03:14.430 --> 03:20.730
+Find the correlation between each two pairs of the independent variables and you will know if a multi-collinearity
+
+03:20.730 --> 03:21.990
+problem may arise.

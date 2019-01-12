@@ -1,0 +1,88 @@
+WEBVTT
+
+00:00.270 --> 00:04.140
+So far we introduce quite a few notions about regressions.
+
+00:04.230 --> 00:09.870
+Most statistics books start by introducing regression assumptions directly but we preferred to talk
+
+00:09.870 --> 00:15.250
+about the intuition behind regressions first and then introduce you to regression assumptions.
+
+00:15.300 --> 00:21.170
+Now that we have seen quite a few lessons we are ready to introduce regression assumptions here.
+
+00:21.210 --> 00:23.680
+We divide them into five assumptions.
+
+00:23.760 --> 00:28.710
+You should know all of them and consider them before you perform regression analysis.
+
+00:28.770 --> 00:31.870
+We will have a separate lesson for each one.
+
+00:32.040 --> 00:34.500
+The first one is linearity.
+
+00:34.500 --> 00:36.920
+It is called a linear regression.
+
+00:37.140 --> 00:42.230
+As we said earlier there are other types of regressions with more sophisticated models.
+
+00:42.390 --> 00:49.470
+The linear regression is the simplest one and assumes linearity each independent variable is multiplied
+
+00:49.470 --> 00:53.540
+by a coefficient and summed up to predict the value.
+
+00:53.570 --> 00:56.930
+The second one is in Donje linearity of regressors.
+
+00:56.990 --> 01:03.260
+Mathematically this is expressed as the covariance of the error and the axes is zero for any error or
+
+01:03.260 --> 01:04.900
+x.
+
+01:04.920 --> 01:09.750
+The third assumption is normality in Homosassa Adeste history of the error term.
+
+01:10.050 --> 01:13.690
+Normality means the error term is normally distributed.
+
+01:13.710 --> 01:20.940
+The expected value of the error is zero as we expect to have no errors on average almost good s Tisci
+
+01:21.000 --> 01:23.890
+in plain English means constant variance.
+
+01:23.910 --> 01:26.710
+We will discuss it thoroughly later.
+
+01:26.750 --> 01:30.080
+The fourth assumption is no autocorrelation.
+
+01:30.080 --> 01:34.940
+Mathematically the covariance of any two error terms is zero.
+
+01:34.940 --> 01:41.220
+That's the assumption that would usually stop you from using a linear regression in your analysis and
+
+01:41.220 --> 01:48.390
+the last one is no multi-collinearity multi-collinearity is observed when two or more variables have
+
+01:48.390 --> 01:50.570
+a high correlation between each other.
+
+01:51.310 --> 01:54.820
+OK these are the main regression assumptions.
+
+01:54.850 --> 02:01.030
+They are crucial for regression analysis as the purpose of this section was to help you understand regressions.
+
+02:01.060 --> 02:05.770
+You should not skip any lectures about assumptions at your workplace.
+
+02:05.770 --> 02:10.720
+The biggest mistake you can make is to perform a regression that violates one of these assumptions.

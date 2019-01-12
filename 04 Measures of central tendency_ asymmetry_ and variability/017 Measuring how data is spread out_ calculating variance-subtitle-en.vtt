@@ -1,0 +1,229 @@
+WEBVTT
+
+00:00.710 --> 00:05.090
+Next on our to do list are the measures of variability.
+
+00:05.150 --> 00:07.970
+There are many ways to quantify variability.
+
+00:08.030 --> 00:15.620
+However we will focus on the most common ones variance standard deviation and coefficient of variation
+
+00:16.750 --> 00:21.820
+in the field of statistics we will typically use different formulas when working out the population
+
+00:21.820 --> 00:23.890
+data and sample data.
+
+00:24.250 --> 00:26.270
+Let's think about this for a bit.
+
+00:26.470 --> 00:30.250
+When you have the whole population each data point is known.
+
+00:30.280 --> 00:36.910
+So you are 100 percent sure of the measures you are calculating when you take a sample of this population
+
+00:37.120 --> 00:39.190
+and you compute a sample statistic.
+
+00:39.280 --> 00:44.350
+It is interpreted as an approximation of the population parameter.
+
+00:44.350 --> 00:51.510
+Moreover if you extract 10 different samples from the same population you will get 10 different measures.
+
+00:51.520 --> 00:57.640
+Statisticians have solved the problem by adjusting the algebraic formulas for many statistics to reflect
+
+00:57.640 --> 00:58.860
+the issue.
+
+00:58.960 --> 01:06.230
+Therefore we will explore both population and sample formulas as they are both used.
+
+01:06.260 --> 01:12.140
+You must be asking yourself why there are unique formulas for the mean median and mode.
+
+01:12.140 --> 01:16.830
+Well actually the sample mean is the average of the sample data points.
+
+01:16.880 --> 01:23.330
+While the population mean is the average of the population data points Technically there are two different
+
+01:23.330 --> 01:26.110
+formulas but they are computed in the same way.
+
+01:27.170 --> 01:34.670
+OK now after this short clarification it's time to get on a variance variance measures the dispersion
+
+01:34.730 --> 01:42.580
+of a set of data points around their mean value population variance denoted by Sigma squared is equal
+
+01:42.580 --> 01:48.340
+to the sum of square differences between the observed values and the population mean divided by the
+
+01:48.340 --> 01:50.370
+total number of observations.
+
+01:51.260 --> 01:57.920
+Several variants on the other hand is denoted by s squared and is equal to the sum of squared differences
+
+01:57.920 --> 02:04.490
+between observed sample values and the sample mean divided by the number of sample observations minus
+
+02:04.490 --> 02:12.460
+one all right when you are getting acquainted with statistics it is hard to grasp everything right away.
+
+02:12.730 --> 02:20.170
+Therefore let's stop for a second to examine the formula for the population and try to clarify its meaning.
+
+02:20.170 --> 02:22.750
+The main part of the formula is its numerator.
+
+02:22.840 --> 02:25.160
+So that's what we want to comprehend.
+
+02:25.330 --> 02:30.030
+The sum of the differences between the observations and the mean squared.
+
+02:30.070 --> 02:30.940
+Hmm.
+
+02:31.090 --> 02:36.160
+So the closer the number to the mean the lower the result we will obtain.
+
+02:36.160 --> 02:37.140
+Right.
+
+02:37.270 --> 02:41.590
+And the further away from the mean it lies the larger the difference.
+
+02:41.680 --> 02:45.910
+Easy but why do we elevate to the second degree.
+
+02:46.210 --> 02:49.900
+Squaring the differences has two main purposes.
+
+02:49.900 --> 02:55.240
+First by squaring the numbers we always get non-negative computations.
+
+02:55.240 --> 03:01.090
+Without going too deep into the mathematics of it it is intuitive that dispersion cannot be negative
+
+03:02.020 --> 03:06.370
+dispersion is about distance and distance cannot be negative.
+
+03:06.370 --> 03:12.400
+If on the other hand we calculate the difference and do not elevate to the second degree we would obtain
+
+03:12.400 --> 03:14.610
+both positive and negative values.
+
+03:14.650 --> 03:20.580
+That when summed would cancel out leaving us with no information about the dispersion.
+
+03:20.590 --> 03:25.300
+Second squaring amplifies the effect of large differences.
+
+03:25.300 --> 03:34.090
+For example if the mean is 0 and you have an observation of 100 the squared spread is 10000 Alright
+
+03:34.340 --> 03:35.810
+enough dry theory.
+
+03:35.840 --> 03:38.550
+It's time for a practical example.
+
+03:38.570 --> 03:41.660
+We have a population of 5 observations.
+
+03:41.750 --> 03:44.440
+One two three four and five.
+
+03:44.540 --> 03:46.650
+Let's find its variants.
+
+03:46.670 --> 03:53.900
+We start by calculating the mean one plus two plus three plus four plus five divided by five equals
+
+03:53.930 --> 03:55.150
+three.
+
+03:55.160 --> 03:56.920
+Then we apply the formula.
+
+03:56.920 --> 04:04.490
+We just saw one minus three squared plus two minus three squared plus three minus three squared plus
+
+04:04.490 --> 04:08.600
+four minus three squared plus five minus three squared.
+
+04:08.600 --> 04:12.200
+All of these components have to be divided by five.
+
+04:12.350 --> 04:14.630
+When we do the math we get two.
+
+04:14.840 --> 04:22.320
+So the population variance of the data set is to but what about sample variance.
+
+04:22.330 --> 04:27.220
+This would only be suitable if we were told that these five observations were a sample drawn from a
+
+04:27.220 --> 04:28.210
+population.
+
+04:28.480 --> 04:35.410
+So let's imagine that's the case the sample mean is once again three the numerator is the same but the
+
+04:35.410 --> 04:43.750
+denominator is going to be 4 instead of 5 giving us a sample variance of 2.5 to conclude the variance
+
+04:43.750 --> 04:46.660
+topic we should interpret the result.
+
+04:46.660 --> 04:52.250
+Why is the simple variance bigger than the population variance in the first case.
+
+04:52.330 --> 04:59.340
+We knew the population that is we had all the data and we calculated the variance in the second case.
+
+04:59.470 --> 05:06.220
+We were told that 1 2 3 4 and 5 was a simple drawn from a bigger population.
+
+05:06.220 --> 05:15.400
+Now imagine the population of this sample were 1 1 1 2 3 4 5 5 and 5.
+
+05:15.400 --> 05:20.920
+Clearly the numbers are the same but there is a concentration about the two extremes of the data set
+
+05:21.280 --> 05:23.050
+1 and 5.
+
+05:23.210 --> 05:27.500
+The variance of this population is two point ninety six.
+
+05:27.630 --> 05:31.440
+So our sample variance has rightfully corrected upwards.
+
+05:31.440 --> 05:37.470
+In order to reflect a higher potential variability This is the reason why there are different formulas
+
+05:37.470 --> 05:39.850
+for simple and population data.
+
+05:40.720 --> 05:42.630
+This was a very important lesson.
+
+05:42.730 --> 05:45.400
+So please make sure you have understood it well.
+
+05:45.670 --> 05:50.740
+You can reinforce what you have learned here by doing the exercise available in the course resources
+
+05:50.740 --> 05:52.120
+section.
+
+05:52.120 --> 05:56.890
+Remember the subject of statistics is only understood when practiced.

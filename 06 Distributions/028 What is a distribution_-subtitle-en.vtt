@@ -1,0 +1,157 @@
+WEBVTT
+
+00:00.910 --> 00:05.230
+Before we can talk about testing we have to learn what a distribution is.
+
+00:05.230 --> 00:12.190
+And in this lesson we'll do just that in statistics when we use the term distribution we usually mean
+
+00:12.220 --> 00:14.410
+a probability distribution.
+
+00:14.410 --> 00:21.050
+Good examples are the normal distribution the binomial distribution and the uniform distribution.
+
+00:21.080 --> 00:24.110
+All right let's start with a definition.
+
+00:24.290 --> 00:30.810
+A distribution is a function that shows the possible values for a variable and how often they occur.
+
+00:31.250 --> 00:35.970
+Think about Addai it has 6 sides numbered from 1 to 6.
+
+00:36.110 --> 00:37.190
+We roll the die.
+
+00:37.370 --> 00:40.350
+What is the probability of getting one.
+
+00:40.400 --> 00:41.930
+It is 1 out of 6.
+
+00:41.930 --> 00:43.830
+So 1 6 3.
+
+00:44.240 --> 00:46.710
+What is the probability of getting 2.
+
+00:46.820 --> 00:48.940
+Once again one sixth.
+
+00:49.040 --> 00:53.030
+The same holds for 3 4 5 and 6.
+
+00:53.050 --> 00:56.880
+Now what is the probability of getting a 7.
+
+00:56.890 --> 00:59.830
+It is impossible to get a 7 when rolling a die.
+
+00:59.890 --> 01:02.580
+Therefore the probability is zero.
+
+01:03.490 --> 01:08.710
+The distribution of an event consists not only of the input values that can be observed but is made
+
+01:08.710 --> 01:11.010
+up of all the possible values.
+
+01:11.320 --> 01:17.660
+So the distribution of the event rolling a die will be given by the following table.
+
+01:17.740 --> 01:26.150
+The probability of getting 1 is 0.17 the probability of getting 2 is 0.17 and so on.
+
+01:26.440 --> 01:31.780
+You are sure that you have exhausted all possible values when the sum of the probabilities is equal
+
+01:31.780 --> 01:35.230
+to 100 percent for all other values.
+
+01:35.230 --> 01:37.710
+The probability of occurrence is zero.
+
+01:38.590 --> 01:45.070
+Each probability distribution is associated with a graph describing the likelihood of occurrence of
+
+01:45.190 --> 01:46.320
+every event.
+
+01:46.570 --> 01:48.880
+Here's the graph for our example.
+
+01:48.880 --> 01:52.560
+This type of distribution is called uniform distribution.
+
+01:53.420 --> 01:59.420
+It is crucial to understand that the distribution is defined by the underlying probabilities and not
+
+01:59.420 --> 02:00.620
+the graph.
+
+02:00.620 --> 02:04.310
+The graph is just a visual representation.
+
+02:04.430 --> 02:05.110
+All right.
+
+02:05.290 --> 02:07.660
+Now think about rolling two dice.
+
+02:07.690 --> 02:13.960
+What are the possibilities 1 and 1 2 and 1 1 and 2 and so on.
+
+02:14.260 --> 02:17.360
+Here's a table with all the possible combinations.
+
+02:17.700 --> 02:20.470
+We are interested in the sum of two dice.
+
+02:20.680 --> 02:27.910
+So what's the probability of getting a sum of 1 0 as this event is impossible.
+
+02:27.910 --> 02:30.750
+What's the probability of getting a sum of two.
+
+02:30.760 --> 02:37.180
+There is only one combination that would give us the sum of two when both dice are equal to 1.
+
+02:37.180 --> 02:45.190
+So 1 out of 36 total outcomes or zero point zero or three Similarily the probability of getting a sum
+
+02:45.190 --> 02:51.080
+of three is given by the number of combinations that give a sum of three divided by 36.
+
+02:51.220 --> 03:00.680
+Therefore two divided by 36 or 0.06 we continue this way until we have the full probability distribution.
+
+03:00.700 --> 03:03.430
+Let's see the graph associated with it.
+
+03:03.690 --> 03:09.690
+All right so looking at it we understand that when we roll two dice the probability of getting a seven
+
+03:09.690 --> 03:11.070
+is the highest.
+
+03:11.070 --> 03:17.010
+We can also compare different outcomes such as the probability of getting a 10 and the probability of
+
+03:17.010 --> 03:18.070
+getting a 5.
+
+03:18.360 --> 03:22.950
+It's evident that it's less likely that we'll get a 10 grade.
+
+03:23.280 --> 03:27.030
+The examples that we saw here were of discrete variables.
+
+03:27.030 --> 03:33.120
+Next we will focus on continuous distributions as they are more common in inferences.
+
+03:33.120 --> 03:38.340
+In the next few lessons we'll examine some of the main types of continuous distributions starting with
+
+03:38.340 --> 03:39.630
+the normal distribution.

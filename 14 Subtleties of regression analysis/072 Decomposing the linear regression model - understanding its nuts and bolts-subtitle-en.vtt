@@ -1,0 +1,97 @@
+WEBVTT
+
+00:00.780 --> 00:07.260
+We already saw the regression equation and an example of a regression model in this lesson we will explore
+
+00:07.260 --> 00:09.840
+the determinants of a good regression.
+
+00:09.840 --> 00:12.390
+This video is based on the Andover framework.
+
+00:12.390 --> 00:19.830
+You may have heard before there are three terms we must define the sum of square totals the sum of squares
+
+00:19.830 --> 00:22.280
+regression and the sum of squares error.
+
+00:23.010 --> 00:28.830
+The sum of squares total denoted as s t is the square differences between the observed dependent variable
+
+00:28.920 --> 00:30.110
+and its mean.
+
+00:30.120 --> 00:34.120
+You can think of this as the dispersion of the observed variables around the mean.
+
+00:34.170 --> 00:37.820
+Much like the variance we saw in descriptive statistics.
+
+00:37.960 --> 00:42.220
+It is a measure of the total variability of the dataset.
+
+00:42.240 --> 00:46.490
+The second term is the sum of squares regression or SSR.
+
+00:46.530 --> 00:52.500
+It is the sum of differences between the predicted value and the mean of the dependent variable.
+
+00:52.500 --> 00:56.700
+Think of it as a measure that describes how well your line fits the data.
+
+00:56.700 --> 01:02.670
+If this value of SSR is equal to the sum of squares total It means your regression model captures all
+
+01:02.670 --> 01:06.060
+observed variability and is perfect.
+
+01:06.170 --> 01:10.050
+The last term is the sum of squares error or SS each.
+
+01:10.400 --> 01:15.500
+As we said in one of the previous videos the error is the difference between the observed value and
+
+01:15.500 --> 01:17.030
+the predicted value.
+
+01:17.030 --> 01:19.620
+We usually want to minimize the error.
+
+01:19.820 --> 01:24.730
+The smaller the error the better the estimation power of the regression.
+
+01:24.750 --> 01:28.700
+So what is the connection among these three mathematically.
+
+01:28.770 --> 01:32.650
+S s t is equal to ss r plus ss e.
+
+01:32.730 --> 01:34.810
+The rationale is the following.
+
+01:34.860 --> 01:41.010
+The total variability of the data set is equal to the variability explained by the regression line plus
+
+01:41.010 --> 01:44.170
+the unexplained variability known as error.
+
+01:44.580 --> 01:46.700
+Given a constant total variability.
+
+01:46.800 --> 01:49.880
+A lower error will cause a better regression.
+
+01:49.890 --> 01:53.590
+Conversely a higher error will cause a less powerful regression.
+
+01:53.820 --> 01:54.890
+Makes sense right.
+
+01:55.790 --> 01:56.680
+All right.
+
+01:56.930 --> 02:02.700
+Based on this knowledge in our next lesson we will learn how to compare different regression models.
+
+02:02.720 --> 02:03.560
+Thanks for watching.

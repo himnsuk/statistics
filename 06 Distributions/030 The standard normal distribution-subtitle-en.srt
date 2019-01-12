@@ -1,0 +1,156 @@
+﻿1
+00:00:00,660 --> 00:00:06,390
+The standard normal distribution is a particular case of the normal distribution we'll use the letter
+
+2
+00:00:06,390 --> 00:00:07,870
+Z to denote it.
+
+3
+00:00:07,920 --> 00:00:15,000
+It has a mean of zero and a standard deviation of one the standard normal distribution is easy to understand
+
+4
+00:00:15,060 --> 00:00:17,240
+and has several important applications.
+
+5
+00:00:17,610 --> 00:00:24,090
+Every normal distribution can be standardized standardization in this context is the process of turning
+
+6
+00:00:24,090 --> 00:00:28,500
+a normally distributed variable to one with a standard normal distribution.
+
+7
+00:00:28,860 --> 00:00:31,720
+A simple formula allows us to do that.
+
+8
+00:00:31,910 --> 00:00:36,870
+The standardized variable the variable whose normal distribution we are turning into a standard normal
+
+9
+00:00:36,870 --> 00:00:43,780
+distribution is called a z score it is equal to the original variable minus its mean divided by its
+
+10
+00:00:43,800 --> 00:00:45,720
+standard deviation.
+
+11
+00:00:45,720 --> 00:00:48,360
+Let's try to interpret it first.
+
+12
+00:00:48,420 --> 00:00:50,200
+We have to look at the numerator.
+
+13
+00:00:50,460 --> 00:00:55,260
+If you take a dataset subtract its mean from each data point and then calculate the mean.
+
+14
+00:00:55,260 --> 00:00:58,130
+Once again you will get zero.
+
+15
+00:00:58,150 --> 00:01:00,820
+The following example will help us prove that.
+
+16
+00:01:01,240 --> 00:01:10,720
+Let's take an approximately normally distributed set of numbers 1 2 2 3 3 3 4 4 and 5.
+
+17
+00:01:10,740 --> 00:01:15,460
+Its mean is 3 and its standard deviation 1.2 2.
+
+18
+00:01:15,520 --> 00:01:18,790
+Now lets have tracked the mean from all data points.
+
+19
+00:01:19,000 --> 00:01:27,980
+We get a new dataset of minus two minus 1 minus 1 0 0 0 1 1 and 2.
+
+20
+00:01:28,000 --> 00:01:29,560
+Let's calculate the mean.
+
+21
+00:01:29,740 --> 00:01:33,160
+It is 0 exactly as we anticipated.
+
+22
+00:01:33,160 --> 00:01:33,840
+Clear.
+
+23
+00:01:34,120 --> 00:01:35,650
+OK great.
+
+24
+00:01:36,010 --> 00:01:40,540
+So far we have a new distribution which is still normal but with a mean of zero.
+
+25
+00:01:40,540 --> 00:01:47,710
+Any standard deviation of 1.2 to the next step of standardization is to divide all data points by the
+
+26
+00:01:47,710 --> 00:01:49,210
+standard deviation.
+
+27
+00:01:49,210 --> 00:01:53,550
+This will drive the standard deviation of the new data set to 1.
+
+28
+00:01:53,560 --> 00:01:55,450
+Let's go back to our example.
+
+29
+00:01:55,660 --> 00:02:00,850
+Both the original data set and the one we obtained after subtracting the mean from each data point have
+
+30
+00:02:00,850 --> 00:02:05,000
+a standard deviation of 1.2 to remember.
+
+31
+00:02:05,110 --> 00:02:10,330
+Adding and subtracting to all data points does not change the standard deviation.
+
+32
+00:02:10,330 --> 00:02:23,800
+Now let's divide each data point by 1.2 to we get minus 1.6 3 minus 0.8 to minus 0.8 to 0 0 0 0.8 to
+
+33
+00:02:23,920 --> 00:02:26,970
+zero point a two and 1.6 three.
+
+34
+00:02:27,100 --> 00:02:33,520
+If we calculate the standard deviation of this dataset we will get one and the mean is still zero.
+
+35
+00:02:33,730 --> 00:02:36,840
+Let's quickly show that cool.
+
+36
+00:02:36,980 --> 00:02:42,320
+This is how we can obtain a standard normal distribution from any normally distributed data set.
+
+37
+00:02:43,070 --> 00:02:46,230
+Using it makes predictions and inference much easier.
+
+38
+00:02:46,310 --> 00:02:49,970
+And this will help us a great deal in what we will see next.
+
+39
+00:02:49,970 --> 00:02:50,990
+Thanks for watching.
+

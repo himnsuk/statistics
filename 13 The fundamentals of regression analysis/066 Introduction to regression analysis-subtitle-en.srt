@@ -1,0 +1,56 @@
+﻿1
+00:00:00,730 --> 00:00:06,700
+With some solid statistical knowledge behind us we are ready to jump into regression analysis which
+
+2
+00:00:06,700 --> 00:00:09,760
+is arguably the most common method of prediction.
+
+3
+00:00:09,850 --> 00:00:17,110
+It is used whenever we have a causal relationship between variables for example among other factors.
+
+4
+00:00:17,110 --> 00:00:23,350
+The money you spend depends on the money you make in the same way the time you devote to this course
+
+5
+00:00:23,350 --> 00:00:26,890
+depends on your motivation to learn statistics.
+
+6
+00:00:26,890 --> 00:00:32,620
+We will use our typical systematic approach starting from the simple linear regression model and reaching
+
+7
+00:00:32,620 --> 00:00:38,770
+the multivariate regression model along the way we will learn how to build a regression how to interpret
+
+8
+00:00:38,770 --> 00:00:41,240
+it and how to compare different models.
+
+9
+00:00:41,380 --> 00:00:46,060
+We will develop a deep understanding of the fundamentals as what we'll learn and this section will be
+
+10
+00:00:46,060 --> 00:00:49,230
+closely related to the knowledge we've acquired so far.
+
+11
+00:00:50,070 --> 00:00:55,680
+After this section you will be prepared to dive into more advanced statistical analysis or even machine
+
+12
+00:00:55,680 --> 00:00:57,740
+learning if that's where you want to go.
+
+13
+00:00:58,560 --> 00:00:59,920
+Brace yourselves.
+
+14
+00:00:59,970 --> 00:01:02,180
+Regression analysis starts here.
+

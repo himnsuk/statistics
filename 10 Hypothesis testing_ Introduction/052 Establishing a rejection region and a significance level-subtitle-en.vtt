@@ -1,0 +1,166 @@
+WEBVTT
+
+00:00.630 --> 00:01.930
+High again.
+
+00:02.070 --> 00:08.280
+So you know what a hypothesis is and you have an idea of how to form the know and alternative hypotheses
+
+00:09.280 --> 00:14.270
+in this lesson we all understand the reason why hypothesis testing works.
+
+00:14.440 --> 00:19.800
+Imagine that the actual average grade of all students in a UK university is 55 percent.
+
+00:20.140 --> 00:25.640
+The University Dean however believes that on average students obtain 70 percent.
+
+00:25.720 --> 00:28.180
+Of course you can't just agree with his opinion.
+
+00:28.210 --> 00:35.610
+So you start testing the hypothesis is the population mean grade is 70 percent.
+
+00:35.610 --> 00:41.510
+The alternative hypothesis is the population mean grade is different than 70 percent.
+
+00:41.550 --> 00:44.860
+So why does hypothesis testing work.
+
+00:44.910 --> 00:49.130
+We assume that the population of grades is normally distributed.
+
+00:49.270 --> 00:52.430
+The true population mean is fifty five percent.
+
+00:52.570 --> 00:56.140
+The idea is to test if 70 percent is the true mean.
+
+00:56.200 --> 01:04.920
+Or in our example if 70 percent is close enough to 55 percent this part is called the rejection region.
+
+01:05.020 --> 01:11.480
+If the no hypothesis value is inside the rejection region you reject the null hypothesis.
+
+01:11.480 --> 01:17.880
+Now imagine that the old Dean who got fired recently told you that the mean grade is 56 percent.
+
+01:17.930 --> 01:24.530
+In that case if you want to test his opinion the null hypothesis would be the population mean is equal
+
+01:24.530 --> 01:26.210
+to 56 percent.
+
+01:26.600 --> 01:32.070
+This value is much closer to 55 percent and far away from the rejection region.
+
+01:32.420 --> 01:37.290
+You will most likely accept the no hypothesis in statistical jargon.
+
+01:37.310 --> 01:44.820
+You cannot say that 56 percent is not the population mean this will all become clear soon enough.
+
+01:44.820 --> 01:51.330
+There is one more important part of testing the significance level the significance level is denoted
+
+01:51.330 --> 01:52.350
+by Alpha.
+
+01:52.410 --> 01:57.360
+It is the probability of rejecting the null hypothesis if it is true.
+
+01:57.420 --> 02:01.390
+The rejection region depends on the Alpha as pointed in the graph.
+
+02:01.440 --> 02:07.910
+Typical values for Alpha are zero point zero or 1 0.05 and zero point one.
+
+02:07.920 --> 02:11.310
+It is a value that you select based on the certainty you need.
+
+02:11.580 --> 02:16.930
+In most cases the choice of Alpha is determined by the context you are operating in.
+
+02:16.940 --> 02:22.730
+For example if you need to test if a machine is working properly you would expect it to make little
+
+02:22.730 --> 02:26.910
+or no mistakes as you want to be very precise.
+
+02:26.910 --> 02:34.520
+You should pick a low significance level such as 0.01 the famous Coca-Cola glass bottle is 12 ounces.
+
+02:34.560 --> 02:39.720
+If the machine pours twelve point one ounces some of the liquid will be spilled and the label will be
+
+02:39.720 --> 02:41.190
+damaged as well.
+
+02:41.190 --> 02:45.340
+So in certain situations we need to be as accurate as possible.
+
+02:46.140 --> 02:52.320
+However if we were analyzing human or company behavior we would expect a more random behavior and hence
+
+02:52.350 --> 02:54.060
+a higher degree of error.
+
+02:54.360 --> 03:00.390
+For example if we want to predict how much Coca-Cola consumers drink on average the difference between
+
+03:00.390 --> 03:03.930
+12 ounces and twelve point one ounces will not be that crucial.
+
+03:03.930 --> 03:08.320
+So we can choose a higher significance level alright.
+
+03:09.000 --> 03:14.640
+Our graph so far we're showing rejection reagents for two sided tests such as the one where we tested
+
+03:14.640 --> 03:19.300
+whether our population mean is equal to 70 percent in these cases.
+
+03:19.320 --> 03:25.700
+The significance level Alpha is divided between the two sides of the normal distribution on the left.
+
+03:25.710 --> 03:28.580
+We have a significance of Alpha divided by two.
+
+03:28.590 --> 03:32.480
+And on the right we have another alpha divided by two.
+
+03:32.520 --> 03:39.490
+This is due to the fact that the true mean could be either 55 percent or 85 percent in both cases.
+
+03:39.570 --> 03:46.190
+We are equally likely to reject the null hypothesis but on a different side of the distribution What
+
+03:46.190 --> 03:49.190
+about one tailed tests which look in the following way.
+
+03:50.250 --> 03:52.650
+Is the mean lower than 70 percent.
+
+03:52.860 --> 03:57.600
+And in each one is the mean higher or equal to 70 percent.
+
+03:57.660 --> 04:04.290
+In this case the rejection region will only be on the right side with a significant level of alpha and
+
+04:04.300 --> 04:05.870
+to complete the picture.
+
+04:05.870 --> 04:12.430
+Here's a plot of the third case defined by an age zero of the mean higher than 70 percent.
+
+04:13.440 --> 04:14.310
+All right.
+
+04:14.320 --> 04:17.240
+In a lesson or two we'll get to real life examples.
+
+04:17.290 --> 04:18.640
+We are almost there.
+
+04:18.640 --> 04:19.870
+Just hold on a bit.

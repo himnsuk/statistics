@@ -1,0 +1,628 @@
+WEBVTT
+
+00:00.650 --> 00:07.220
+Finally it's time for the practical example we've been talking about in this lesson we will see an actual
+
+00:07.220 --> 00:11.540
+database of a real estate company operating in California.
+
+00:11.540 --> 00:15.960
+All right we're interested in the statistical properties of the data.
+
+00:16.010 --> 00:22.050
+That is why we have reordered the database and cherry picked variable than imported DS in a spreadsheet.
+
+00:22.370 --> 00:26.960
+The labels of the columns have been made friendly even for those of you who have no experience with
+
+00:26.960 --> 00:28.300
+real estate.
+
+00:28.310 --> 00:33.060
+Finally we have altered the names of the customers for confidentiality reasons.
+
+00:33.410 --> 00:34.300
+OK.
+
+00:34.490 --> 00:39.600
+The company is launching a marketing campaign but it wants to target its audience properly.
+
+00:39.710 --> 00:45.920
+The management suspects after some shore analysis marketing results can be improved without the need
+
+00:45.920 --> 00:48.720
+of investing additional resources.
+
+00:48.770 --> 00:54.440
+We are the data analysis who are going to crunch some numbers and identify which groups of people are
+
+00:54.440 --> 00:56.720
+most likely to buy our product.
+
+00:56.720 --> 01:02.600
+Once we have done so we will instruct the marketing team to focus its efforts on these groups.
+
+01:03.080 --> 01:08.220
+The first thing we have to do when we analyze data is get acquainted with the table.
+
+01:08.240 --> 01:12.260
+It illustrates the skills of real estate property for a specific company.
+
+01:12.350 --> 01:16.520
+Lets call it 365 data sites real estate Calif..
+
+01:16.550 --> 01:20.040
+Hopefully no one else thought of that name.
+
+01:20.070 --> 01:25.650
+Second the table has two parts left and right on the left hand side.
+
+01:25.700 --> 01:28.910
+We have product information on the right hand side.
+
+01:28.940 --> 01:30.780
+We have customer information.
+
+01:30.920 --> 01:37.340
+You can easily spot all products are listed but customer information is only available for some products.
+
+01:37.340 --> 01:44.390
+This is because we input information about a customer once the deal is done logically only sold items
+
+01:44.390 --> 01:46.540
+are associated with a buyer.
+
+01:46.640 --> 01:48.740
+Lets see what a roll looks like.
+
+01:48.740 --> 01:57.260
+This should clear up the logic of the table for you Nora Lynch with a customer id see 0 0 0 4 was 56
+
+01:57.290 --> 02:01.410
+years old when she bought a apartment 43 in building one to live there.
+
+02:01.520 --> 02:07.920
+She paid three hundred seventy seven thousand three hundred thirteen dollars for an area of 1000 160
+
+02:07.970 --> 02:08.710
+square feet.
+
+02:08.720 --> 02:12.920
+In June 2004 Nora is from California.
+
+02:12.920 --> 02:17.350
+Felt very satisfied with the deal and did not get a mortgage for the purchase.
+
+02:17.360 --> 02:20.520
+She found out about our product through our website.
+
+02:20.930 --> 02:26.410
+Okay now that that's out of the way we need to dig deeper into these variables.
+
+02:26.480 --> 02:30.770
+We will identify types of data and levels of measurement for some of them.
+
+02:30.770 --> 02:34.040
+This is a crucial step as we cannot analyze the data.
+
+02:34.040 --> 02:36.460
+If we don't understand its type.
+
+02:36.590 --> 02:39.750
+Lets start from the first column ID.
+
+02:39.770 --> 02:45.110
+ID is a value we assign to each item that lets us differentiate between products.
+
+02:45.140 --> 02:51.060
+It may look numerical to you but it is categorical that's counter-intuitive the first time.
+
+02:51.110 --> 02:52.810
+So let's clarify it.
+
+02:52.820 --> 02:58.460
+What if we use names like John John to John 3 and so on until John N.
+
+02:58.490 --> 03:04.300
+The meaning would not change id variables are like names we assign to different products.
+
+03:04.310 --> 03:10.650
+However it is much easier to use numbers as unlike names we have an infinite number of numbers.
+
+03:11.580 --> 03:17.180
+A simple way to check if a variable is numerical or categorical is to interpret its mean.
+
+03:17.250 --> 03:18.170
+Think about it.
+
+03:18.330 --> 03:20.840
+The mean ID number shows nothing.
+
+03:20.970 --> 03:23.640
+Now oppose this to the mean price.
+
+03:23.700 --> 03:27.250
+The mean price is a valuable piece of information.
+
+03:27.270 --> 03:32.250
+OK the bottom line is ID is a categorical variable.
+
+03:32.390 --> 03:34.230
+What about its level of measurement.
+
+03:34.460 --> 03:37.240
+Well it is qualitative nominal.
+
+03:37.460 --> 03:38.270
+Clear.
+
+03:38.540 --> 03:39.410
+Clear.
+
+03:39.700 --> 03:42.580
+The next variable we must examine is age.
+
+03:42.710 --> 03:44.650
+Age is rather interesting.
+
+03:44.750 --> 03:48.080
+The level of measurement is quantitative ratio.
+
+03:48.080 --> 03:51.960
+A rule used for verifying ratios is asking the question.
+
+03:52.070 --> 03:54.190
+Is there a true zero point.
+
+03:54.500 --> 03:59.420
+Well for age when you are born you are exactly zero years old.
+
+03:59.420 --> 04:01.230
+That's the true zero point.
+
+04:01.250 --> 04:03.380
+So we are safe.
+
+04:03.540 --> 04:10.540
+However once intriguing is whether age is discrete or continuous It may be both.
+
+04:10.620 --> 04:14.030
+In this case we can only see age as a whole number.
+
+04:14.040 --> 04:15.940
+Therefore it is discrete.
+
+04:16.050 --> 04:20.710
+However similar to weight of variable we discussed earlier in this course.
+
+04:20.760 --> 04:23.230
+Age is a continuous variable.
+
+04:23.520 --> 04:30.660
+When I am recording this the Statue of Liberty is 131 years old but I may get more specific by saying
+
+04:30.660 --> 04:36.770
+it is 131 years and 11 months old or its age is 131 92.
+
+04:36.960 --> 04:42.910
+If I had days minutes and seconds I'll get 131 nine thousand four hundred twelve.
+
+04:42.960 --> 04:45.460
+You get the point when dealing with age.
+
+04:45.510 --> 04:49.690
+You decide it's time depending on your work at hand.
+
+04:49.870 --> 04:52.930
+The next variable we have is age interval.
+
+04:52.930 --> 04:55.720
+This is yet another way to represent age.
+
+04:55.750 --> 05:02.410
+Once again it is continuous or discrete as we are talking about the same variable This time though the
+
+05:02.410 --> 05:08.680
+level of measurement is ordinal instead of a ratio the age groups represent different categories ordered
+
+05:08.830 --> 05:10.660
+but are not numerical.
+
+05:10.660 --> 05:16.180
+This shows that the same variable can have different levels of measurement within the same database.
+
+05:17.460 --> 05:19.770
+All right let's move on.
+
+05:19.800 --> 05:26.730
+In most corporate analysis price is Central no matter the data set it is always a numerical variable
+
+05:26.880 --> 05:31.940
+that like age may be discrete or continuous depending on your needs.
+
+05:31.980 --> 05:37.280
+If you are interested banks and corporations treat it as continuous and so will we.
+
+05:37.470 --> 05:41.200
+The level of measurement here is ratio.
+
+05:41.280 --> 05:44.270
+The next variable we want to look into is gender.
+
+05:44.280 --> 05:48.470
+It is of categorical type and its level of measurement is nominal.
+
+05:48.840 --> 05:52.920
+It is similar to the yes no questions discussed in a previous lesson.
+
+05:52.980 --> 05:57.370
+Such variables are called binary as there are only two possibilities.
+
+05:58.460 --> 06:00.920
+Finally let's check out the location.
+
+06:00.980 --> 06:05.250
+We will discuss state in more detail and leave country for homework.
+
+06:05.300 --> 06:09.040
+The state variable refers to sales in the USA only.
+
+06:09.080 --> 06:12.510
+Note that only if the country input is USA.
+
+06:12.560 --> 06:15.060
+Would we have a value for state.
+
+06:15.260 --> 06:17.920
+State is a categorical variable like ID.
+
+06:17.930 --> 06:19.370
+We talked about earlier.
+
+06:19.490 --> 06:23.760
+You can label the US states from 1 to 50 and news numbers instead.
+
+06:23.960 --> 06:28.820
+Either way the variable is categorical and its level of measurement is nominal.
+
+06:30.370 --> 06:33.000
+OK excellent.
+
+06:33.200 --> 06:36.950
+We've categorized the variables we will use in this video.
+
+06:36.950 --> 06:43.010
+This spreadsheet is available for you in the resources section with the exercises we've prepared on
+
+06:43.010 --> 06:43.940
+this database.
+
+06:43.940 --> 06:48.790
+You can practice the entire section about descriptive statistics.
+
+06:48.960 --> 06:55.740
+All right back to our problem at hand we must identify the groups of people who buy the most of our
+
+06:55.740 --> 06:56.720
+product.
+
+06:56.730 --> 07:00.400
+Let's start with gender before we can plot the data.
+
+07:00.450 --> 07:04.570
+We must create the frequency distribution table in the course notes.
+
+07:04.590 --> 07:06.850
+You can see how that's done in Excel.
+
+07:06.960 --> 07:12.320
+However in this video I'll skip this step and get to the frequency distribution table.
+
+07:12.600 --> 07:19.190
+Now we have three possibilities for gender male female or a cell where gender is not available.
+
+07:19.260 --> 07:23.760
+Since some properties were purchased by companies they have no gender.
+
+07:23.760 --> 07:29.190
+We have to include them in the analysis or explain why we omitted in the report.
+
+07:29.190 --> 07:31.110
+Gender is categorical.
+
+07:31.140 --> 07:35.540
+We said that a good way to represent it in practice is with a pie chart.
+
+07:35.920 --> 07:40.020
+OK we can clearly see most clients are male.
+
+07:40.020 --> 07:47.030
+However this information is biased as the customers in this database are the people who signed the contract.
+
+07:47.100 --> 07:53.370
+It is likely a family bought the apartment but our data shows us only the person who signed the contract.
+
+07:53.400 --> 07:59.610
+Such variables are interesting to see but it is not a good idea to include them in the data driven decisions
+
+07:59.610 --> 08:00.960
+we make.
+
+08:00.960 --> 08:03.850
+OK let's carry on with location.
+
+08:04.020 --> 08:09.370
+What chart would be useful to show this state is a categorical variable.
+
+08:09.420 --> 08:12.400
+We may use a bar chart or a pie chart.
+
+08:12.450 --> 08:18.680
+However I prefer the Pareto diagram as it gives additional information from the graph.
+
+08:18.690 --> 08:19.890
+You can immediately see.
+
+08:19.890 --> 08:22.210
+Most clients are from California.
+
+08:22.290 --> 08:28.080
+A possible scenario is to invest in marketing for the Top 75 percent of the locations.
+
+08:28.080 --> 08:32.870
+This will mean we can focus on California and Nevada alone.
+
+08:32.890 --> 08:35.530
+Next we want to see age.
+
+08:35.530 --> 08:40.890
+First we have to note that age represents the age of the buyer when the deal was sealed.
+
+08:40.990 --> 08:47.220
+The formula used is the year of the deal minus the year of the birth of the buyer.
+
+08:47.240 --> 08:52.510
+We are doing this because we want to see the age at which customers buy our product.
+
+08:52.510 --> 08:54.790
+Their current age is irrelevant.
+
+08:54.790 --> 08:58.600
+Real estate is something people rarely buy more than once in their life.
+
+08:58.600 --> 09:02.740
+So age will probably be a central variable in our analysis.
+
+09:03.880 --> 09:09.740
+Let's first Plup the frequency distribution of age this is done by creating a histogram with an interval
+
+09:09.740 --> 09:11.720
+length of one.
+
+09:11.730 --> 09:15.860
+Now we can move on to the age interval representation.
+
+09:15.860 --> 09:28.460
+The options are 18 to 25 26 to 35 36 to 45 56 to 65 and 65 plus most of the data falls between 25 and
+
+09:28.460 --> 09:32.670
+60 years which is evident from the frequency distribution graph.
+
+09:32.720 --> 09:36.940
+Therefore our intervals are a good fit of the data.
+
+09:36.950 --> 09:41.320
+Let's build a new histogram based on them done.
+
+09:41.480 --> 09:44.570
+This representation is much neater isn't it.
+
+09:44.570 --> 09:50.930
+We can clearly see 36 to 45 is the age at which most people purchase a real estate property.
+
+09:50.930 --> 09:58.800
+It is evident that customers from 26 to 65 years old account for 71 percent of our observations.
+
+09:59.060 --> 10:00.740
+But we are better than this.
+
+10:00.800 --> 10:05.250
+We can calculate more statistics to get an improved idea can't we.
+
+10:05.300 --> 10:06.770
+Let's do it.
+
+10:06.770 --> 10:13.850
+The mean median and mode are the place where we usually start the mean age is forty six point fifteen
+
+10:13.850 --> 10:19.380
+years the median age is 45 years and the mode is 48 years.
+
+10:19.370 --> 10:20.380
+All right.
+
+10:20.570 --> 10:22.630
+The mean and median are close.
+
+10:22.640 --> 10:25.790
+So we have few outliers as you may recall.
+
+10:25.820 --> 10:31.770
+The mean is affected by them while the median is not when the mean is higher than the median.
+
+10:31.790 --> 10:34.090
+We have a positive or right skew.
+
+10:34.250 --> 10:36.900
+This is confirmed by our histogram.
+
+10:37.070 --> 10:42.890
+Now is the time to remind you that skewness shows too which side is the longer tail not where the data
+
+10:42.890 --> 10:44.590
+is concentrated.
+
+10:44.720 --> 10:51.680
+Now for the mode we have 48 years you can see that from the frequency distribution graph but not from
+
+10:51.680 --> 10:52.630
+the histogram.
+
+10:52.790 --> 10:58.790
+The histogram bundles data together which is good when we want to see the main trend but some information
+
+10:58.790 --> 11:01.190
+like the mode is lost.
+
+11:01.190 --> 11:06.620
+Finally we should inspect the variability of age before we can do so.
+
+11:06.680 --> 11:10.330
+We have to see if this is sample or population data.
+
+11:10.400 --> 11:14.980
+The company data is the population of all people who are our customers.
+
+11:15.140 --> 11:20.870
+However our research aims to help the marketing department identify future customers.
+
+11:20.900 --> 11:27.110
+Therefore our dataset is a sample drawn from all the people who will eventually buy property from our
+
+11:27.110 --> 11:28.080
+company.
+
+11:28.370 --> 11:31.530
+Henceforth we will use sample formulas.
+
+11:31.550 --> 11:35.360
+Let's compute both the variance and the standard deviation.
+
+11:35.360 --> 11:39.980
+The former is measured in squared years and the latter in years.
+
+11:39.980 --> 11:44.630
+So I suggest we stick with the standard deviation then shall we.
+
+11:44.630 --> 11:47.260
+The result is around 13 years.
+
+11:47.270 --> 11:50.310
+This shows us how dispersed the data is.
+
+11:50.480 --> 11:53.500
+What inferences can we make from this result.
+
+11:53.750 --> 11:58.570
+Well that's the topic of the next section so we all have to halt here.
+
+11:58.910 --> 12:03.420
+As you may have guessed our final stop is relationship between variables.
+
+12:03.590 --> 12:08.380
+Let's see if age determines how expensive an apartment that customers buy.
+
+12:08.780 --> 12:13.100
+Maybe younger people have less funds so they buy cheaper apartments.
+
+12:13.100 --> 12:17.430
+We don't know the data will tell us first things first.
+
+12:17.540 --> 12:23.670
+Let's plop the data both variables are numerical so we must use a scatter plot.
+
+12:23.690 --> 12:25.020
+Here it is.
+
+12:25.160 --> 12:28.370
+It is dispersed and there isn't an obvious trend.
+
+12:28.400 --> 12:33.200
+Let's confirm this observation by calculating the covariance of the two variables.
+
+12:33.260 --> 12:36.580
+We get this enormous value that doesn't tell us much.
+
+12:36.620 --> 12:41.020
+So it's suitable to standardize it by using the correlation coefficient.
+
+12:41.060 --> 12:46.070
+The value we get is minus 0.17 much better.
+
+12:46.070 --> 12:48.080
+This correlation is low.
+
+12:48.290 --> 12:54.760
+A common practice is to disregard correlations that are below zero point to Alright.
+
+12:54.850 --> 13:00.210
+So real estate expenditure is not related to age from a previous lesson.
+
+13:00.240 --> 13:04.720
+We know price and size are much more likely to be correlated right.
+
+13:04.830 --> 13:08.130
+You have all the tools needed to check this through the exercise.
+
+13:08.130 --> 13:15.300
+After this lesson so we've exhausted our statistical knowledge what can we tell the marketing team after
+
+13:15.300 --> 13:16.950
+this short analysis.
+
+13:17.250 --> 13:20.080
+Well we got several insights.
+
+13:20.220 --> 13:26.750
+First males are more likely to sign contracts and are potentially a better audience for our ads.
+
+13:26.880 --> 13:30.600
+However we have no information about their marital status.
+
+13:30.600 --> 13:33.280
+This observation is unclear.
+
+13:33.300 --> 13:41.370
+Second 68 percent of our sales in the US come from California with Nevada Oregon Arizona and Colorado
+
+13:41.380 --> 13:49.390
+following behind to form 93 percent of the US customer base third 71 percent of sales were made with
+
+13:49.390 --> 13:57.130
+customers aged between 26 and 55 years old with a mean of 46 years of age and a standard deviation of
+
+13:57.130 --> 13:58.540
+13 years.
+
+13:58.540 --> 14:05.700
+The distribution is right skewed so we expect younger people to buy more property than older people.
+
+14:05.700 --> 14:11.810
+Finally there is no relationship between the age of a customer and the price they will pay.
+
+14:11.920 --> 14:15.280
+All right that was our practical example.
+
+14:15.280 --> 14:21.500
+We learned a lot about this business but we could not get amazing insights in the following sections.
+
+14:21.520 --> 14:25.270
+We will learn about confidence intervals and hypothesis testing.
+
+14:25.270 --> 14:29.950
+This knowledge will provide us with the tools we need to make predictions about the future and make
+
+14:29.950 --> 14:31.700
+data driven decisions.
+
+14:32.020 --> 14:35.980
+Oh and one more thing if you like the course so far.
+
+14:35.980 --> 14:37.500
+Please leave us a review.
+
+14:37.510 --> 14:38.900
+It helps a lot.
+
+14:38.980 --> 14:41.250
+Thanks for practicing and thanks for watching.

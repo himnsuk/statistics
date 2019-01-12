@@ -1,0 +1,109 @@
+WEBVTT
+
+00:00.880 --> 00:05.740
+In our previous video we distinguish between categorical and numerical data.
+
+00:05.740 --> 00:11.170
+Furthermore we saw that numerical data can be discrete and continuous.
+
+00:11.170 --> 00:16.210
+It's time to move on to the other classification levels of measurement.
+
+00:16.210 --> 00:21.310
+These can be split into two groups qualitative and quantitative data.
+
+00:21.370 --> 00:22.850
+They are very intuitive.
+
+00:22.900 --> 00:30.940
+So don't worry qualitative data can be nominal or ordinal nominal values or like the categories we talked
+
+00:30.940 --> 00:38.830
+about just now Mercedes BMW or Audi or like the four seasons Winter spring summer and autumn they are
+
+00:38.860 --> 00:41.630
+numbers and cannot be put in any order.
+
+00:42.470 --> 00:48.680
+Ordinal data on the other hand consists of groups and categories but follows a strict order.
+
+00:48.680 --> 00:54.120
+Imagine you have been asked to rate your lunch and the options are disgusting.
+
+00:54.140 --> 01:00.750
+Unappetising neutral tasty and delicious although we have words and not numbers.
+
+01:00.770 --> 01:04.900
+It is obvious that these preferences are ordered from negative to positive.
+
+01:05.060 --> 01:08.220
+Thus the data is qualitative ordinal.
+
+01:08.600 --> 01:12.200
+OK so what about quantitative variables.
+
+01:12.200 --> 01:19.580
+Well as you may have guessed by now they are split into two groups interval and ratio intervals and
+
+01:19.580 --> 01:27.020
+ratios are both represented by numbers but have one major difference ratios have a true zero and intervals
+
+01:27.050 --> 01:28.240
+don't.
+
+01:28.370 --> 01:32.010
+For example length is a ratio variable.
+
+01:32.060 --> 01:37.370
+You all know that 0 inches or 0 feet means no length with temperature.
+
+01:37.370 --> 01:39.630
+However we have a different story.
+
+01:39.650 --> 01:42.320
+It is usually an interval variable.
+
+01:42.320 --> 01:43.610
+Let me explain.
+
+01:44.030 --> 01:47.960
+Usually it is expressed in Celsius or Fahrenheit.
+
+01:48.020 --> 01:54.650
+They are both interval variables zero degrees Celsius or zero degrees Fahrenheit don't mean anything
+
+01:54.830 --> 02:01.250
+as the absolute zero temperature is actually negative 273 point fifteen degrees Celsius or negative
+
+02:01.250 --> 02:05.500
+four hundred fifty nine point sixty seven degrees Fahrenheit.
+
+02:05.520 --> 02:11.520
+However we can easily say that 80 degrees Fahrenheit is less than 100 degrees Fahrenheit.
+
+02:11.820 --> 02:19.140
+In the case of interval variables the difference is meaningful but the zero is not continuing this temperature
+
+02:19.140 --> 02:20.000
+example.
+
+02:20.010 --> 02:22.650
+There is a nother scale Kelvins.
+
+02:23.040 --> 02:27.900
+According to it the absolute minimum temperature is zero degrees Kelvin.
+
+02:27.960 --> 02:33.630
+Therefore if the degrees are stated in Kelvins the variable will be a ratio.
+
+02:33.630 --> 02:41.840
+So numbers like two three ten ten point five pi etc. can be both an interval or a ratio measurement.
+
+02:41.940 --> 02:45.990
+But you have to be careful with the context you are using them in.
+
+02:46.050 --> 02:50.440
+All right we've quickly gone through the types of data and the measurement levels.
+
+02:50.520 --> 02:56.150
+Stick around to see the types of graphs that are used on a daily basis when performing statistical analysis.

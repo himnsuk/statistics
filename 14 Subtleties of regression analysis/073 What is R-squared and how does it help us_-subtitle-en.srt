@@ -1,0 +1,244 @@
+﻿1
+00:00:00,630 --> 00:00:08,350
+High again so far we decompose the total variability of the observed data into explained and unexplained.
+
+2
+00:00:08,400 --> 00:00:12,580
+We've also noted the smaller the regression error the better the regression.
+
+3
+00:00:12,780 --> 00:00:14,220
+But this is statistics.
+
+4
+00:00:14,220 --> 00:00:18,890
+So there must be at least one widely used measure that describes how powerful a regression is.
+
+5
+00:00:19,020 --> 00:00:19,560
+Right.
+
+6
+00:00:20,340 --> 00:00:26,310
+Well fortunately or unfortunately depending on your attitude there is.
+
+7
+00:00:26,310 --> 00:00:33,120
+Let me introduce you to the R-squared the R-Squared is an intuitive and practical tool when in the right
+
+8
+00:00:33,120 --> 00:00:39,640
+hands it is equal to SS are divided by ss t as you should recall.
+
+9
+00:00:39,660 --> 00:00:47,640
+Ss r is the variability explained by the regression while S S T is the total variability of the dataset.
+
+10
+00:00:47,670 --> 00:00:49,250
+So what does it mean.
+
+11
+00:00:49,950 --> 00:00:56,580
+It's a relative measure that takes values ranging from 0 to 1 an R squared of zero means a regression
+
+12
+00:00:56,580 --> 00:01:02,220
+line explains none of the variability of the data and R-squared of one would mean your model explains
+
+13
+00:01:02,250 --> 00:01:04,760
+the entire variability of the data.
+
+14
+00:01:04,770 --> 00:01:09,400
+Unfortunately regression is explaining the entire variability are rare.
+
+15
+00:01:09,420 --> 00:01:16,890
+What you will usually observe is values ranging from 0.2 to 0.9 the immediate question.
+
+16
+00:01:16,900 --> 00:01:21,660
+Any student is compelled to ask is what is a good R-squared.
+
+17
+00:01:21,730 --> 00:01:25,940
+When do I know for sure my regression is good enough.
+
+18
+00:01:25,960 --> 00:01:32,350
+I regret to inform you there is no definite answer to that in the field of physics and chemistry.
+
+19
+00:01:32,350 --> 00:01:38,810
+Scientists are usually looking for regressions with R squared between 0.7 and 0.9.
+
+20
+00:01:38,840 --> 00:01:47,230
+However in social sciences such as economics finance and psychology an R-squared of 0.2 or 20 percent
+
+21
+00:01:47,440 --> 00:01:51,420
+of the variability explained by the model could be fantastic.
+
+22
+00:01:51,520 --> 00:01:57,180
+It depends on the complexity of the topic and how many variables are believed to be in play.
+
+23
+00:01:57,210 --> 00:01:59,560
+Think about income once more.
+
+24
+00:01:59,610 --> 00:02:06,610
+It may depend on your household income including your parents and spouse your education years of experience.
+
+25
+00:02:06,750 --> 00:02:12,390
+Country you are living in languages you speak and this may still account for less than 50 percent of
+
+26
+00:02:12,390 --> 00:02:14,240
+the variability of income.
+
+27
+00:02:14,430 --> 00:02:19,590
+Your salary is a very complex issue but you probably know that.
+
+28
+00:02:19,650 --> 00:02:25,080
+Let's check an example we saw before S.A.T. score and call his GPA.
+
+29
+00:02:25,080 --> 00:02:31,560
+We said that the S.A.T. score is one of the better determinants of intellectual capacity and capability.
+
+30
+00:02:31,560 --> 00:02:38,460
+The truth is that our regression had an R-squared of zero point for 0 6 or in other words as SAT scores
+
+31
+00:02:38,510 --> 00:02:43,420
+explained 41 percent of the variability of the college grades for our sample.
+
+32
+00:02:43,420 --> 00:02:50,790
+An R-squared of 41 percent is neither good nor bad but since it is far away from 90 percent we may conclude
+
+33
+00:02:50,790 --> 00:02:57,570
+we are missing some important information other determinants must be considered variables such as gender
+
+34
+00:02:57,780 --> 00:03:02,620
+income and marital status could help us understand the full picture a little better.
+
+35
+00:03:03,420 --> 00:03:05,910
+OK should we move on.
+
+36
+00:03:05,910 --> 00:03:08,630
+Wait what did I say in this section.
+
+37
+00:03:08,910 --> 00:03:10,870
+Don't jump into regressing.
+
+38
+00:03:11,100 --> 00:03:16,300
+Critical thinking is crucial before agreeing that a factor is significant.
+
+39
+00:03:16,320 --> 00:03:18,020
+You should try to understand why.
+
+40
+00:03:18,150 --> 00:03:21,920
+So let's quickly justify that claim first.
+
+41
+00:03:21,940 --> 00:03:29,860
+Women are more likely to outperform men in high school but then in higher education more men enter academia.
+
+42
+00:03:29,860 --> 00:03:35,680
+There are many biases in place here without telling you if female or male candidates are better.
+
+43
+00:03:35,680 --> 00:03:40,060
+Scientific research shows that a gender gap exists in education.
+
+44
+00:03:40,060 --> 00:03:43,740
+Gender is an important input for any regression on the topic.
+
+45
+00:03:44,660 --> 00:03:47,760
+The second factor we pointed out is income.
+
+46
+00:03:47,810 --> 00:03:53,450
+If your household income is low you are more likely to get a part time job thus you'll have less time
+
+47
+00:03:53,450 --> 00:03:56,270
+for studying and probably get lower grades.
+
+48
+00:03:56,420 --> 00:04:00,980
+If you've ever been to college you will surely remember a friend who underperformed because of this
+
+49
+00:04:00,980 --> 00:04:01,650
+reason.
+
+50
+00:04:02,770 --> 00:04:07,920
+Third if you get married and have a child you'll definitely have a lower attendance.
+
+51
+00:04:07,930 --> 00:04:14,300
+Contrary to what most students think when in college attendance is a significant factor for your GPA.
+
+52
+00:04:14,320 --> 00:04:19,380
+You may think your time is better spent when skipping a lecture but your GPA begs to differ.
+
+53
+00:04:20,590 --> 00:04:24,900
+All right after these clarifications let's find the bottom line.
+
+54
+00:04:25,110 --> 00:04:30,960
+The R squared measures the goodness of fit of your model the more factors you include in your regression
+
+55
+00:04:31,170 --> 00:04:33,610
+the higher the R-squared.
+
+56
+00:04:33,620 --> 00:04:38,250
+So should we include gender and income in our regression.
+
+57
+00:04:38,350 --> 00:04:44,140
+If this is in line with our research and their inclusion results in a better model we should do that.
+
+58
+00:04:44,170 --> 00:04:48,490
+However we'll talk about regressions with more variables later in the course.
+
+59
+00:04:49,570 --> 00:04:54,380
+In this lesson we built a solid understanding of how our squared functions.
+
+60
+00:04:54,430 --> 00:04:55,720
+Excellent.
+
+61
+00:04:55,720 --> 00:04:59,080
+Next we will learn how to find a regressions regression line.
+

@@ -1,0 +1,336 @@
+﻿1
+00:00:00,770 --> 00:00:01,770
+All right.
+
+2
+00:00:01,850 --> 00:00:06,490
+Now that we've covered the necessary theory it is time for some testing.
+
+3
+00:00:06,610 --> 00:00:13,970
+We are going to explore two types of tests drawn from a single population and drawn from multiple populations.
+
+4
+00:00:13,970 --> 00:00:19,280
+This is very similar to confidence intervals for a single population and confidence intervals for two
+
+5
+00:00:19,280 --> 00:00:23,550
+populations that we covered previously in the next few videos.
+
+6
+00:00:23,570 --> 00:00:28,760
+We all run tests for a single mean with both known variants and unknown variants.
+
+7
+00:00:28,760 --> 00:00:31,430
+Let's start with the test in which the variance is known.
+
+8
+00:00:31,430 --> 00:00:33,970
+Shall we for this test.
+
+9
+00:00:33,970 --> 00:00:37,330
+We will use our good old data scientist salary example.
+
+10
+00:00:37,540 --> 00:00:40,770
+Here's the data set one more time by now.
+
+11
+00:00:40,810 --> 00:00:43,600
+I hope you are able to calculate the sample mean.
+
+12
+00:00:43,900 --> 00:00:47,130
+It is one hundred thousand two hundred dollars.
+
+13
+00:00:47,210 --> 00:00:52,630
+The population variance is known and its standard deviation is equal to $15000.
+
+14
+00:00:52,880 --> 00:00:56,420
+Moreover the sample size is 30.
+
+15
+00:00:56,470 --> 00:01:03,250
+However you saw that according to Glassdoor the popular Salang information Web site the mean data scientists
+
+16
+00:01:03,250 --> 00:01:06,520
+Sellery is one hundred thirteen thousand dollars.
+
+17
+00:01:06,640 --> 00:01:12,370
+The sample that is available on glass door is based on self-reported numbers and you would like to see
+
+18
+00:01:12,430 --> 00:01:14,330
+if its value is correct.
+
+19
+00:01:14,350 --> 00:01:20,110
+We needed a two sided test as we were interested in knowing both if the celery is significantly less
+
+20
+00:01:20,110 --> 00:01:23,520
+than that or significantly more than that.
+
+21
+00:01:23,560 --> 00:01:29,660
+The null hypothesis is the population mean celery is one hundred thirteen thousand dollars.
+
+22
+00:01:29,830 --> 00:01:34,360
+We denote it as muse 0 equals one hundred thirteen thousand dollars.
+
+23
+00:01:34,360 --> 00:01:39,330
+The alternative hypothesis is that the population mean celery is different than one hundred thirteen
+
+24
+00:01:39,320 --> 00:01:42,250
+thousand dollars all right.
+
+25
+00:01:42,310 --> 00:01:49,450
+Formula time almost testing is done by standardizing the variable at hand and comparing it to the lower
+
+26
+00:01:49,450 --> 00:01:53,190
+case Z which follows a standard normal distribution.
+
+27
+00:01:53,200 --> 00:01:57,490
+Remember standardization we learned about it in the previous section.
+
+28
+00:01:57,490 --> 00:02:02,120
+Back then I told you it was very important and you will now see why.
+
+29
+00:02:02,200 --> 00:02:07,770
+For those that don't remember I suggest watching the video on sterilization once again for the others.
+
+30
+00:02:07,810 --> 00:02:10,030
+I will quickly go through it.
+
+31
+00:02:10,100 --> 00:02:15,290
+We standardize a variable by subtracting the mean and dividing by the standard deviation.
+
+32
+00:02:15,290 --> 00:02:18,880
+Since it is a sample we use the standard error.
+
+33
+00:02:18,920 --> 00:02:26,720
+Thus the formula for standardization becomes capital Z is equal to the sample mean minus the value of
+
+34
+00:02:26,750 --> 00:02:31,040
+interest from the null hypothesis divided by the standard error.
+
+35
+00:02:31,040 --> 00:02:34,610
+In this way we obtain a distribution with a mean of zero.
+
+36
+00:02:34,610 --> 00:02:41,750
+Any standard deviation of one the upper case z should not be mistaken with the lowercase Z.
+
+37
+00:02:41,750 --> 00:02:47,360
+The uppercase Z is the standardized variable associated with the test and will be called the Z score.
+
+38
+00:02:47,360 --> 00:02:53,450
+From now on the lower case c is the one from the table that we talked about before and henceforth will
+
+39
+00:02:53,450 --> 00:02:58,240
+be referred to as the critical value all.
+
+40
+00:02:58,260 --> 00:02:59,740
+How does testing work.
+
+41
+00:02:59,760 --> 00:03:01,140
+Think about this.
+
+42
+00:03:01,200 --> 00:03:05,550
+The lowercase Z is normally distributed with a mean of 0.
+
+43
+00:03:05,550 --> 00:03:07,590
+Any standard deviation of 1.
+
+44
+00:03:07,770 --> 00:03:14,070
+The upper case C is normally distributed with a mean of X bar minus music Museo any standard deviation
+
+45
+00:03:14,100 --> 00:03:15,450
+of 1.
+
+46
+00:03:15,450 --> 00:03:18,590
+Standardization lets us compare the means.
+
+47
+00:03:18,600 --> 00:03:26,710
+The closer the difference of X bar amuse 0 to zero the closer the z score itself to zero this implies
+
+48
+00:03:26,770 --> 00:03:29,720
+a higher chance to accept the null hypothesis.
+
+49
+00:03:30,540 --> 00:03:32,360
+Let's go back to the example.
+
+50
+00:03:33,050 --> 00:03:38,720
+So what is the value of our standardized variable replug in the numbers that we have from the beginning
+
+51
+00:03:38,720 --> 00:03:39,910
+of the lesson.
+
+52
+00:03:40,070 --> 00:03:44,550
+What we get is a z score of minus 4.6 7.
+
+53
+00:03:44,630 --> 00:03:51,710
+Now we will compare the absolute value of minus 4.6 7 with a lower case Z of Alpha divided by 2 where
+
+54
+00:03:51,770 --> 00:03:54,370
+Alpha is the significance level.
+
+55
+00:03:54,380 --> 00:04:00,500
+Note that we use the absolute value as it is much easier to always compare positive capital Zee's with
+
+56
+00:04:00,500 --> 00:04:02,750
+positive lower cases.
+
+57
+00:04:02,750 --> 00:04:06,740
+Moreover some tables don't include negative values.
+
+58
+00:04:06,770 --> 00:04:13,070
+You should be aware that the two statements minus 4.6 seven is lower than the negative critical value
+
+59
+00:04:13,250 --> 00:04:19,240
+is the same as 4.6 7 is higher than the positive critical value.
+
+60
+00:04:19,250 --> 00:04:25,850
+Thus our decision rule becomes absolute value of the z score should be higher than the absolute value
+
+61
+00:04:25,850 --> 00:04:30,390
+of the critical value using 5 percent significance.
+
+62
+00:04:30,510 --> 00:04:33,350
+Our Alpha is 0.05.
+
+63
+00:04:33,450 --> 00:04:40,800
+Since it is a two sided test we check the table for Z of zero point zero to five the corresponding value
+
+64
+00:04:40,860 --> 00:04:43,280
+is 1.9 6.
+
+65
+00:04:43,290 --> 00:04:48,160
+The last thing we need to compare our standardized variable to is the critical value.
+
+66
+00:04:48,360 --> 00:04:53,360
+If the z score is higher than 1.9 6 we would reject the null hypothesis.
+
+67
+00:04:53,580 --> 00:04:56,100
+If it is lower we will accept it.
+
+68
+00:04:56,580 --> 00:05:00,030
+4.6 7 is higher than 1.9 6.
+
+69
+00:05:00,090 --> 00:05:03,360
+Therefore we reject the null hypothesis.
+
+70
+00:05:03,360 --> 00:05:10,170
+The answer is that at 5 percent significance level we have rejected the null hypothesis or at 5 percent
+
+71
+00:05:10,170 --> 00:05:11,130
+significance.
+
+72
+00:05:11,130 --> 00:05:17,180
+There is no statistical evidence that the mean salary is one hundred thirteen thousand dollars.
+
+73
+00:05:17,190 --> 00:05:21,660
+There are many other ways to express this and you will probably hear more about this later on in the
+
+74
+00:05:21,660 --> 00:05:28,340
+course what if we had a different significance level using 1 percent significance.
+
+75
+00:05:28,350 --> 00:05:30,990
+We have an alpha of zero point zero or one.
+
+76
+00:05:30,990 --> 00:05:35,450
+So Z of Alpha divided by 2 is 2.5 8.
+
+77
+00:05:35,460 --> 00:05:42,840
+Once again our z score a 4.6 7 is higher than 2.5 8 so we would reject the no hypothesis.
+
+78
+00:05:42,840 --> 00:05:45,960
+Even at the 1 percent significance.
+
+79
+00:05:46,160 --> 00:05:51,280
+But how much further can we go before we cannot reject the null hypothesis anymore.
+
+80
+00:05:51,300 --> 00:05:55,150
+Zero point five percent 0.1 percent.
+
+81
+00:05:55,190 --> 00:06:00,500
+There is a special technique that allows us to see what the significance of all is after which we will
+
+82
+00:06:00,500 --> 00:06:03,520
+be unable to reject the no hypothesis.
+
+83
+00:06:03,770 --> 00:06:06,290
+We will see in our next video.
+
+84
+00:06:06,290 --> 00:06:07,520
+Stay tuned.
+

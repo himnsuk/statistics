@@ -1,0 +1,187 @@
+WEBVTT
+
+00:00.740 --> 00:05.000
+This lesson we'll introduce you to the three measures of central tendency.
+
+00:05.000 --> 00:11.480
+Don't be scared by the terminology we are talking about mean median and mode even if you are familiar
+
+00:11.480 --> 00:12.530
+with these terms.
+
+00:12.530 --> 00:16.570
+Please stick around as we will explore their upsides and shortfalls.
+
+00:16.850 --> 00:18.620
+Ready let's go.
+
+00:18.620 --> 00:21.140
+The first measure we will study is the mean.
+
+00:21.200 --> 00:28.040
+Also known as the simple average it is denoted by the Greek letter mue for a population an X bar for
+
+00:28.040 --> 00:29.330
+a sample.
+
+00:29.360 --> 00:35.660
+These notions will come in handy in the next section we can find the mean of a dataset by adding up
+
+00:35.660 --> 00:40.860
+all of its components and then dividing them by the number of components contained in the data set.
+
+00:41.730 --> 00:47.160
+The mean is the most common measure of central tendency but it has a huge downside.
+
+00:47.160 --> 00:50.900
+It is easily affected by outliers.
+
+00:50.920 --> 00:53.720
+Let's compare these two data sets.
+
+00:53.740 --> 00:59.380
+These are the prices of pizza at 11 different locations in New York City and 10 different locations
+
+00:59.440 --> 01:00.440
+in L.A..
+
+01:00.520 --> 01:06.610
+Let's calculate the means of the two data sets using the formula for the mean in NYC.
+
+01:06.670 --> 01:12.950
+We get $11 whereas for L.A. just 5.5 on average pizza.
+
+01:12.970 --> 01:16.740
+New York can't be twice as expensive as in L.A. right.
+
+01:16.750 --> 01:17.880
+Correct.
+
+01:17.920 --> 01:24.350
+The problem is that in our sample we have included one posh place in New York where they charge $66
+
+01:24.380 --> 01:25.140
+for a pizza.
+
+01:25.240 --> 01:31.540
+And this doubled to mean what we should take away from this example is that the mean is not enough to
+
+01:31.540 --> 01:33.970
+make definite conclusions.
+
+01:34.000 --> 01:37.650
+So how can we protect ourselves from this issue.
+
+01:37.660 --> 01:44.800
+You guessed it we can calculate the second measure the median the median is basically the middle number
+
+01:44.810 --> 01:46.710
+in an ordered dataset.
+
+01:46.720 --> 01:49.410
+Let's see how it works for our example.
+
+01:49.540 --> 01:56.170
+In order to calculate the median we have to order our dataset in ascending order the median of the dataset
+
+01:56.290 --> 02:04.030
+is the number at position end plus 1 divided by two in the ordered list where n is the number of observations
+
+02:04.930 --> 02:12.370
+therefore the median for NYC is at the 6 position or six dollars much closer to the observed prices
+
+02:12.370 --> 02:14.280
+than the mean of dollars right.
+
+02:15.260 --> 02:16.560
+What about L.A..
+
+02:16.760 --> 02:24.560
+We have just 10 observations in L.A. According to our formula the median is at position 5.5.
+
+02:24.560 --> 02:28.800
+In cases like this the median is the simple average of the numbers.
+
+02:28.850 --> 02:31.150
+Positions 5 and 6.
+
+02:31.280 --> 02:36.350
+Therefore the median of L.A. prices is five point five dollars.
+
+02:36.440 --> 02:37.070
+OK.
+
+02:37.100 --> 02:42.410
+We have seen that the median is not affected by extreme prices which is good when we have posh New York
+
+02:42.410 --> 02:48.850
+restaurants in a street pizza sample but we still don't get the full picture or the majority of restaurants
+
+02:48.860 --> 02:51.370
+low cost or average.
+
+02:51.500 --> 02:55.640
+We must introduce another measure the mode.
+
+02:55.640 --> 02:59.000
+The mode is the value that occurs most often.
+
+02:59.150 --> 03:05.240
+It can be used for numerical and categorical data but we will stick to our numerical example.
+
+03:05.240 --> 03:11.570
+After counting the frequencies of each value we find that the mode of New York pizza prices is $3.
+
+03:11.570 --> 03:13.370
+Now that's interesting.
+
+03:13.370 --> 03:20.210
+The most common price of pizza in NYC is just $3 but the mean and median led us to believe it was much
+
+03:20.210 --> 03:29.570
+more expensive OK let's do the same and find the mode of L.A. pizza prices from each price appears only
+
+03:29.570 --> 03:30.370
+once.
+
+03:30.380 --> 03:32.010
+How do we find the mode then.
+
+03:32.330 --> 03:38.780
+Well we say that there is no mode but can I say that there are 10 modes you may ask.
+
+03:38.780 --> 03:44.300
+Sure you can but it will be meaningless with 10 observations and an experienced statistician would never
+
+03:44.300 --> 03:45.480
+do that.
+
+03:45.500 --> 03:51.190
+In general you often have multiple modes usually two or three modes are tolerable.
+
+03:51.260 --> 03:55.560
+But more than that would defeat the purpose of finding a mode.
+
+03:55.580 --> 04:02.840
+There is one less question that we haven't answered which measure is best the NYC and L.A. example shows
+
+04:02.840 --> 04:07.820
+us that measures of central tendency should be used together rather than independently.
+
+04:07.960 --> 04:09.820
+Therefore there is no best.
+
+04:09.900 --> 04:13.590
+But using only one is definitely the worst.
+
+04:13.630 --> 04:14.240
+All right.
+
+04:14.320 --> 04:17.080
+Now you know about the mean median and mode.
+
+04:17.170 --> 04:21.670
+In our next video we will use that knowledge to talk about skewness.
+
+04:21.760 --> 04:23.490
+Stay tuned and thanks for watching.

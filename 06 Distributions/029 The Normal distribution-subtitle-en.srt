@@ -1,0 +1,184 @@
+﻿1
+00:00:00,700 --> 00:00:08,170
+OK here we go so far we learned that the distribution of a data set shows us the frequency I wish possible
+
+2
+00:00:08,170 --> 00:00:10,350
+values occur within an interval.
+
+3
+00:00:10,600 --> 00:00:17,050
+We also said that there are dozens of distributions experienced statisticians can immediately distinguish
+
+4
+00:00:17,080 --> 00:00:23,230
+a binomial from a porcelain distribution as well as a uniform from an exponential distribution in a
+
+5
+00:00:23,230 --> 00:00:30,900
+quick glimpse at a plot in this course though we will rather focus on the normal and students distributions
+
+6
+00:00:30,910 --> 00:00:39,280
+due to the following reasons they approximate a wide variety of random variables distributions of sample
+
+7
+00:00:39,340 --> 00:00:46,330
+mean with large enough sample sizes could be approximated to normal all computable statistics are elegant
+
+8
+00:00:47,140 --> 00:00:52,020
+decisions based on normal distribution insites have a good track record.
+
+9
+00:00:52,250 --> 00:00:58,500
+If it sounds like gibberish now I promise that things will be much easier once we get started.
+
+10
+00:00:58,550 --> 00:01:03,050
+Here is a visual representation of a normal distribution.
+
+11
+00:01:03,170 --> 00:01:08,330
+You have surely seen a normal distribution before as it is the most common one.
+
+12
+00:01:08,360 --> 00:01:14,060
+The statistical term for it is gone in distribution but many people call it the bell curve as it is
+
+13
+00:01:14,060 --> 00:01:15,650
+shaped like a bell.
+
+14
+00:01:15,710 --> 00:01:20,060
+It is symmetrical and its mean median and mode are equal.
+
+15
+00:01:20,060 --> 00:01:25,190
+If you remember the lesson about skewness you would recognize that it has no skew.
+
+16
+00:01:25,190 --> 00:01:32,090
+It is perfectly centered around its mean Alright so it is denoted in this way.
+
+17
+00:01:32,290 --> 00:01:33,990
+N stands for normal.
+
+18
+00:01:34,090 --> 00:01:39,280
+The tilde assigned denotes it is a distribution and in brackets we have the mean and the variance of
+
+19
+00:01:39,280 --> 00:01:41,750
+the distribution on the plane.
+
+20
+00:01:41,770 --> 00:01:47,890
+You can notice that the highest point is located at the mean because it coincides with the mode.
+
+21
+00:01:48,190 --> 00:01:52,720
+The spread of the graph is determined by the standard deviation.
+
+22
+00:01:52,720 --> 00:01:57,740
+Now let's try to understand the normal distribution a little bit better.
+
+23
+00:01:57,760 --> 00:02:01,450
+Let's look at this approximately normal distribution histogram.
+
+24
+00:02:01,480 --> 00:02:06,820
+There is a concentration of the observations around the mean which makes sense as it is equal to the
+
+25
+00:02:06,820 --> 00:02:07,480
+mode.
+
+26
+00:02:07,780 --> 00:02:12,490
+Moreover it is symmetrical on both sides of the mean.
+
+27
+00:02:12,550 --> 00:02:16,310
+We used 80 observations to create this histogram.
+
+28
+00:02:16,360 --> 00:02:23,010
+It's mean is 743 and its standard deviation is 140 OK.
+
+29
+00:02:23,060 --> 00:02:27,220
+Great but what if the mean is smaller or bigger.
+
+30
+00:02:27,230 --> 00:02:30,990
+Let's zoom out a bit by adding the origin of the graph.
+
+31
+00:02:31,010 --> 00:02:33,270
+The origin is the zero point.
+
+32
+00:02:33,530 --> 00:02:36,190
+Adding it to any graph gives perspective.
+
+33
+00:02:36,350 --> 00:02:42,500
+Keeping the standard deviation fixed or in statistical jargon controlling for the standard deviation
+
+34
+00:02:42,590 --> 00:02:46,100
+a lower mean would result in the same shape of the distribution.
+
+35
+00:02:46,130 --> 00:02:53,040
+But on the left side of the plane in the same way a bigger mean would move the graph to the right.
+
+36
+00:02:53,120 --> 00:03:00,860
+In our example this resulted in two new distributions one with the mean of 470 and a standard deviation
+
+37
+00:03:00,860 --> 00:03:07,840
+of one hundred forty and one with a mean of 960 and a standard deviation of hundred forty.
+
+38
+00:03:07,880 --> 00:03:08,520
+All right.
+
+39
+00:03:08,670 --> 00:03:11,640
+Let's do the opposite controlling for the mean.
+
+40
+00:03:11,700 --> 00:03:16,340
+We can change the standard deviation and see what happens this time.
+
+41
+00:03:16,410 --> 00:03:23,080
+The graph is not moving but is rather reshaping a lower standard deviation results in lower dispersion.
+
+42
+00:03:23,100 --> 00:03:29,850
+So more data in the middle and thinner tails on the other hand a higher standard deviation will cause
+
+43
+00:03:29,850 --> 00:03:33,760
+the graph to fly now with less points in the middle and more to the end.
+
+44
+00:03:33,840 --> 00:03:38,590
+Or in statistics jargon fatter tails great.
+
+45
+00:03:38,680 --> 00:03:43,500
+In our next lesson we will use this knowledge to talk about standardization.
+
+46
+00:03:43,510 --> 00:03:44,590
+Stay tuned.
+

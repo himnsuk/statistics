@@ -1,0 +1,532 @@
+﻿1
+00:00:00,480 --> 00:00:06,320
+Hi and welcome to our second practical example let me introduce you to the topic.
+
+2
+00:00:06,480 --> 00:00:10,200
+You are a data analysis for Al Bundy's shoe shop.
+
+3
+00:00:10,440 --> 00:00:14,690
+Al Bundy is a U.S. based company established 30 years ago.
+
+4
+00:00:14,730 --> 00:00:18,280
+It also operates in Canada the U.K. and Germany.
+
+5
+00:00:18,330 --> 00:00:26,360
+The firm sells mid to high end shoes ranging from 120 to 200 dollars while the shoes are of high quality.
+
+6
+00:00:26,370 --> 00:00:28,670
+You have lots of inventory never sold.
+
+7
+00:00:28,770 --> 00:00:31,480
+The shoes collect dust on store shelves.
+
+8
+00:00:31,770 --> 00:00:34,420
+Inventory management is a common problem.
+
+9
+00:00:34,470 --> 00:00:40,680
+Many if not most shops cannot determine the right number of items they need to keep in stock.
+
+10
+00:00:40,680 --> 00:00:42,940
+The opposite problem arises too.
+
+11
+00:00:42,990 --> 00:00:48,480
+Shops don't supply an adequate amount of goods and fail to meet the demand in their market.
+
+12
+00:00:48,480 --> 00:00:53,970
+For instance you have surely entered a shoe shop but could not buy a specific pair of shoes because
+
+13
+00:00:53,970 --> 00:00:56,160
+they did not have them in stock.
+
+14
+00:00:56,220 --> 00:00:59,550
+In this example we will examine the opposite problem.
+
+15
+00:00:59,700 --> 00:01:01,590
+Having too much inventory.
+
+16
+00:01:01,770 --> 00:01:07,290
+This is a more significant problem for the company as it means the company has invested in producing
+
+17
+00:01:07,320 --> 00:01:10,410
+or purchasing the product but could not sell it.
+
+18
+00:01:10,580 --> 00:01:11,760
+All right.
+
+19
+00:01:11,760 --> 00:01:15,700
+One way to solve this problem is by using confidence intervals.
+
+20
+00:01:15,720 --> 00:01:17,580
+We have seen many examples.
+
+21
+00:01:17,610 --> 00:01:23,970
+But here's a real life one we can see a database with the sales information about Al Bundy shop for
+
+22
+00:01:23,970 --> 00:01:27,420
+the years from 2014 to 2016.
+
+23
+00:01:27,490 --> 00:01:35,580
+There's Invoice Number Date country product ID and shop which depends on the country the cell gender
+
+24
+00:01:35,590 --> 00:01:42,090
+indicates if the product is designed for men or women as shoes differ greatly depending on gender.
+
+25
+00:01:42,090 --> 00:01:44,350
+Next we have shoe size.
+
+26
+00:01:44,460 --> 00:01:50,670
+Apart from the US size system I have also included the European and the UK ones so it is easier for
+
+27
+00:01:50,670 --> 00:01:51,860
+you to understand the data.
+
+28
+00:01:51,870 --> 00:01:57,600
+If you are used to the other systems This file will be provided for you and you can check the shoe size
+
+29
+00:01:57,600 --> 00:02:00,330
+conversion table if you would like to do that.
+
+30
+00:02:00,330 --> 00:02:05,090
+Finally there is the unit price for that sale and the discount that applies.
+
+31
+00:02:05,550 --> 00:02:08,500
+Let's begin our analysis.
+
+32
+00:02:08,520 --> 00:02:12,770
+First we should determine if that sample or population data.
+
+33
+00:02:12,780 --> 00:02:19,160
+It's obviously a sample not the population of sales given we have just three years of data.
+
+34
+00:02:19,180 --> 00:02:22,750
+Second we want to get to know the data set better.
+
+35
+00:02:22,770 --> 00:02:29,610
+There are two big subgroups in our data men's shoes and women choose they are different and bundling
+
+36
+00:02:29,610 --> 00:02:36,000
+them when making predictions will yield deceiving results not only feet differ by gender but also there
+
+37
+00:02:36,000 --> 00:02:38,460
+are different shoe types and models.
+
+38
+00:02:38,790 --> 00:02:41,850
+Our problem is related to inventory management.
+
+39
+00:02:41,850 --> 00:02:47,610
+Therefore we should divide our inventory and then count the frequencies the frequencies will give us
+
+40
+00:02:47,610 --> 00:02:51,430
+a better idea of the data OK.
+
+41
+00:02:51,470 --> 00:02:54,940
+A good way to do that is to divide the data by shoe size.
+
+42
+00:02:55,070 --> 00:02:56,310
+I would also like to see it.
+
+43
+00:02:56,330 --> 00:03:04,370
+Country wise we already noted division by gender is also needed so we have three dimensions shoe size
+
+44
+00:03:04,580 --> 00:03:06,060
+country and gender.
+
+45
+00:03:06,170 --> 00:03:12,530
+A possible solution is to create two tables one for men's shoes and one for women's shoes and then proceed
+
+46
+00:03:12,530 --> 00:03:13,620
+normally.
+
+47
+00:03:13,730 --> 00:03:16,490
+That's what I will do.
+
+48
+00:03:16,530 --> 00:03:21,250
+Here are the two tables in the fall provided in the resources section.
+
+49
+00:03:21,270 --> 00:03:26,520
+You can see the formula I use to calculate the frequencies while Excel may be sloppy.
+
+50
+00:03:26,520 --> 00:03:30,230
+It is still powerful to use confidence intervals.
+
+51
+00:03:30,270 --> 00:03:32,790
+We must have normally distributed data.
+
+52
+00:03:32,790 --> 00:03:37,470
+While this sounds restrictive for all practical applications it isn't.
+
+53
+00:03:37,530 --> 00:03:43,650
+We can simply apply our good old friend the central limit theorem when we are in the presence of a sum
+
+54
+00:03:43,680 --> 00:03:45,720
+or average of many observations.
+
+55
+00:03:45,750 --> 00:03:51,530
+We can assume normality in our case we are calculating average sales for a period.
+
+56
+00:03:51,660 --> 00:03:57,900
+Given that Al Bundy shop has been operating for over 30 years silty applies and we can safely continue
+
+57
+00:03:57,900 --> 00:04:01,230
+with our inference OK.
+
+58
+00:04:01,350 --> 00:04:05,160
+We want to estimate the number of shoes that are likely to be sold.
+
+59
+00:04:05,370 --> 00:04:09,780
+A 95 percent confidence interval will give us such information.
+
+60
+00:04:09,780 --> 00:04:13,480
+We will take the last 12 months of sales and make a prediction.
+
+61
+00:04:13,620 --> 00:04:19,220
+Let's do this only for men's shoes as the main problem is identical for both genders.
+
+62
+00:04:19,470 --> 00:04:25,860
+Since people have different shoe sizes we will have to calculate 17 confidence intervals one for each
+
+63
+00:04:25,860 --> 00:04:27,180
+size.
+
+64
+00:04:27,180 --> 00:04:29,450
+Let's get to it.
+
+65
+00:04:29,570 --> 00:04:32,650
+First we need to calculate the means.
+
+66
+00:04:32,750 --> 00:04:35,480
+Here they are next.
+
+67
+00:04:35,530 --> 00:04:41,140
+We do not know the population variance in our sample comprises just 12 observations.
+
+68
+00:04:41,170 --> 00:04:43,740
+We have to use the t statistic.
+
+69
+00:04:43,750 --> 00:04:49,220
+This problem refers to the lesson on one population with population variance unknown.
+
+70
+00:04:49,240 --> 00:04:56,290
+We have a sample of 12 observations therefore we are looking for the t statistic for a 95 percent confidence
+
+71
+00:04:56,290 --> 00:04:58,940
+interval with 11 degrees of freedom.
+
+72
+00:04:59,020 --> 00:05:01,330
+It is two point eighteen.
+
+73
+00:05:01,330 --> 00:05:08,550
+Next we will compute the standard errors we will use the good old formula.
+
+74
+00:05:08,650 --> 00:05:13,990
+While it is unnecessary to go through this step as we have everything we need I will still show you
+
+75
+00:05:13,990 --> 00:05:18,470
+the margins of error as it may be interesting for some of you to examine.
+
+76
+00:05:18,630 --> 00:05:22,990
+Finally the confidence intervals are given by the following formula.
+
+77
+00:05:23,250 --> 00:05:26,990
+And this is how they look after the calculations have been carried out.
+
+78
+00:05:27,760 --> 00:05:33,370
+The result we obtained could be interpreted as follows In 95 percent of the cases.
+
+79
+00:05:33,400 --> 00:05:39,970
+The true population mean of the sales for each shoe size will fall into the respective interval as we
+
+80
+00:05:39,970 --> 00:05:41,720
+don't want to be low on stock.
+
+81
+00:05:41,740 --> 00:05:47,200
+A possible solution to the problem is to get as many pairs of shoes as the closest number to the upper
+
+82
+00:05:47,200 --> 00:05:49,570
+limit of the confidence interval.
+
+83
+00:05:49,570 --> 00:05:54,610
+In this way you will be almost certain you won't run out of stock and shoes won't be waiting forever
+
+84
+00:05:54,610 --> 00:05:55,890
+in your storage unit.
+
+85
+00:05:56,730 --> 00:06:04,460
+Therefore we should get four pairs of men's shoes size 6 3 pairs of men's shoe size 6.5 and so on.
+
+86
+00:06:04,590 --> 00:06:11,280
+Mostly we should prepare ourselves with size 9.5 and size 16 won't yield in any sales.
+
+87
+00:06:11,310 --> 00:06:14,080
+Sorry for those of you it's size 16 feet.
+
+88
+00:06:14,100 --> 00:06:16,130
+I know it is hard enough to find shoes.
+
+89
+00:06:16,170 --> 00:06:20,540
+But this company won't be selling any.
+
+90
+00:06:20,550 --> 00:06:21,620
+All right.
+
+91
+00:06:21,620 --> 00:06:24,900
+We are almost done here before you go.
+
+92
+00:06:24,930 --> 00:06:28,770
+I'd like to show you another application of confidence intervals.
+
+93
+00:06:28,860 --> 00:06:34,870
+Let's say we want to use a confidence interval to see if two shops are selling the same number of shoes.
+
+94
+00:06:34,950 --> 00:06:42,600
+We want to know with 95 percent confidence by how much one shop outperforms the other in terms of sales.
+
+95
+00:06:42,620 --> 00:06:49,160
+You can see two tables representing the sales of women's shoes in two German shops their codes are G.R.
+
+96
+00:06:49,160 --> 00:06:50,940
+one and two.
+
+97
+00:06:51,110 --> 00:06:54,460
+Once again we have data for 2016.
+
+98
+00:06:54,740 --> 00:07:00,820
+Now an assumption we have to make is that the same people don't buy pairs of shoes from different shops.
+
+99
+00:07:00,830 --> 00:07:06,350
+Logically it makes sense that in the same year the same people don't go around different shops of the
+
+100
+00:07:06,350 --> 00:07:08,250
+same brand to buy shoes.
+
+101
+00:07:08,360 --> 00:07:12,390
+Even if this happens it is an exception not the norm.
+
+102
+00:07:12,680 --> 00:07:16,810
+Therefore we can say that two samples are independent.
+
+103
+00:07:16,850 --> 00:07:22,670
+Once again we don't know the population variance but given this is the same market in the same country
+
+104
+00:07:22,760 --> 00:07:25,120
+we can assume it is equal.
+
+105
+00:07:25,130 --> 00:07:29,310
+This implies we're in the case of independent samples with population variance.
+
+106
+00:07:29,330 --> 00:07:33,980
+Unknown but assumed to be equal in the previous case.
+
+107
+00:07:34,030 --> 00:07:37,980
+We need to calculate the means and the sample variances here.
+
+108
+00:07:38,200 --> 00:07:43,960
+We must calculate a pooled variance which is an unbiased estimator of the population variance.
+
+109
+00:07:44,320 --> 00:07:50,380
+We're in the case where we have to use the statistic with 12 plus 12 minus two degrees of freedom for
+
+110
+00:07:50,380 --> 00:07:52,950
+a 95 percent confidence.
+
+111
+00:07:52,960 --> 00:07:56,160
+What we get from the table is 2.0 7.
+
+112
+00:07:56,410 --> 00:08:01,280
+The respective margins of error are given by the well-known formula.
+
+113
+00:08:01,320 --> 00:08:07,240
+Finally the 95 percent confidence intervals are determined by the means and the margins of error.
+
+114
+00:08:07,530 --> 00:08:10,050
+We get these 15 intervals.
+
+115
+00:08:10,050 --> 00:08:16,830
+Zero is a part of all of them except for the unsellable size for all confidence intervals star in the
+
+116
+00:08:16,830 --> 00:08:19,380
+negatives and finish in the positives.
+
+117
+00:08:19,380 --> 00:08:25,610
+This implies we cannot conclude one shop sells more shares than the other for any size.
+
+118
+00:08:25,650 --> 00:08:28,200
+What it seems like we have no great insight.
+
+119
+00:08:28,240 --> 00:08:30,380
+That's not entirely true.
+
+120
+00:08:30,400 --> 00:08:35,910
+The confidence intervals we got are not consistently for one shop having higher sales or the other.
+
+121
+00:08:35,920 --> 00:08:43,480
+This is evident from the fact that some are mostly negative while others are mostly positive.
+
+122
+00:08:43,530 --> 00:08:51,050
+That is to show that for some sizes GBR one is likely to sell more wealth for others vice versa.
+
+123
+00:08:51,060 --> 00:08:57,840
+However our decision was that using this methodology and level of confidence we cannot really identify
+
+124
+00:08:57,840 --> 00:08:59,500
+which shop is selling more.
+
+125
+00:08:59,520 --> 00:09:06,670
+They are identical the insight we get is these two shops are so balanced in sales they may share the
+
+126
+00:09:06,670 --> 00:09:10,980
+same warehouse or exchange pairs of shoes to achieve better results.
+
+127
+00:09:11,020 --> 00:09:16,160
+They can be bundled together for any analysis action or decision needed.
+
+128
+00:09:16,240 --> 00:09:21,640
+On average they will probably move together if one noticeably outperforms the other.
+
+129
+00:09:21,640 --> 00:09:28,780
+We may be sure something that wasn't observed before is going on as they are predicted to remain identical.
+
+130
+00:09:28,920 --> 00:09:29,780
+All right.
+
+131
+00:09:29,780 --> 00:09:32,660
+Time to wrap up this lesson in the next section.
+
+132
+00:09:32,690 --> 00:09:35,360
+We will examine hypothesis testing.
+
+133
+00:09:35,360 --> 00:09:36,380
+Thanks for watching.
+

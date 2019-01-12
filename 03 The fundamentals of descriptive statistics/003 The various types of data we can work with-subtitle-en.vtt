@@ -1,0 +1,127 @@
+WEBVTT
+
+00:00.970 --> 00:05.590
+You were probably watching this course because you want to learn the appropriate statistics to perform
+
+00:05.590 --> 00:06.990
+different tests.
+
+00:07.000 --> 00:12.340
+However before we can start testing we have to get acquainted with the types of variables we usually
+
+00:12.340 --> 00:19.720
+encounter different types of variables required different types of statistical tests as such it is key
+
+00:19.720 --> 00:27.100
+to be able to classify the data you are working with we can crucify data in two main ways based on its
+
+00:27.100 --> 00:29.770
+type and on its measurement level.
+
+00:29.830 --> 00:32.400
+Let's start from the types of data we can have.
+
+00:32.470 --> 00:39.220
+There is categorical and numerical data categorical data describes categories or groups.
+
+00:39.220 --> 00:45.880
+One example is car brands like Mercedes BMW and Audi they show different categories.
+
+00:45.880 --> 00:49.150
+Another instance is answers to yes and no questions.
+
+00:49.390 --> 00:56.110
+If I ask questions like Are you currently enrolled in a university or do you own a car.
+
+00:56.110 --> 01:00.460
+Yes and no would be the two groups of answers that can be obtained.
+
+01:00.490 --> 01:02.740
+This is categorical data.
+
+01:02.890 --> 01:07.720
+Numerical data on the other hand as its name suggests represents numbers.
+
+01:07.720 --> 01:15.430
+It is further divided into two subsets discrete and continuous discrete data can usually be counted
+
+01:15.460 --> 01:17.080
+in a finite matter.
+
+01:17.080 --> 01:20.670
+A good example would be the number of children that you would want to have.
+
+01:20.890 --> 01:27.130
+Even if you don't know exactly how many you were absolutely sure that the value will be an integer such
+
+01:27.130 --> 01:30.490
+as 0 1 2 or even 10.
+
+01:30.490 --> 01:33.700
+Another instance is grades on the S.A.T. exam.
+
+01:33.970 --> 01:40.920
+You may get 1000 1560 1570 or 2400.
+
+01:40.930 --> 01:46.390
+What is important for a variable to be defined as discrete is that you can imagine each member of the
+
+01:46.520 --> 01:55.030
+dataset knowing that SH scores range from 600 to 2400 and 10 points separate all possible scores that
+
+01:55.030 --> 01:56.720
+can be obtained is key.
+
+01:57.520 --> 02:03.790
+It's easier to understand discrete data by saying it's the opposite of continuous data continuous data
+
+02:03.880 --> 02:06.760
+is infinite and impossible to count.
+
+02:06.790 --> 02:11.710
+For instance your weight can take on every value in some range.
+
+02:11.710 --> 02:14.650
+Let's dig a bit deeper into this.
+
+02:14.680 --> 02:21.290
+You get on the scale and the screen shows 150 pounds or sixty point 0 3 8 9 kilograms.
+
+02:21.430 --> 02:24.060
+But this is just an approximation.
+
+02:24.160 --> 02:29.590
+If you gain zero point zero one pound the figure on the scale is unlikely to change.
+
+02:29.590 --> 02:35.800
+Put your new weight will be one hundred fifty point zero one pounds or sixty eight point zero for three
+
+02:35.800 --> 02:37.390
+four kilograms.
+
+02:37.390 --> 02:42.840
+Now think about sweating every drop of sweat reduces your weight by the weight of that drop.
+
+02:42.880 --> 02:46.090
+But a scale is unlikely to capture that change.
+
+02:46.180 --> 02:50.410
+The process of losing and gaining weight occurs all the time.
+
+02:50.410 --> 02:53.290
+Your exact weight is a continuous variable.
+
+02:53.380 --> 02:59.090
+It can take on an infinite amount of values no matter how many digits there are after the dot.
+
+02:59.110 --> 03:06.070
+To sum it up your weight can vary by incomprehensibly small amounts and is continuous while the number
+
+03:06.070 --> 03:11.130
+of children you want to have is directly understandable and is discrete.
+
+03:11.560 --> 03:15.560
+Alright these were the types of data in our next lesson.
+
+03:15.610 --> 03:17.800
+We will explore the levels of measurement.

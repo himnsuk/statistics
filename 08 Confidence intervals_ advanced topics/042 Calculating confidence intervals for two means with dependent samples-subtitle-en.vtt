@@ -1,0 +1,181 @@
+WEBVTT
+
+00:00.780 --> 00:06.750
+So far we have talked about confidence intervals with population variances that are either known or
+
+00:06.810 --> 00:08.410
+unknown.
+
+00:08.430 --> 00:14.340
+However we were considering only one population in the next couple of lessons.
+
+00:14.370 --> 00:18.960
+We will explore confidence intervals looking into two populations.
+
+00:18.960 --> 00:24.180
+These cases are more important as they have a wide range of real world applications.
+
+00:25.560 --> 00:27.750
+A few important distinctions need to be made.
+
+00:27.750 --> 00:34.990
+Before we dive into this topic in some cases the samples that we have taken from the two populations
+
+00:35.080 --> 00:41.410
+will be dependent on each other and in others they will be independent dependent.
+
+00:41.410 --> 00:48.370
+Samples are easier you will experience this firsthand when we have independent samples however we can
+
+00:48.370 --> 00:54.490
+further distinguish three cases when the population variance is known when the population variance is
+
+00:54.550 --> 00:56.500
+unknown but assumed to be equal.
+
+00:56.560 --> 01:01.430
+And when it is unknown and assumed to be different sounds a bit overwhelming.
+
+01:01.450 --> 01:07.300
+But don't worry in statistics many concepts are similar to each other and you will quickly see that
+
+01:07.300 --> 01:13.420
+you have already acquired the intuition that allows you to understand these concepts pretty fast.
+
+01:13.420 --> 01:18.510
+All right let's get onto the first case namely dependent samples.
+
+01:18.530 --> 01:23.100
+This statistical test is often used when developing medicine.
+
+01:23.160 --> 01:28.500
+Let's say you have developed a pill that increases the concentration of magnesium in the blood.
+
+01:28.500 --> 01:32.600
+It is very promising but there is no data to support your claim.
+
+01:32.850 --> 01:38.700
+After testing the drug in the laboratory it is time to see its actual effect on people.
+
+01:38.790 --> 01:44.310
+What you would typically do is take a sample of 10 people and test their magnesium levels before and
+
+01:44.310 --> 01:46.010
+after taking the pill.
+
+01:46.260 --> 01:53.140
+The two dependent samples are the magnesium levels before and the magnesium levels after it is clear
+
+01:53.140 --> 01:55.450
+that it is the same people we are testing.
+
+01:55.510 --> 02:03.730
+Thus the samples are dependent an important note is that the populations are normally distributed actually
+
+02:03.940 --> 02:05.490
+when dealing with biology.
+
+02:05.500 --> 02:11.360
+Normality is so often observed that we immediately assume that such variables are normally distributed
+
+02:13.140 --> 02:15.350
+OK back to the example.
+
+02:15.640 --> 02:21.460
+Whenever you take a blood test the magnesium levels are stated in milligrams per deciliter and a healthy
+
+02:21.460 --> 02:29.100
+person would usually have somewhere between 1.7 and 2.2 milligrams of magnesium per deciliter.
+
+02:29.140 --> 02:34.900
+Here is a table that contains the sample of 10 people and their levels of magnesium before and after
+
+02:34.900 --> 02:37.210
+taking the pill for some time.
+
+02:37.270 --> 02:43.630
+We've also added a cell that calculates the difference in levels before and after taking the pill instead
+
+02:43.630 --> 02:45.250
+of dealing with two variables.
+
+02:45.280 --> 02:48.780
+We now have only one in this way.
+
+02:48.910 --> 02:51.810
+The data looks as a single population doesn't it.
+
+02:53.150 --> 02:59.320
+Let's calculate the mean and the standard deviation of the differences the mean is zero point three
+
+02:59.320 --> 02:59.860
+three.
+
+02:59.900 --> 03:03.090
+And the standard deviation is zero point four or five.
+
+03:03.500 --> 03:08.140
+Moreover we know that the sample size is 10.
+
+03:08.300 --> 03:13.400
+The formula that would allow us to calculate a confidence interval is the following.
+
+03:13.480 --> 03:19.640
+The population is normally distributed but the sample we have contains only 10 observations.
+
+03:19.930 --> 03:26.720
+Therefore the distribution will have to work with students T and the appropriate statistic is t.
+
+03:26.740 --> 03:32.550
+You can clearly see that it is the same as the one for a single population with an unknown variance.
+
+03:33.360 --> 03:39.020
+Let's choose a level of confidence and plug in the numbers as we have said many times.
+
+03:39.190 --> 03:42.580
+95 percent confidence is one of the most common levels.
+
+03:42.630 --> 03:45.280
+And so we will use it here as well.
+
+03:45.330 --> 03:52.730
+The t statistic with nine degrees of freedom for a 95 percent confidence interval is 2.2 6.
+
+03:52.740 --> 03:57.750
+Now we have everything we need and we can calculate the confidence interval.
+
+03:57.750 --> 04:02.980
+It lies in the range between 0.01 and 0.6 5.
+
+04:03.000 --> 04:04.970
+How do we interpret this result.
+
+04:05.310 --> 04:11.200
+Well 95 percent of the cases the true mean will fall in this interval.
+
+04:11.210 --> 04:14.840
+Moreover the whole interval is positive.
+
+04:14.850 --> 04:19.310
+This shows that the true meaning of the difference is definitely positive.
+
+04:19.350 --> 04:25.740
+Therefore with 95 percent certainty we can say that the levels of magnesium in the test subjects blood
+
+04:25.770 --> 04:27.710
+is higher.
+
+04:27.750 --> 04:33.530
+The purpose of this test was to determine whether the drug is effective based on our small sample.
+
+04:33.600 --> 04:35.970
+It most likely is.
+
+04:36.050 --> 04:37.050
+All right.
+
+04:37.050 --> 04:40.780
+This shows you some of the practical applications of inference.
+
+04:40.800 --> 04:46.530
+Stay tuned for our next lesson in which we will explore confidence intervals on independence Serviles.

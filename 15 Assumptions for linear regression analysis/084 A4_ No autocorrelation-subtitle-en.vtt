@@ -1,0 +1,136 @@
+WEBVTT
+
+00:00.820 --> 00:04.770
+The penultimate assumption is the No autocorrelation assumption.
+
+00:04.870 --> 00:08.100
+It is also known as No serial correlation.
+
+00:08.110 --> 00:14.460
+This is my least favorite as it cannot be relaxed mathematically it looks like this.
+
+00:14.620 --> 00:17.630
+Errors are assumed to be uncorrelated.
+
+00:17.650 --> 00:21.500
+Where can we observe serial correlation between errors.
+
+00:21.580 --> 00:27.700
+It is highly unlikely to find it in data taken at one moment of time known as cross-sectional data.
+
+00:27.760 --> 00:31.460
+However it is very common in time series data.
+
+00:31.480 --> 00:36.460
+Think about stock prices every day you have a new quote for the same stock.
+
+00:36.460 --> 00:42.100
+These new numbers you see have the same underlying asset with them getting too much into the finance.
+
+00:42.220 --> 00:49.750
+Ideally you want them to be random or predicted by macro factors such as GDP tax rate political events
+
+00:49.810 --> 00:50.740
+and so on.
+
+00:51.570 --> 00:56.880
+Unfortunately it is common in underdeveloped markets to see patterns in the stock prices.
+
+00:57.830 --> 01:01.310
+There is a well-known phenomenon called The Day Of The Week effect.
+
+01:01.310 --> 01:06.830
+It consists in disproportionately high returns on Fridays and low returns on Mondays.
+
+01:06.830 --> 01:11.120
+There is no consensus of the true nature of the day of the week effect.
+
+01:11.120 --> 01:16.910
+One possible explanation proposed by Nobel Prize winner Emerton Miller is that investors don't have
+
+01:16.910 --> 01:18.910
+time to read all the news immediately.
+
+01:19.010 --> 01:25.400
+So they do it over the weekend the first day to respond to the negative information is on Mondays.
+
+01:25.400 --> 01:31.010
+Then during the week their advisors give them new positive information and they start buying on Thursdays
+
+01:31.010 --> 01:31.940
+and Fridays.
+
+01:33.290 --> 01:39.200
+Another famous explanation is given by the distinguished financer Kenneth French who suggested firms
+
+01:39.200 --> 01:41.100
+delay bad news for the weekends.
+
+01:41.120 --> 01:44.030
+So markets react on Mondays.
+
+01:44.130 --> 01:50.310
+Whatever the reason there is a correlation of the errors when building regressions about stock prices.
+
+01:50.370 --> 01:57.000
+The first observation the sixth the eleventh and the fifth onwards would be Monday's the fifth tenth
+
+01:57.000 --> 02:03.030
+and so on would be Friday's errors on Mondays would be biased downwards and errors for Fridays would
+
+02:03.030 --> 02:04.980
+be biased upwards.
+
+02:04.980 --> 02:08.670
+The mathematics of the linear regression does not consider this.
+
+02:08.700 --> 02:12.520
+It assumes errors should be randomly spread around the regression line.
+
+02:13.570 --> 02:16.910
+So how does one detect autocorrelation.
+
+02:16.960 --> 02:21.510
+A common way is to plot all the residuals on a graph and look for patterns.
+
+02:21.550 --> 02:25.970
+If you can't find any you're safe but what's the remedy.
+
+02:25.970 --> 02:27.290
+You may ask.
+
+02:27.330 --> 02:30.350
+The remedy is there is no remedy.
+
+02:30.390 --> 02:34.890
+I told you in the beginning of this lecture you cannot relax this assumption.
+
+02:34.890 --> 02:40.520
+The only thing you can do is avoid using a linear regression in such a setting.
+
+02:40.530 --> 02:44.430
+There are other types of regressions that deal with time series data.
+
+02:44.430 --> 02:50.610
+It is possible to use an auto regressive model a moving average model or even an auto regressive moving
+
+02:50.610 --> 02:51.740
+average model.
+
+02:52.200 --> 02:53.530
+And I'm not done yet.
+
+02:53.540 --> 02:58.390
+There is also an auto regressive integrated moving average model.
+
+02:58.410 --> 03:04.000
+Make your choice as you will but don't use the linear regression model when error terms are auto correlated
+
+03:05.300 --> 03:07.720
+our next lesson will be a lot more encouraging.
+
+03:07.880 --> 03:09.310
+I promise.
+
+03:09.320 --> 03:10.160
+See you there.

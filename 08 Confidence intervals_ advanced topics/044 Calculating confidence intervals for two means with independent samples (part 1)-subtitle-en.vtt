@@ -1,0 +1,187 @@
+WEBVTT
+
+00:00.600 --> 00:06.910
+In our last video we learned about confidence intervals for two means based on dependent samples.
+
+00:07.080 --> 00:12.320
+In this video we will explore independent samples as we said earlier.
+
+00:12.420 --> 00:18.990
+There are three sub cases known population variances unknown population variances but assumed to be
+
+00:18.990 --> 00:24.310
+equal an unknown population variances that are assumed to be different.
+
+00:24.320 --> 00:29.910
+Here we will focus on independent samples with known population variances.
+
+00:29.920 --> 00:36.460
+All right let's jump right into the example that would allow us to understand the concept a bit better.
+
+00:36.730 --> 00:40.990
+We would like to get the test grades of two departments in a UK university.
+
+00:41.140 --> 00:45.190
+University grades in the UK expressed in percentages.
+
+00:45.520 --> 00:51.220
+Our samples are taken from two departments engineering and management.
+
+00:51.220 --> 00:54.870
+The table you see here summarizes the data.
+
+00:54.980 --> 01:00.900
+We have a sample of 100 engineering students and the average grade is 58 percent.
+
+01:01.010 --> 01:06.740
+From past years we know that the population standard deviation is 10 percentage points.
+
+01:06.740 --> 01:09.260
+Thus the variance is known.
+
+01:09.260 --> 01:14.960
+We also have a sample of 70 students from the management department and we've got a sample mean of 65
+
+01:14.960 --> 01:16.280
+percent.
+
+01:16.290 --> 01:23.550
+Again from past data we know that the population standard deviation is 5 percent OK.
+
+01:23.680 --> 01:25.790
+But before we get on with calculations.
+
+01:25.870 --> 01:28.550
+Let's point out three important considerations.
+
+01:29.310 --> 01:33.380
+First the populations are normally distributed.
+
+01:33.450 --> 01:40.900
+Second the population variances are known and third the sample sizes are different.
+
+01:40.920 --> 01:47.140
+Different sample sizes are a common occurrence in the real world in our previous lesson.
+
+01:47.140 --> 01:52.870
+When we had dependent samples we were testing the same people over time so it made sense that the sample
+
+01:52.870 --> 01:55.020
+sizes were equally big.
+
+01:55.030 --> 01:59.400
+This time however the observations are completely different.
+
+01:59.410 --> 02:04.570
+They are students from different departments with different teachers obtaining different grades when
+
+02:04.570 --> 02:06.790
+taking different exams.
+
+02:06.790 --> 02:11.890
+The great of a person from engineering doesn't in any way affect the grade of a person studying management
+
+02:12.060 --> 02:12.750
+right.
+
+02:13.180 --> 02:16.850
+The two samples are truly independent.
+
+02:16.910 --> 02:17.980
+All right.
+
+02:18.050 --> 02:19.760
+What are we testing.
+
+02:19.820 --> 02:25.330
+We want to find a 95 percent confidence interval for the difference between the grades of the students
+
+02:25.340 --> 02:30.190
+from engineering and management as with every confidence interval.
+
+02:30.300 --> 02:33.900
+We must identify the test to take samples.
+
+02:33.900 --> 02:40.830
+Our big population variances are known and populations are assumed to follow the normal distribution.
+
+02:40.830 --> 02:46.320
+All this information points us to the Z statistic instead of the T.
+
+02:46.480 --> 02:49.300
+The last ingredient is the variance.
+
+02:49.300 --> 02:54.520
+We haven't been through enough mathematics in this course to derive the formula so we will simply state
+
+02:54.520 --> 02:55.250
+it.
+
+02:55.360 --> 03:00.520
+The variance of the difference between the two means is equal to the variance of the grades received
+
+03:00.550 --> 03:07.060
+by engineering students divided by the sample size of engineering students plus the variance of grades
+
+03:07.090 --> 03:14.120
+obtained by management students divided by the sample size of management students the underlying logic
+
+03:14.180 --> 03:16.790
+is that dispersion is additive.
+
+03:16.790 --> 03:21.470
+More variables means higher or equal variability.
+
+03:21.470 --> 03:29.600
+OK so what is the confidence interval formula this time well it is given by the expression below.
+
+03:30.760 --> 03:35.810
+X bar minus Y Bar is the difference point estimator Z is the statistic.
+
+03:35.830 --> 03:38.680
+And this is the variance of the difference.
+
+03:38.680 --> 03:46.570
+We plug in the numbers and get a confidence interval between minus nine point to 8 and minus 4.7 to.
+
+03:46.720 --> 03:49.310
+All right what's the interpretation.
+
+03:49.580 --> 03:55.370
+We are 95 percent confident that the true mean difference between engineering and management grades
+
+03:55.400 --> 03:58.000
+falls into this interval.
+
+03:58.010 --> 04:01.820
+Note that this time the whole interval is negative.
+
+04:01.820 --> 04:08.840
+This is because we were calculating engineering grade minus management grade as the engineers were consistently
+
+04:08.840 --> 04:10.040
+getting lower grades.
+
+04:10.040 --> 04:12.050
+The difference is negative.
+
+04:12.110 --> 04:17.090
+Had we calculated the difference as management minus engineering we would have obtained a confidence
+
+04:17.090 --> 04:23.620
+interval between 4.7 to and nine point to eight completely symmetrical around zero.
+
+04:24.340 --> 04:26.320
+All right great.
+
+04:26.320 --> 04:31.930
+Remember to do all the exercises available in the course materials as the topics are getting tougher
+
+04:31.930 --> 04:33.150
+and tougher.
+
+04:33.160 --> 04:34.320
+See you next time.
+
+04:34.360 --> 04:35.530
+And thanks for watching.

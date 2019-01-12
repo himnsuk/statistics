@@ -1,0 +1,169 @@
+WEBVTT
+
+00:00.530 --> 00:03.170
+This is the final lesson we'll do on testing.
+
+00:03.290 --> 00:08.870
+The last case we'll examine is the one with independent samples and unknown variances which are assumed
+
+00:08.870 --> 00:10.200
+to be equal.
+
+00:10.280 --> 00:14.730
+I'll quickly brush up your memory on the data set we did in the confidence interval section.
+
+00:14.840 --> 00:20.510
+You were trying to see if apples in New York are as expensive as the ones in L.A. You went to 10 grocery
+
+00:20.510 --> 00:26.210
+shops in New York and your friend Paul who lives in L.A. went to eight grocery shops there you got all
+
+00:26.210 --> 00:28.640
+the prices and put them in a table.
+
+00:28.640 --> 00:33.590
+You didn't know the population variance of the Apple prices but you assumed it should be the same for
+
+00:33.590 --> 00:42.730
+New York and L.A. red state the no and alternative hypotheses age zero myu in NY is equal to you in
+
+00:42.730 --> 00:46.820
+L.A. or myu and y minus myu L.A. is equal to zero.
+
+00:47.570 --> 00:55.410
+H-1 new in NY differs from you in L.A. or me and why minus L.A. differs from zero.
+
+00:55.430 --> 00:56.090
+All right.
+
+00:56.210 --> 00:57.740
+That's our data set.
+
+00:57.740 --> 01:04.100
+We have also calculated the sample means standard deviations and sample sizes what can we do when the
+
+01:04.100 --> 01:06.920
+variance is unknown but assumed to be equal.
+
+01:07.310 --> 01:10.260
+Earlier we used the pooled variance formula.
+
+01:10.490 --> 01:12.540
+Well here it is again.
+
+01:12.650 --> 01:16.820
+Remember all right it's all about plugging in numbers.
+
+01:16.850 --> 01:18.760
+So I'll save you the trouble.
+
+01:18.980 --> 01:22.250
+The pooled variance is 0.05.
+
+01:22.310 --> 01:27.590
+One last thing we need is the standard error of the difference of means it is given by the following
+
+01:27.590 --> 01:28.830
+formula.
+
+01:28.850 --> 01:32.800
+I am going faster than usual as we have seen all of this before.
+
+01:32.810 --> 01:37.670
+Moreover testing is about understanding computation is routine.
+
+01:37.790 --> 01:43.460
+So let's start testing shall we small samples variance unknown.
+
+01:43.550 --> 01:46.800
+Which statistic do we need exactly.
+
+01:46.820 --> 01:48.870
+It's the statistic again.
+
+01:49.010 --> 01:50.960
+How many degrees of freedom.
+
+01:51.140 --> 01:56.560
+You may recall it from earlier it was the combined sample size minus the number of variables.
+
+01:56.600 --> 02:00.380
+So 10 plus eight minus two which gives a 16.
+
+02:00.680 --> 02:02.980
+Let's see the t statistic formula.
+
+02:03.110 --> 02:08.720
+Once again the difference between simple means minus the difference between hypothesized true means
+
+02:08.870 --> 02:16.290
+divided by the standard error after plugging in everything we get a tested mistake of 6.5 3.
+
+02:16.310 --> 02:18.490
+Do we need to compare it.
+
+02:18.540 --> 02:23.130
+This is by far the most extreme testing stick we have seen.
+
+02:23.160 --> 02:27.570
+You will have a hard time finding it in the table for common tests.
+
+02:27.570 --> 02:32.510
+A rule of thumb is to reject the null hypothesis when the score is bigger than 2.
+
+02:32.670 --> 02:39.230
+Generally for z score and score a value higher than 4 is extremely significant.
+
+02:39.240 --> 02:47.160
+Let's see the two sided P-value the p value of this test is lower than 0.00 0 somewhere around zero
+
+02:47.160 --> 02:49.760
+point 0 0 0 0 0 1.
+
+02:50.040 --> 02:56.540
+In our lesson about p value we said researchers are always looking for those three zeros after the dot.
+
+02:56.580 --> 03:02.340
+It means the test is extremely significant and the probability of making a type 1 error is virtually
+
+03:02.340 --> 03:03.460
+zero.
+
+03:03.480 --> 03:09.380
+Therefore we reject the null hypothesis at all common and uncommon levels of significance.
+
+03:09.420 --> 03:15.810
+There is strong statistical evidence that the price of apples in New York differs from an L.A. but such
+
+03:15.810 --> 03:22.020
+an extreme result may also mean the hypothesis is pointless or poorly designed from the mean values
+
+03:22.020 --> 03:24.670
+of 3.9 four and three point to five.
+
+03:24.690 --> 03:30.420
+And with such small and closed standard deviations of around 0.2 we could easily say the prices are
+
+03:30.420 --> 03:31.080
+different.
+
+03:31.080 --> 03:32.880
+No testing needed.
+
+03:32.880 --> 03:38.160
+A much more interesting question would be if the price of apples in New York is 20 percent higher than
+
+03:38.160 --> 03:39.190
+in L.A..
+
+03:39.360 --> 03:41.770
+I will leave you this exercise for homework.
+
+03:42.630 --> 03:43.400
+All right.
+
+03:43.500 --> 03:46.050
+We're done with hypothesis testing.
+
+03:46.050 --> 03:47.800
+Cheers and thanks for watching.

@@ -1,0 +1,529 @@
+WEBVTT
+
+00:01.050 --> 00:06.530
+Hey if this section seems too theoretical now is the time to prove you wrong.
+
+00:06.750 --> 00:10.310
+We will deal with a real life example about car sales.
+
+00:11.180 --> 00:17.840
+Actually it is so real life that it is very messy and we will need to first clean our dataset then go
+
+00:17.840 --> 00:21.120
+through several assumptions relax them on them.
+
+00:21.200 --> 00:23.510
+Practice with the concept of log transformation.
+
+00:23.520 --> 00:29.360
+We mentioned earlier create a model and we will eventually finish off with some dummy variables.
+
+00:30.460 --> 00:36.240
+I bet you will be blown away by all the things you already know everything will be interconnected.
+
+00:36.250 --> 00:42.010
+So get comfortable and let's start analyzing heres our data set.
+
+00:42.820 --> 00:51.190
+This is a list of second hand cars with their respective price type of body mileage engine volume engine
+
+00:51.190 --> 00:55.810
+type year of production and model.
+
+00:56.000 --> 01:01.690
+What we would like to do is predict the price of a used car depending on its specifications.
+
+01:02.740 --> 01:09.130
+The first potential aggressor is brand as it is well known that a BMW is generally more expensive than
+
+01:09.130 --> 01:11.550
+a Toyota.
+
+01:11.560 --> 01:17.560
+The second relevant variable is mileage since the car is driven the cheaper it should be.
+
+01:18.990 --> 01:27.450
+Third the engine volume sports cars have larger engines and economy cars have smaller engines and the
+
+01:27.450 --> 01:29.970
+final variable is year of production.
+
+01:29.970 --> 01:36.020
+The older the car the cheaper it is with the exception of vintage vehicles.
+
+01:36.130 --> 01:39.790
+These are the variables we will focus on.
+
+01:39.860 --> 01:40.750
+All right.
+
+01:40.750 --> 01:44.130
+We haven't spoken about data cleaning so far in this course.
+
+01:44.230 --> 01:46.050
+Our focus was statistics.
+
+01:46.090 --> 01:49.980
+So I was always cleaning the data sets for you before presenting them.
+
+01:50.080 --> 01:56.310
+This time it will be different and you will get a feeling of what raw data looks like.
+
+01:56.330 --> 01:58.390
+I will go column by column.
+
+01:58.400 --> 02:04.290
+Excel is not optimized for data analysis but it has sufficient resources for our current needs.
+
+02:05.830 --> 02:11.590
+An easy way to spot problems with your data in Excel such as missing values is to sort the cells.
+
+02:11.620 --> 02:17.670
+So I'll start sorting the relevant cells brand looks fine.
+
+02:19.350 --> 02:22.340
+Price however has lots of missing values.
+
+02:23.140 --> 02:28.000
+There are different methodologies for sorting this out but I will simply remove all observations that
+
+02:28.000 --> 02:31.650
+do not include a price as price is the dependent variable.
+
+02:31.660 --> 02:33.790
+It is a big issue in our analysis.
+
+02:33.790 --> 02:40.890
+If there is no price listed a rule of thumb is that if you are removing less than 5 percent of the observations
+
+02:40.980 --> 02:45.660
+you are free to just remove all observations that have missing values.
+
+02:45.800 --> 02:50.270
+In this case they are 4.4 percent.
+
+02:50.450 --> 02:57.630
+The next variable is mileage and thousands of miles there are missing values for it as well.
+
+02:57.680 --> 03:04.000
+We are not sure if these are zeros or something else looking at the year of production and the price
+
+03:04.060 --> 03:05.380
+they most likely are.
+
+03:05.470 --> 03:07.590
+While more diligence should be applied.
+
+03:07.660 --> 03:09.160
+I'll just add zeros here.
+
+03:10.940 --> 03:13.080
+The next variable is the engine.
+
+03:13.160 --> 03:16.060
+We can see many values that are not available.
+
+03:16.070 --> 03:24.090
+It's best to delete these variables OK but then there are also the engine volume values of ninety nine
+
+03:24.090 --> 03:28.460
+point ninety nine ninety seventy five etc..
+
+03:28.510 --> 03:32.400
+I am no car expert but these are not usual values.
+
+03:32.410 --> 03:39.340
+Moreover looking through all 4000 plus values we noticed that most entries are in the range from 0.6
+
+03:39.340 --> 03:41.470
+to 6.5.
+
+03:41.470 --> 03:46.700
+A quick search on Google would confirm that's the interval where engine volume should fall.
+
+03:46.720 --> 03:54.290
+Therefore those ninety nine point ninety nine 90s and so on are incorrect entries actually a common
+
+03:54.290 --> 03:58.270
+way to label missing values is by assigning ninety nine point ninety nine.
+
+03:58.310 --> 04:01.760
+That's something that's stuck from the early ages of computers.
+
+04:01.790 --> 04:08.150
+It is a bad idea to label values in such ways as it is very hard for other users of the data to distinguish
+
+04:08.150 --> 04:10.490
+them from the true values.
+
+04:10.490 --> 04:13.650
+However be aware that some people still do it.
+
+04:13.850 --> 04:15.500
+Let's remove these entries.
+
+04:18.040 --> 04:21.700
+The last value of interest is the year when a car was produced.
+
+04:22.530 --> 04:24.160
+There are no problems with it.
+
+04:24.370 --> 04:26.240
+We're good to go.
+
+04:26.250 --> 04:33.690
+All right so far we have identified brand mileage engine volume and year of production as regressors
+
+04:34.830 --> 04:37.230
+brand is categorical data.
+
+04:37.230 --> 04:42.390
+Linearity is not going to be an issue there as the brand will be included in the regression through
+
+04:42.390 --> 04:43.690
+dummy variables.
+
+04:45.220 --> 04:51.900
+We are left with price mileage and year where price is the dependent variable of the regression.
+
+04:51.960 --> 04:55.660
+Let's check for linearity using a scatterplot.
+
+04:55.700 --> 05:02.140
+These are the three scatter plots that we obtain one for a price and mileage one for price and year
+
+05:02.230 --> 05:05.090
+and one for price and engine volume.
+
+05:05.260 --> 05:12.010
+We can spot patterns but definitely not linear ones projected by Excel with the orange trend line.
+
+05:12.060 --> 05:15.560
+We know we should not run a linear regression in this case.
+
+05:15.600 --> 05:23.240
+We should first transform one or more variables as I have told you before log transformation is a common
+
+05:23.240 --> 05:25.150
+way of dealing with this issue.
+
+05:25.160 --> 05:30.250
+It is especially useful when facing exponential scatterplot like we do now.
+
+05:30.450 --> 05:33.540
+Let's take the log of prices and plot them again.
+
+05:43.570 --> 05:44.390
+All right.
+
+05:44.390 --> 05:46.610
+We can see a linear pattern in the plots.
+
+05:46.610 --> 05:50.580
+Now the lines fit the data so much better.
+
+05:50.650 --> 05:56.560
+However I'd like to take the log of mileage and do a log log scatterplot as I suspect that we will get
+
+05:56.560 --> 05:58.050
+even better results.
+
+06:05.650 --> 06:07.820
+Ok I was kind of wrong.
+
+06:07.990 --> 06:14.050
+It is hard to say if this is an improvement but let's keep the log of mileage in the regression as to
+
+06:14.050 --> 06:19.710
+see how is a log log relationship interpreted superb.
+
+06:19.770 --> 06:23.600
+Next we have to deal with the no endogenous assumption.
+
+06:23.640 --> 06:29.280
+There are tests to check if it is violated or one can take the residuals and find their correlation
+
+06:29.280 --> 06:31.760
+with each independent x.
+
+06:31.800 --> 06:34.530
+I can tell you that the assumption is not violated.
+
+06:34.590 --> 06:37.820
+So it is of no interest.
+
+06:37.870 --> 06:40.400
+The third assumption had several parts.
+
+06:40.400 --> 06:45.070
+Normality is assumed for a big sample following the Central Limit Theorem.
+
+06:45.190 --> 06:50.230
+The zero mean of the distribution of errors is accomplished through the inclusions of the intercept
+
+06:50.230 --> 06:57.810
+in the regression finally the homeless get STC the assumption generally holds as we can see in the graphs.
+
+06:58.220 --> 07:03.470
+The reason for that is that we already implemented a log transformation which is the most common fix
+
+07:03.470 --> 07:06.650
+for hetero's cadets Tisci.
+
+07:06.820 --> 07:09.880
+The fourth assumption is no autocorrelation.
+
+07:09.880 --> 07:12.470
+We don't really need to put much effort into that.
+
+07:12.520 --> 07:17.560
+The observations we have are not coming from time series data or Pennel data.
+
+07:17.770 --> 07:22.980
+They are simply a snapshot of the current situation at a second hand car sales website.
+
+07:23.020 --> 07:27.910
+Each row comes from a different customer who is willing to sell their car through the platform.
+
+07:27.910 --> 07:32.920
+Logically there is no reason for the observations to be dependent on each other.
+
+07:32.920 --> 07:35.520
+We are safe.
+
+07:35.620 --> 07:42.760
+Finally we should check for multi-collinearity that can be done by finding the correlations of all possible
+
+07:42.760 --> 07:50.420
+pairs of variables mileage with your mileage with engine volume and year with engine volume.
+
+07:50.440 --> 07:57.910
+The correlations are far from strong so we can conclude that we are not in the presence of multi-collinearity.
+
+07:58.150 --> 08:03.580
+After having checked the assumptions we can finally create the regression.
+
+08:03.620 --> 08:07.100
+First let's explain the log price with log mileage.
+
+08:07.470 --> 08:11.080
+OK we can see that the model is significant.
+
+08:11.130 --> 08:17.460
+The explanatory variable is significant too and the R-squared of the regression is 0.27.
+
+08:17.460 --> 08:22.520
+So we have some explanatory power but this is not a very powerful model.
+
+08:24.740 --> 08:25.780
+Similarily.
+
+08:25.880 --> 08:34.280
+The R-squared of a regression of price with engine volume is zero point to one next let's explain log
+
+08:34.300 --> 08:44.540
+price with year both the model and the variable are significant the R-Squared is 0.5 6 so year explains
+
+08:44.540 --> 08:47.900
+56 percent of the variability of a car's price.
+
+08:48.080 --> 08:51.880
+That's a remarkable relationship.
+
+08:51.890 --> 08:58.940
+Now let's create a regression using all three variables mileage year and engine volume.
+
+08:59.140 --> 09:02.230
+The model and all variables are significant.
+
+09:02.230 --> 09:06.580
+We already expected that given that we created three regressions earlier.
+
+09:06.640 --> 09:15.690
+However this time the adjusted R-squared is 0.7 7 therefore the three variables together explain 77
+
+09:15.690 --> 09:18.320
+percent of the total variability.
+
+09:18.480 --> 09:25.950
+That's a very nice and rigid model already to conclude the example we would like to include the brand
+
+09:25.950 --> 09:27.570
+in the regression.
+
+09:27.690 --> 09:36.250
+There are seven brands Audi BMW Mercedes Mitsubishi Renault Toyota and Volkswagen.
+
+09:36.270 --> 09:38.150
+This is categorical data.
+
+09:38.340 --> 09:44.710
+In order to be included in the regression we have to create dummy variables already dummy would be one
+
+09:44.740 --> 09:52.990
+if the brand is Audi and 0 if it is not BMW dummy would be one if the brand is BMW and 0 if it is not.
+
+09:53.050 --> 09:55.900
+And so on for the last brand.
+
+09:55.930 --> 10:00.310
+In this case Volkswagen we will not create a dummy variable.
+
+10:00.310 --> 10:02.120
+The reasoning is the following.
+
+10:02.200 --> 10:09.540
+If all other dummy variables are 0 it is clear that the car is Volkswagen if we include a separate variable
+
+10:09.540 --> 10:10.820
+called Volkswagen.
+
+10:10.890 --> 10:16.680
+We will introduce multi-collinearity to the regression the Volkswagen dummy would be perfectly determined
+
+10:16.680 --> 10:18.790
+by the other variables.
+
+10:18.840 --> 10:25.520
+Thus if we have any categories there will be only and minus one dummys.
+
+10:25.620 --> 10:30.390
+We are basically creating the dummy variables as we did in our previous lesson.
+
+10:30.390 --> 10:39.000
+Now let's run a new regression including the dummys the final model that we get is significant.
+
+10:39.190 --> 10:42.600
+Moreover each variable included is significant.
+
+10:42.640 --> 10:45.890
+The adjusted R-squared of the model is 0.8.
+
+10:45.970 --> 10:49.120
+This regression has a very high explanatory power.
+
+10:50.210 --> 10:53.640
+The only thing we have left is to interpret the result.
+
+10:53.690 --> 11:03.140
+The model is the log of price equals minus seventy eight point four one plus minus 0.1 one times log
+
+11:03.140 --> 11:09.920
+of mileage plus 0.1 four times the engine volume plus zero point zero four times the year of the car
+
+11:09.920 --> 11:12.500
+plus the dummys.
+
+11:12.600 --> 11:14.730
+Let's look at them one by one.
+
+11:14.730 --> 11:18.720
+Keep in mind that our dependent variable is the logarithm of the price.
+
+11:18.720 --> 11:21.760
+So the interpretation will be a bit different than usual
+
+11:24.380 --> 11:33.480
+the intercept is clear mileage the log of price changes by minus 0.1 one times log of mileage.
+
+11:33.540 --> 11:40.410
+As I told you in one of our previous lessons this can be interpreted in the following way for each percentage
+
+11:40.410 --> 11:44.520
+change in mileage the price decreases by 0.1 1 percent.
+
+11:48.990 --> 11:50.310
+Engine volume.
+
+11:50.310 --> 11:57.300
+The interpretation is the following for each extra unit or leader of engine volume the logarithm of
+
+11:57.300 --> 12:01.800
+price increases by 0.1 4 to see the impact on price.
+
+12:01.830 --> 12:08.220
+We have to get back to the original variable the same way multiplying and dividing are opposite operations
+
+12:08.310 --> 12:11.660
+taking the exponential and taking the log R2.
+
+12:11.970 --> 12:21.260
+There are further explanations in the course notes but bear with me log price changes by 0.1 for normal
+
+12:21.260 --> 12:26.070
+price is equal to E to the power of log price.
+
+12:26.130 --> 12:34.190
+So to get the change in price we should find the exponential of 0.1 for therefore the price would change
+
+12:34.190 --> 12:37.820
+to 1.1 5 of its original value.
+
+12:37.820 --> 12:43.460
+That is a 1.1 5 minus 1 percent increase or 15 percent.
+
+12:43.460 --> 12:48.360
+Once again please check the course notes if you need clarification of the math involved.
+
+12:54.360 --> 13:01.860
+Year of production for each additional year the price increase is by the exponential of 0.04 minus 1
+
+13:01.860 --> 13:03.340
+in percentages.
+
+13:03.720 --> 13:10.400
+That is 4 percent.
+
+13:10.440 --> 13:19.870
+Finally we have the dummys we have 6 dummys Audi BMW Mercedes Mitsubishi Renault and Toyota.
+
+13:20.070 --> 13:25.570
+We have included Volkswagen as we said that the dummy should be one less than the options.
+
+13:25.650 --> 13:34.440
+So if all dummies are know then we get this model Another fact is that if all dumpings are no then the
+
+13:34.440 --> 13:35.310
+car is not.
+
+13:35.310 --> 13:40.750
+Audi BMW Mercedes Mitsubishi Renault or Toyota.
+
+13:40.890 --> 13:42.550
+It is a Volkswagen.
+
+13:42.960 --> 13:47.620
+So actually the dummies give us a comparison with the Volkswagen car.
+
+13:47.770 --> 13:49.050
+That's the benchmark
+
+13:53.140 --> 13:56.950
+the coefficient of the Audi dummy is 0.06.
+
+13:56.950 --> 14:05.170
+Therefore all else being equal the price of an Audi is 6 percent higher than a Volkswagen price Similarily
+
+14:05.380 --> 14:13.830
+the prices of a BMW and Mercedes are 12 percent and 11 percent more than that of a Volkswagen Mitsubishi
+
+14:13.830 --> 14:19.030
+is 5 percent cheaper in a Renault is the cheapest at a 17 percent lower price.
+
+14:19.900 --> 14:29.980
+To exhaust the dummys all else equal a Toyota is 4 percent more expensive than a Volkswagen.
+
+14:29.980 --> 14:31.270
+All right.
+
+14:31.270 --> 14:34.900
+This wraps up our exercise on regression analysis.
+
+14:34.930 --> 14:38.630
+This was my favorite topic so far and I hope you had fun.
+
+14:39.700 --> 14:40.790
+See you next time.
+
+14:40.810 --> 14:42.010
+And thanks for watching.

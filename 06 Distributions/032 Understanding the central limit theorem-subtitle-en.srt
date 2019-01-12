@@ -1,0 +1,216 @@
+﻿1
+00:00:01,210 --> 00:00:06,640
+The central limit theorem is one of the most important concepts in statistics.
+
+2
+00:00:06,640 --> 00:00:12,640
+If you had to choose one thing to remember from this course which I hope you don't we'll see in this
+
+3
+00:00:12,640 --> 00:00:15,190
+lesson is what you want to remember.
+
+4
+00:00:15,190 --> 00:00:21,280
+The reason for this is the unmatched practical application of the theorem OK.
+
+5
+00:00:21,450 --> 00:00:25,940
+Let's get started then imagine that you are given a data set.
+
+6
+00:00:26,070 --> 00:00:28,180
+Its distribution does not matter.
+
+7
+00:00:28,200 --> 00:00:33,030
+It could be normal uniform binomial or completely random.
+
+8
+00:00:33,060 --> 00:00:37,090
+The first thing you want to do is start taking out subsets from the data sets.
+
+9
+00:00:37,230 --> 00:00:41,070
+Or as statisticians call it you start sampling it.
+
+10
+00:00:41,070 --> 00:00:45,290
+This would allow you to get a better idea of how the entire data is made.
+
+11
+00:00:45,330 --> 00:00:46,030
+Right.
+
+12
+00:00:46,400 --> 00:00:47,160
+OK.
+
+13
+00:00:47,310 --> 00:00:52,590
+Once you have taken a sufficient number of samples and then calculated the mean of each sample will
+
+14
+00:00:52,590 --> 00:00:55,300
+be able to apply the Central Limit Theorem.
+
+15
+00:00:55,710 --> 00:01:01,410
+No matter the distribution of the entire data sets binomial uniform or another one.
+
+16
+00:01:01,410 --> 00:01:06,940
+The means of the samples you took from the entire dataset will approximate a normal distribution.
+
+17
+00:01:07,860 --> 00:01:13,350
+The more samples you extract and the bigger they are the closer to a normal distribution the sample
+
+18
+00:01:13,350 --> 00:01:14,610
+means will be.
+
+19
+00:01:14,640 --> 00:01:20,640
+Moreover their distribution will have the same mean as the original data set and an end times smaller
+
+20
+00:01:20,640 --> 00:01:25,050
+variance where n is the size of your samples you took from the data sets.
+
+21
+00:01:25,940 --> 00:01:28,480
+Let's confirm the theorem with an example.
+
+22
+00:01:28,580 --> 00:01:33,230
+We have prepared 960 random numbers from 1 to 1000.
+
+23
+00:01:33,230 --> 00:01:35,180
+This is their frequency distribution.
+
+24
+00:01:35,180 --> 00:01:42,560
+So you are sure that they are randomly picked the mean of this dataset is 489 and its variance is eighty
+
+25
+00:01:42,560 --> 00:01:45,370
+two thousand eight hundred five.
+
+26
+00:01:45,390 --> 00:01:51,480
+Let's extract 30 random samples out of the dataset each consisting of 25 numbers.
+
+27
+00:01:51,840 --> 00:01:55,540
+Remember when we said that the sample should be sufficiently large.
+
+28
+00:01:55,710 --> 00:02:01,080
+A common rule of thumb is that the sample should be bigger than 25 observations.
+
+29
+00:02:01,080 --> 00:02:04,440
+The bigger the sample size the better the results you'll get.
+
+30
+00:02:05,570 --> 00:02:07,790
+So we have our samples.
+
+31
+00:02:07,790 --> 00:02:11,810
+Now we are going to calculate their means and plot them once again.
+
+32
+00:02:12,290 --> 00:02:13,020
+OK.
+
+33
+00:02:13,130 --> 00:02:14,330
+Excellent.
+
+34
+00:02:14,330 --> 00:02:18,080
+It looks approximately normally distributed doesn't it.
+
+35
+00:02:18,080 --> 00:02:21,000
+Let's check if the other part of the theorem was right.
+
+36
+00:02:21,050 --> 00:02:24,640
+The mean of our newly acquired dataset is 492.
+
+37
+00:02:24,740 --> 00:02:28,660
+While its variants three thousand one hundred seventy one.
+
+38
+00:02:28,940 --> 00:02:31,040
+Did we expect these numbers.
+
+39
+00:02:31,040 --> 00:02:36,680
+We anticipated a mean of four hundred eighty nine and a variance of eighty two thousand eight hundred
+
+40
+00:02:36,680 --> 00:02:39,080
+five divided by 25.
+
+41
+00:02:39,080 --> 00:02:46,210
+So around three thousand three hundred twelve well when dealing with such big numbers we almost get
+
+42
+00:02:46,210 --> 00:02:51,940
+the mean right and the variance was not that far off either in the next few lectures you will learn
+
+43
+00:02:51,940 --> 00:02:57,190
+how to statistically confirm whether such small differences are close enough to the actual result we
+
+44
+00:02:57,190 --> 00:03:00,660
+expect to obtain spoiler alert.
+
+45
+00:03:00,850 --> 00:03:01,530
+They are.
+
+46
+00:03:01,630 --> 00:03:03,870
+And we'll show you why.
+
+47
+00:03:03,900 --> 00:03:08,550
+So we have learned the main idea behind the Central Limit Theorem.
+
+48
+00:03:08,600 --> 00:03:15,230
+The key takeaway from this lesson is that the number of samples taken tends towards infinity the distribution
+
+49
+00:03:15,230 --> 00:03:18,950
+of the mean start approximating a normal distribution.
+
+50
+00:03:18,950 --> 00:03:24,950
+Imagine their power if your dataset was made up of millions of values and you could afford to sample
+
+51
+00:03:24,950 --> 00:03:27,250
+just a tiny bit of them.
+
+52
+00:03:27,320 --> 00:03:33,850
+We can be assuming normally distributed data almost all the time and that's extremely helpful as you
+
+53
+00:03:33,850 --> 00:03:38,020
+will see later on OK this will do for now.
+
+54
+00:03:38,040 --> 00:03:38,880
+Thanks for watching.
+

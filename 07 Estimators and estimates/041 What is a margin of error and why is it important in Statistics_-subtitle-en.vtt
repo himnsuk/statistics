@@ -1,0 +1,184 @@
+WEBVTT
+
+00:00.830 --> 00:06.690
+Welcome back in the last few lessons we've been concentrating on confidence intervals.
+
+00:07.040 --> 00:13.520
+We learned about two situations when the population variance is known which happens very rarely in practice
+
+00:13.790 --> 00:20.840
+and when the variance is unknown and follows a Student's t distribution the goal of this lesson is less
+
+00:20.840 --> 00:25.180
+about learning and more about clarifying alright.
+
+00:25.230 --> 00:31.930
+These are the formulas that allow us to find confidence intervals as we noted in our previous lecture.
+
+00:31.950 --> 00:36.170
+These parts are the ones that determine the span of the confidence interval.
+
+00:36.470 --> 00:39.270
+There is a special name for these expressions.
+
+00:39.360 --> 00:41.050
+Margin of error.
+
+00:41.400 --> 00:47.130
+When the population variance is known the margin of error is equal to this expression and in the case
+
+00:47.130 --> 00:52.880
+of population variance unknown the margin of error is equal to this expression instead.
+
+00:52.890 --> 00:58.260
+So basically the confidence intervals could be summarized as follows.
+
+00:58.260 --> 01:05.500
+The true population mean falls in the interval defined by the sample mean plus minus the margin of error.
+
+01:05.500 --> 01:08.300
+Now we get to the core of this lesson.
+
+01:08.500 --> 01:14.260
+Getting a smaller margin of error means that the confidence interval would be narrower as we want a
+
+01:14.260 --> 01:15.390
+better prediction.
+
+01:15.400 --> 01:20.210
+It is in our interest to have the narrowest possible confidence interval.
+
+01:20.230 --> 01:24.090
+The best part is that we can actually control the margin of error.
+
+01:24.100 --> 01:25.910
+Let's see its parts.
+
+01:25.930 --> 01:32.950
+There is a statistic a stair deviation and the sample size the statistic and the standard deviation
+
+01:32.950 --> 01:38.440
+are in the numerator so smaller statistic and smaller standard deviations will reduce the margin of
+
+01:38.440 --> 01:39.760
+error.
+
+01:39.760 --> 01:46.900
+How do we do that a higher level of confidence increases the statistic a higher statistic means a higher
+
+01:46.900 --> 01:48.120
+margin of error.
+
+01:48.130 --> 01:51.340
+This leads to a wider confidence interval.
+
+01:51.340 --> 01:56.860
+Think about this example you took an exam and you want to make your prediction about the mean grade
+
+01:56.890 --> 02:03.600
+obtained by all exam takers as a b c d and f are all possible grades.
+
+02:03.640 --> 02:09.990
+We are 100 percent confident that the mean grade will be in the confidence interval from F to A.
+
+02:10.060 --> 02:17.380
+Now if we lower the confidence level to 99 percent we may end up with a confidence interval from F plus
+
+02:17.380 --> 02:18.840
+to a minus.
+
+02:19.210 --> 02:26.550
+Remember the interpretation in 99 percent of the cases the population mean falls in the interval.
+
+02:26.590 --> 02:33.700
+So with a 50 percent confidence level in 50 percent of the cases the true mean will fall in the specified
+
+02:33.700 --> 02:35.080
+interval.
+
+02:35.080 --> 02:40.060
+The only scenario under which this is possible is if the interval is narrower.
+
+02:40.060 --> 02:46.540
+Therefore if the standard deviation and the sample size are kept constant a lower confidence level will
+
+02:46.540 --> 02:48.480
+result in a narrower interval.
+
+02:49.680 --> 02:51.860
+What about the standard deviation.
+
+02:52.020 --> 02:53.340
+That's easy.
+
+02:53.340 --> 02:57.960
+A lower standard deviation means that the dataset is more concentrated around the mean.
+
+02:57.960 --> 03:00.110
+So we have a better chance to get it right.
+
+03:01.120 --> 03:07.900
+For instance the mean grade in your class is B and you know that there were people with A's PC's DS
+
+03:07.930 --> 03:09.460
+and a few F's.
+
+03:09.460 --> 03:12.100
+How likely is it that you got a B.
+
+03:12.100 --> 03:18.520
+Now compare this to a situation when the teacher said the mean of the class is around B and the lowest
+
+03:18.520 --> 03:20.320
+grade is c..
+
+03:20.380 --> 03:27.280
+In this case you are much more likely to get a B right in the first case the grades are dispersed while
+
+03:27.280 --> 03:30.740
+in the second they are concentrated.
+
+03:30.740 --> 03:38.270
+Lastly we have the sample size in the denominator higher sample sizes will decrease the margin of error.
+
+03:38.270 --> 03:40.550
+This is also quite intuitive.
+
+03:40.550 --> 03:45.500
+The more observations you have in your sample the more certain you are in the prediction.
+
+03:45.500 --> 03:51.950
+This time you have a B plus there are 30 people in the class and you want to know if you performed above
+
+03:51.950 --> 03:56.690
+the average you ask three of your friends and they all got A's.
+
+03:56.690 --> 04:00.930
+Your sample of three people leads you to think you underperformed.
+
+04:01.100 --> 04:06.970
+You get frustrated and start asking around some more the next 5 people you ask got Ds.
+
+04:07.310 --> 04:11.390
+Now you have a sample of 8 people and it seems you did quite well.
+
+04:11.660 --> 04:19.100
+After asking everyone in class the whole population that is you find out that the mean grade is B you
+
+04:19.100 --> 04:22.310
+are above average by a small margin.
+
+04:22.340 --> 04:27.440
+The conclusion is that the more observations there are in the sample the higher the chances of getting
+
+04:27.440 --> 04:31.890
+a good idea about the true mean of the entire population.
+
+04:31.920 --> 04:32.980
+All right.
+
+04:32.980 --> 04:36.670
+Hopefully this clears up some doubts you may have had.
+
+04:36.670 --> 04:37.690
+Thanks for watching.

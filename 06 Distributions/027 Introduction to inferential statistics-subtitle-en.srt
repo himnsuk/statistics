@@ -1,0 +1,64 @@
+﻿1
+00:00:00,690 --> 00:00:06,690
+Now that we have covered the basics of descriptive statistics it is time to move on to inferential statistics
+
+2
+00:00:07,640 --> 00:00:13,860
+inferential statistics refers to methods that rely on probability theory and distributions in particular
+
+3
+00:00:13,950 --> 00:00:17,690
+to predict population values based on sample data.
+
+4
+00:00:17,700 --> 00:00:23,430
+While this definition may not be clear just yet starting from the next lesson we will define what a
+
+5
+00:00:23,430 --> 00:00:28,720
+distribution is and we'll go through a couple of distributions you will likely use at work.
+
+6
+00:00:28,740 --> 00:00:34,490
+This will naturally lead us to point estimates and we will conclude the section with confidence intervals.
+
+7
+00:00:34,920 --> 00:00:39,990
+We will not only present these topics but will also develop a deep understanding of the statistical
+
+8
+00:00:39,990 --> 00:00:41,190
+processes.
+
+9
+00:00:41,190 --> 00:00:45,360
+This will help you a great deal if you get into data science.
+
+10
+00:00:45,380 --> 00:00:50,270
+I recommend you complete all the exercises provided as they will reveal additional subjects you will
+
+11
+00:00:50,270 --> 00:00:56,180
+be in charge of researching these insights will likely be your gateway to the fundamentals of quantitative
+
+12
+00:00:56,180 --> 00:00:58,630
+research and data driven decision making.
+
+13
+00:00:59,690 --> 00:01:02,730
+Finally to get you more hyped about what's to come.
+
+14
+00:01:02,840 --> 00:01:08,300
+You to me the world's most popular e-learning Web site was making decisions about its strategy based
+
+15
+00:01:08,300 --> 00:01:11,090
+on the methodology that's to follow in this section.
+
+16
+00:01:11,830 --> 00:01:14,300
+Good luck with the lessons and have fun.
+

@@ -1,0 +1,260 @@
+﻿1
+00:00:00,810 --> 00:00:07,560
+So far we covered graphs that represent only one variable but how do we represent relationships between
+
+2
+00:00:07,590 --> 00:00:09,080
+two variables.
+
+3
+00:00:09,390 --> 00:00:13,840
+In this video we'll explore across tables and scatter plots.
+
+4
+00:00:13,890 --> 00:00:19,170
+Once again we have a division between categorical and numerical variables.
+
+5
+00:00:19,830 --> 00:00:22,390
+Let's start with categorical variables.
+
+6
+00:00:22,440 --> 00:00:28,860
+The most common way to represent them is using cross tables or as some statisticians call them contingency
+
+7
+00:00:28,860 --> 00:00:29,630
+tables.
+
+8
+00:00:30,560 --> 00:00:36,680
+Imagine you are an investment manager and you manage stocks bonds and real estate investments for three
+
+9
+00:00:36,680 --> 00:00:38,360
+different investors.
+
+10
+00:00:38,360 --> 00:00:43,780
+Each of them has a different idea of risk and hence their money is allocated in a different way.
+
+11
+00:00:43,790 --> 00:00:50,810
+Among the three asset classes across table representing all the data looks in the following way you
+
+12
+00:00:50,810 --> 00:00:55,850
+can clearly see the rows showing the different type of investment that's been made and the columns with
+
+13
+00:00:55,850 --> 00:00:57,810
+each investor's allocation.
+
+14
+00:00:57,920 --> 00:01:03,830
+It is good practice to calculate the totals of each row and column as it is often useful in further
+
+15
+00:01:03,830 --> 00:01:05,050
+analysis.
+
+16
+00:01:05,060 --> 00:01:11,360
+Notice that the subtotals of the rows give us total investment in stocks bonds and real estate.
+
+17
+00:01:11,510 --> 00:01:18,520
+On the other hand the subtotals of the columns gives us the holdings of each investor once we have created
+
+18
+00:01:18,520 --> 00:01:24,740
+a cross table we can proceed to visualizing the data onto a plane a very useful chart.
+
+19
+00:01:24,760 --> 00:01:30,320
+In such cases is a variation of the bar chart called the side by side bar chart.
+
+20
+00:01:30,400 --> 00:01:35,400
+It represents the holdings of each investor in the different types of assets.
+
+21
+00:01:35,710 --> 00:01:37,540
+Stocks are in green.
+
+22
+00:01:37,540 --> 00:01:38,860
+Bonds are in red.
+
+23
+00:01:38,920 --> 00:01:41,230
+And real estate is in blue.
+
+24
+00:01:41,260 --> 00:01:47,020
+The name of this type of chart comes from the fact that for each investor the categories of assets are
+
+25
+00:01:47,020 --> 00:01:48,940
+represented side by side.
+
+26
+00:01:49,210 --> 00:01:55,900
+In this way we can easily compare asset holdings for a specific investor or among investors.
+
+27
+00:01:55,900 --> 00:01:56,900
+Easy right.
+
+28
+00:01:57,220 --> 00:02:02,980
+All graphs are very easy to create and read once you have identified the type of data you're dealing
+
+29
+00:02:02,980 --> 00:02:05,990
+with and decided on the best way to visualize it.
+
+30
+00:02:06,920 --> 00:02:10,960
+Finally we would like to conclude with a very important graph.
+
+31
+00:02:11,120 --> 00:02:19,760
+The scatterplot this is used when representing two numerical sets of data for this example we have gathered
+
+32
+00:02:19,760 --> 00:02:24,220
+the reading and writing S.A.T. scores of 100 individuals.
+
+33
+00:02:24,230 --> 00:02:27,560
+Let me first show you the graph before analyzing it.
+
+34
+00:02:28,750 --> 00:02:29,560
+All right.
+
+35
+00:02:29,690 --> 00:02:35,300
+First they say scores are or component range from 200 to 800 points.
+
+36
+00:02:35,300 --> 00:02:41,370
+That is why our data is bounded within the range of 200 to 800 circuit.
+
+37
+00:02:41,470 --> 00:02:48,020
+Our vertical axes shows the writing scores while the horizontal axes contains the reading scores.
+
+38
+00:02:48,020 --> 00:02:54,530
+Third there are 100 students and their results correspond to a specific point on the graph.
+
+39
+00:02:54,740 --> 00:02:59,210
+Each point gives us information about a particular student's performance.
+
+40
+00:02:59,810 --> 00:03:08,240
+For example this is Jane she scored 300 on writing but 550 on the reading part scatter plots usually
+
+41
+00:03:08,240 --> 00:03:15,200
+represent lots and lots of observations when interpreting a scatterplot a statistician is not expected
+
+42
+00:03:15,200 --> 00:03:17,530
+to look into single data points.
+
+43
+00:03:17,540 --> 00:03:24,730
+He would be much more interested in getting the main idea of how the data is distributed OK.
+
+44
+00:03:24,790 --> 00:03:28,350
+The first thing we see is that there is an obvious up trend.
+
+45
+00:03:28,420 --> 00:03:33,730
+This is because lower writing scores are usually obtained by students with lower reading scores and
+
+46
+00:03:33,730 --> 00:03:38,010
+higher writing scores have been achieved by students with higher reading scores.
+
+47
+00:03:38,020 --> 00:03:39,880
+This is logical right.
+
+48
+00:03:39,880 --> 00:03:46,320
+Students are more likely to do well on both because the two tests are closely related.
+
+49
+00:03:46,360 --> 00:03:52,170
+Second we notice a concentration of students in the middle of the graph with scores in the region of
+
+50
+00:03:52,170 --> 00:03:56,480
+450 to 550 on both reading and writing.
+
+51
+00:03:56,520 --> 00:04:01,090
+Remember that we said that scores could be anywhere between 200 and 800.
+
+52
+00:04:01,290 --> 00:04:04,990
+Well 500 is the average score one can get.
+
+53
+00:04:05,010 --> 00:04:09,040
+So it makes sense that a lot of people fall into that area.
+
+54
+00:04:09,060 --> 00:04:14,310
+Third there is a group of people with both very high writing and reading scores.
+
+55
+00:04:14,310 --> 00:04:18,900
+The exceptional students tend to be excellent at both components.
+
+56
+00:04:18,900 --> 00:04:25,660
+This is less true for bad students as their performance tends to deviate when performing different tasks.
+
+57
+00:04:25,660 --> 00:04:28,320
+Finally we have Jane from a minute ago.
+
+58
+00:04:28,600 --> 00:04:35,160
+She is far away from every observation as she scored above average on reading but poorly on writing.
+
+59
+00:04:35,350 --> 00:04:41,750
+This observation is called an outlier as it goes against the logic of the whole dataset.
+
+60
+00:04:41,800 --> 00:04:46,910
+We will learn more about outliers and how to treat them in our analysis later on in this course.
+
+61
+00:04:48,110 --> 00:04:50,600
+So we have gone through the basics.
+
+62
+00:04:50,600 --> 00:04:56,870
+We have covered populations sample's types of variables graphs and tables.
+
+63
+00:04:56,870 --> 00:05:03,350
+It is time for us to dive into the heart of descriptive statistics measurements of central tendency
+
+64
+00:05:03,410 --> 00:05:05,150
+and variability.
+
+65
+00:05:05,150 --> 00:05:06,170
+Thanks for watching.
+

@@ -1,0 +1,124 @@
+WEBVTT
+
+00:00.730 --> 00:01.420
+OK.
+
+00:01.480 --> 00:02.580
+Excellent.
+
+00:02.740 --> 00:08.420
+We already know how to create graphs and tables for categorical variables in this lesson.
+
+00:08.430 --> 00:14.830
+We're going to do the same for numerical variables and given that numerical data is the main focus of
+
+00:14.830 --> 00:15.690
+this course.
+
+00:15.790 --> 00:18.760
+We will spend a couple of lessons on this topic.
+
+00:19.730 --> 00:24.880
+Now whenever we want to plot data it is best to first order it in a table.
+
+00:25.190 --> 00:31.980
+So as we did with categorical variables Let's start by creating a frequency distribution table.
+
+00:32.060 --> 00:34.910
+Here's a list of 20 different numbers.
+
+00:35.300 --> 00:40.610
+If we arrange them in a frequency table like the one we use for categorical variables we would obtain
+
+00:40.610 --> 00:47.150
+a table with 20 rows each of them representing one number of a corresponding frequency of one as each
+
+00:47.150 --> 00:53.610
+number occurs exactly one time this table would be impractical for any analysis right.
+
+00:54.450 --> 01:00.960
+Well when we deal with numerical variables it makes much more sense to group the data into intervals
+
+01:01.110 --> 01:04.040
+and then find the corresponding frequencies.
+
+01:04.440 --> 01:11.200
+In this way we make a summary of our data that allows for a meaningful visual representation.
+
+01:11.250 --> 01:13.530
+How do we choose these intervals.
+
+01:13.530 --> 01:19.860
+Generally statisticians prefer working with the groups of data that contain 5 to 20 intervals.
+
+01:19.860 --> 01:22.400
+This way the summary can be useful.
+
+01:23.330 --> 01:29.780
+However this varies from case to case and the correct choice of intervals largely depends on the amount
+
+01:29.780 --> 01:33.670
+of data we are working with in our example.
+
+01:33.690 --> 01:38.270
+We will divide the data into five intervals of equal length.
+
+01:38.280 --> 01:41.880
+The simple formula that we use is as follows.
+
+01:42.450 --> 01:49.440
+The interval with is equal to the largest number minus the smallest number divided by the number of
+
+01:49.440 --> 01:51.300
+desired intervals.
+
+01:51.300 --> 01:57.540
+In our case the length of the interval should be 100 minus 1 divided by 5.
+
+01:57.600 --> 02:00.750
+The result is nineteen point eight.
+
+02:00.750 --> 02:04.930
+Now we want to round this number up in order to reach a neater representation.
+
+02:04.930 --> 02:16.610
+Therefore our intervals will be as follows 1 to 21 21 to 41 41 to 61 61 to 81 an 81 to 101.
+
+02:17.010 --> 02:21.470
+Each interval has a with of 20 OK.
+
+02:21.800 --> 02:28.700
+Let's try to construct the frequency distribution table will have to work with two components intervals
+
+02:28.820 --> 02:31.950
+and frequency as we can see from the table.
+
+02:32.000 --> 02:34.540
+There are 2 numbers in the first interval.
+
+02:34.580 --> 02:40.750
+For in the second three and the third six in the fourth and five in the fifth interval.
+
+02:41.430 --> 02:47.790
+For many analysis it is useful to calculate the relative frequency of the data points.
+
+02:47.790 --> 02:54.330
+As we said in a previous video the relative frequency is the frequency of a given interval as a part
+
+02:54.330 --> 02:55.710
+of the total.
+
+02:55.710 --> 03:00.750
+Let's add another column to our table and name it relative frequency.
+
+03:00.750 --> 03:08.880
+So the interval from 1 to 20 has an absolute frequency of 2 but a relative frequency of two divided
+
+03:08.880 --> 03:14.680
+by the total of 20 numbers which gives us 10 percent and so on as we fill the table.
+
+03:15.660 --> 03:19.690
+All right this is how we calculate relative frequencies.
+
+03:19.690 --> 03:23.430
+Now that we have summarized the raw data we can start plotting it.

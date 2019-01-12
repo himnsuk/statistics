@@ -1,0 +1,236 @@
+﻿1
+00:00:00,640 --> 00:00:06,970
+Hi again after we have introduced the topic this lesson will be a lot more quantitative in the first
+
+2
+00:00:06,970 --> 00:00:08,060
+section of the course.
+
+3
+00:00:08,080 --> 00:00:09,530
+We talked about correllation.
+
+4
+00:00:09,610 --> 00:00:13,680
+Remember let's do a quick recap first.
+
+5
+00:00:13,850 --> 00:00:17,410
+How do we identify a correlation between two variables.
+
+6
+00:00:17,810 --> 00:00:23,500
+Well one way is to plop them on a scatterplot or a line chart and try to find a pattern.
+
+7
+00:00:23,510 --> 00:00:29,980
+However as we're getting more acquainted with statistics we would prefer using the correlation coefficient.
+
+8
+00:00:30,080 --> 00:00:32,900
+Here are the formulas we saw earlier.
+
+9
+00:00:32,900 --> 00:00:38,060
+All right let's explore a few examples of correlated variables shall we.
+
+10
+00:00:38,060 --> 00:00:40,290
+Here we have three datasets.
+
+11
+00:00:40,310 --> 00:00:44,150
+The first one represents the number of movies Vin Diesel makes per year.
+
+12
+00:00:44,280 --> 00:00:50,170
+The second the U.S. GDP growth rate and the third the UK GDP growth rate.
+
+13
+00:00:50,420 --> 00:00:54,100
+You can already sense this will be an action packed video.
+
+14
+00:00:54,110 --> 00:00:57,920
+Let's find the correlation coefficient of these data sets.
+
+15
+00:00:58,070 --> 00:01:03,710
+I would like to remind you that the correlation coefficients our values from minus 1 to plus one were
+
+16
+00:01:03,710 --> 00:01:07,090
+zero shows no linear relationship one.
+
+17
+00:01:07,160 --> 00:01:10,310
+A very strong positive correlation and minus one.
+
+18
+00:01:10,430 --> 00:01:17,100
+A very strong negative correlation the correlation of Vin Diesel movies and the U.S. GDP growth rate
+
+19
+00:01:17,160 --> 00:01:19,250
+is 0.4 3.
+
+20
+00:01:19,380 --> 00:01:21,370
+What's the meaning of this value.
+
+21
+00:01:21,750 --> 00:01:27,780
+Well a far fetched explanation would be that when times are good and GDP rises Vin Diesel makes more
+
+22
+00:01:27,780 --> 00:01:29,390
+movies and vice versa.
+
+23
+00:01:30,200 --> 00:01:38,360
+OK if we calculate the correlation of Vin Diesel movies and the UK GDP growth rate we get 0.4 6.
+
+24
+00:01:38,390 --> 00:01:42,870
+The number of movies he makes has a stronger correlation with the UK GDP growth.
+
+25
+00:01:43,010 --> 00:01:50,060
+Although Vinh works in the USA and supposedly has nothing to do with the UK certainly our previous explanation
+
+26
+00:01:50,060 --> 00:01:52,090
+does not sound convincing.
+
+27
+00:01:52,100 --> 00:01:57,450
+Finally the correlation of US GDP growth rate and UK GDP growth rate is zero.
+
+28
+00:01:58,190 --> 00:02:00,250
+Way what's going on.
+
+29
+00:02:00,440 --> 00:02:02,510
+This doesn't make any sense.
+
+30
+00:02:02,510 --> 00:02:08,810
+We have to make a few considerations though first does it sound reasonable that gigantic countries like
+
+31
+00:02:08,810 --> 00:02:13,930
+the USA and the UK will have anything to do with Vin Diesel starring in a film.
+
+32
+00:02:13,940 --> 00:02:17,710
+Of course not the result we got is pure coincidence.
+
+33
+00:02:17,900 --> 00:02:21,350
+I assure you that many many things in the world are correlated.
+
+34
+00:02:21,410 --> 00:02:24,230
+Some even more absurd than our example.
+
+35
+00:02:24,470 --> 00:02:27,440
+But correlation does not imply causation.
+
+36
+00:02:27,440 --> 00:02:34,630
+It's easy to find correlations but much harder to find causal relationships to exhaust this example.
+
+37
+00:02:34,640 --> 00:02:39,800
+We should also comment on the lack of correlation between the US and the UK GDP growth rate.
+
+38
+00:02:40,190 --> 00:02:47,690
+Well our sample is drawn from the period 2010 to 2015 which is shortly after the US subprime mortgage
+
+39
+00:02:47,690 --> 00:02:53,990
+crisis and during the European sovereign debt crisis the US and UK were coping with their respective
+
+40
+00:02:53,990 --> 00:02:58,010
+situations in different ways and the results were mixed.
+
+41
+00:02:58,130 --> 00:03:03,320
+As you can see the low correlation does not mean one country was doing better than the other.
+
+42
+00:03:03,440 --> 00:03:05,330
+It shows they are stronger and weaker.
+
+43
+00:03:05,330 --> 00:03:08,530
+Times were not coinciding in our sample period.
+
+44
+00:03:08,600 --> 00:03:14,780
+However history tells us that American and European historical growth rates have had a causal relationship
+
+45
+00:03:14,780 --> 00:03:18,700
+because of trade war and movement of capital and labor.
+
+46
+00:03:19,490 --> 00:03:23,840
+All right after seeing these three cases what's the bottom line.
+
+47
+00:03:23,840 --> 00:03:27,050
+Correlation does not imply causation.
+
+48
+00:03:27,050 --> 00:03:33,230
+This whole lesson was to illustrate that some variables are strangely correlated while others are unexpectedly
+
+49
+00:03:33,230 --> 00:03:36,310
+uncorrelated in regression analysis.
+
+50
+00:03:36,350 --> 00:03:40,970
+You will often start with a correlation test to see what's going on with your data.
+
+51
+00:03:41,390 --> 00:03:46,620
+But be wary as the results could be misleading in the following lessons.
+
+52
+00:03:46,640 --> 00:03:48,730
+We will get familiar with regressions.
+
+53
+00:03:48,800 --> 00:03:54,870
+We will take extra time to distinguish between correlation analysis and regression analysis.
+
+54
+00:03:54,950 --> 00:03:56,540
+All right to conclude.
+
+55
+00:03:56,580 --> 00:03:57,950
+Let's say it again.
+
+56
+00:03:57,990 --> 00:04:00,890
+What's the key takeaway from this lesson.
+
+57
+00:04:00,900 --> 00:04:01,890
+That's right.
+
+58
+00:04:01,890 --> 00:04:04,920
+Correlation does not imply causation.
+
+59
+00:04:04,920 --> 00:04:05,910
+Thanks for watching.
+

@@ -1,0 +1,268 @@
+﻿1
+00:00:00,420 --> 00:00:02,870
+Hi and welcome back.
+
+2
+00:00:03,030 --> 00:00:05,220
+This is the main section of this course.
+
+3
+00:00:05,340 --> 00:00:08,110
+It is based on the knowledge that you acquired previously.
+
+4
+00:00:08,130 --> 00:00:11,460
+So if you haven't been through it you may have a hard time keeping up.
+
+5
+00:00:12,410 --> 00:00:18,400
+Make sure you have seen all the videos about confidence intervals distribution's the tables and tea
+
+6
+00:00:18,400 --> 00:00:21,520
+tables and have done all the exercises.
+
+7
+00:00:21,800 --> 00:00:24,570
+If you've completed them already you are good to go.
+
+8
+00:00:25,440 --> 00:00:30,200
+Confidence Intervals provide us with an estimation of where the parameters are located.
+
+9
+00:00:30,210 --> 00:00:35,180
+However when you are making a decision you need a yes or no answer.
+
+10
+00:00:35,190 --> 00:00:39,050
+The correct approach in this case is to use a test.
+
+11
+00:00:39,200 --> 00:00:44,420
+In this section we will learn how to perform one of the fundamental tasks in statistics.
+
+12
+00:00:44,450 --> 00:00:46,090
+Hypothesis Testing.
+
+13
+00:00:46,550 --> 00:00:51,240
+OK there are four steps in data driven decision making.
+
+14
+00:00:51,250 --> 00:00:55,540
+First you must formulate a hypothesis second.
+
+15
+00:00:55,660 --> 00:01:00,960
+Once you have formulated a hypothesis you will have to find the right test for your hypothesis.
+
+16
+00:01:01,700 --> 00:01:04,000
+Third you execute the test.
+
+17
+00:01:04,610 --> 00:01:07,830
+And fourth you make a decision based on the result.
+
+18
+00:01:08,910 --> 00:01:13,050
+Let's start from the beginning what is a hypothesis.
+
+19
+00:01:13,050 --> 00:01:14,990
+Though there are many ways to define it.
+
+20
+00:01:15,060 --> 00:01:21,190
+The most intuitive I've seen is a hypothesis is an idea that can be tested.
+
+21
+00:01:21,270 --> 00:01:25,420
+This is not the formal definition but it explains the point very well.
+
+22
+00:01:25,860 --> 00:01:29,390
+So if I tell you that apples in New York are expensive.
+
+23
+00:01:29,460 --> 00:01:35,210
+This is an idea or a statement but is not testable until I have something to compare it with.
+
+24
+00:01:35,220 --> 00:01:41,580
+For instance if I define expensive as any price higher than one dollar and seventy five cents per pound
+
+25
+00:01:41,790 --> 00:01:44,450
+then it immediately becomes a hypothesis.
+
+26
+00:01:45,240 --> 00:01:46,190
+All right what.
+
+27
+00:01:46,270 --> 00:01:49,570
+Something that cannot be tested with a hypothesis.
+
+28
+00:01:49,570 --> 00:01:51,260
+An example may be.
+
+29
+00:01:51,310 --> 00:01:57,490
+Would the USA do better or worse under a Clinton administration compared to a Trump administration.
+
+30
+00:01:57,490 --> 00:02:04,000
+Statistically speaking this is an idea but there is no data to test it therefore it cannot be a hypothesis
+
+31
+00:02:04,060 --> 00:02:05,980
+of a statistical test.
+
+32
+00:02:05,980 --> 00:02:10,220
+Actually it is more likely to be a topic of another discipline.
+
+33
+00:02:10,240 --> 00:02:15,730
+Conversely in statistics we may compare different U.S. presidencies that have already been completed
+
+34
+00:02:15,970 --> 00:02:19,620
+such as the Obama administration and the Bush administration.
+
+35
+00:02:19,690 --> 00:02:22,060
+As we have data on both.
+
+36
+00:02:22,170 --> 00:02:26,460
+All right let's get out of politics and get into hypotheses.
+
+37
+00:02:26,740 --> 00:02:32,940
+Here's a simple topic that can be tested according to Glassdoor the popular selling information Web
+
+38
+00:02:32,940 --> 00:02:39,850
+site the mean data scientists cellaring the US is one hundred thirteen thousand dollars so we wanted
+
+39
+00:02:39,850 --> 00:02:42,020
+to test if their estimate is correct.
+
+40
+00:02:42,790 --> 00:02:49,780
+There are two hypotheses that are made the null hypothesis denoted h zero and the Alternative Hypothesis
+
+41
+00:02:49,960 --> 00:02:52,270
+denoted h 1 or H.
+
+42
+00:02:52,840 --> 00:02:59,560
+The null hypothesis is the one to be tested and the alternative is everything else in our example.
+
+43
+00:02:59,560 --> 00:03:05,890
+The null hypothesis would be the mean data scientists salary is one hundred thirteen thousand dollars
+
+44
+00:03:06,280 --> 00:03:12,550
+while the alternative the mean data scientists salary is not one hundred thirteen thousand dollars.
+
+45
+00:03:12,610 --> 00:03:17,980
+Now you would want to check if one hundred thirteen thousand is close enough to the true mean predicted
+
+46
+00:03:17,980 --> 00:03:23,240
+by our sample in case it is you would accept the null hypothesis.
+
+47
+00:03:23,320 --> 00:03:26,950
+Otherwise you would reject the null hypothesis.
+
+48
+00:03:27,010 --> 00:03:32,840
+The concept of the null hypothesis is similar to innocent until proven guilty.
+
+49
+00:03:32,890 --> 00:03:38,960
+We assume that the mean salary is one hundred thirteen thousand dollars and we try to prove otherwise.
+
+50
+00:03:39,900 --> 00:03:44,740
+All right this was an example of a two sided or a two tailed test.
+
+51
+00:03:44,750 --> 00:03:51,250
+You can also form one sided or OneTel tests say your friend Paul told you that he thinks data scientists
+
+52
+00:03:51,260 --> 00:03:54,390
+are more than one hundred twenty five thousand dollars per year.
+
+53
+00:03:54,590 --> 00:03:57,690
+You don't him so you design a test to see who is right.
+
+54
+00:03:58,790 --> 00:04:04,790
+The null hypothesis of this test would be the mean data scientists salary is more than one hundred twenty
+
+55
+00:04:04,790 --> 00:04:06,700
+five thousand dollars.
+
+56
+00:04:06,710 --> 00:04:09,090
+The alternative will cover everything else.
+
+57
+00:04:09,170 --> 00:04:15,620
+Thus the mean data scientists salary is less than or equal to one hundred twenty five thousand dollars.
+
+58
+00:04:16,730 --> 00:04:22,130
+It is important to note that outcomes of tests refer to the population parameter rather than the sample
+
+59
+00:04:22,130 --> 00:04:24,210
+statistic as such.
+
+60
+00:04:24,290 --> 00:04:32,170
+The result that we get is for the population another crucial consideration is that generally the researcher
+
+61
+00:04:32,170 --> 00:04:34,960
+is trying to reject the null hypothesis.
+
+62
+00:04:34,960 --> 00:04:40,930
+Think about the null hypothesis as the status quo and the alternative as the change or innovation that
+
+63
+00:04:40,930 --> 00:04:42,810
+challenges that status quo.
+
+64
+00:04:43,180 --> 00:04:49,270
+In our example Paul was representing the status quo which we were challenging.
+
+65
+00:04:49,340 --> 00:04:50,110
+All right.
+
+66
+00:04:50,240 --> 00:04:52,750
+That's all for now in the next lectures.
+
+67
+00:04:52,770 --> 00:04:56,420
+We'll see some examples and learn how to make data driven decisions.
+

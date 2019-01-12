@@ -1,0 +1,106 @@
+WEBVTT
+
+00:00.980 --> 00:03.740
+OK great let's continue.
+
+00:03.740 --> 00:10.100
+By introducing the concept of an estimator of a population parameter it is an approximation depending
+
+00:10.100 --> 00:15.720
+solely on sample information a specific value is called an estimate.
+
+00:16.540 --> 00:23.990
+There are two types of estimates point estimates and confidence interval estimates of point estimate
+
+00:24.080 --> 00:25.380
+is a single number.
+
+00:25.430 --> 00:32.050
+While a confidence interval naturally is an interval the two are closely related.
+
+00:32.060 --> 00:37.880
+In fact the point estimate is located exactly in the middle of the confidence interval.
+
+00:37.950 --> 00:44.360
+However confidence intervals provide much more information and are preferred when making inferences.
+
+00:44.360 --> 00:47.030
+All right have we seen estimates so far.
+
+00:47.030 --> 00:54.090
+Sure we have the sample mean X bar is a point estimate of the population mean mue.
+
+00:54.350 --> 01:01.680
+Moreover the sample variance as squared was an estimate of the population variance Sigma squared.
+
+01:01.690 --> 01:04.680
+There may be many estimators for the same variable.
+
+01:04.720 --> 01:07.540
+However they all have two properties.
+
+01:07.540 --> 01:09.620
+Bias and efficiency.
+
+01:09.730 --> 01:14.500
+We will not prove them as the mathematics associated is out of the score of this course.
+
+01:14.500 --> 01:20.660
+However you should have an idea about the concepts estimators are like judges.
+
+01:20.790 --> 01:27.670
+We are always looking for the most efficient unbiased estimators an unbiased estimator has an expected
+
+01:27.670 --> 01:30.600
+value equal to the population parameter.
+
+01:31.000 --> 01:34.330
+Let's think of a biased estimator to explain that point.
+
+01:34.660 --> 01:40.030
+What if somebody told you that you will have to find the average height of Americans by taking a sample
+
+01:40.300 --> 01:43.860
+finding its mean and then adding one foot to that result.
+
+01:44.200 --> 01:47.950
+So the formula is X bar plus 1 foot.
+
+01:48.460 --> 01:50.760
+Well I hope you won't trust them.
+
+01:50.830 --> 01:54.310
+They gave you an estimator but a biased one.
+
+01:54.340 --> 01:59.550
+It makes much more sense that the average height of Americans is approximated just by the sample mean.
+
+01:59.560 --> 02:00.630
+Right.
+
+02:00.640 --> 02:05.700
+We say that the bias of this estimator is 1 foot clear.
+
+02:05.750 --> 02:07.100
+OK great.
+
+02:07.490 --> 02:09.490
+Let's move on to efficiency.
+
+02:10.260 --> 02:16.200
+The most efficient estimators are the ones with the least variability of outcomes from the estimates
+
+02:16.200 --> 02:20.180
+we know so far we haven't seen estimators with problematic variants.
+
+02:20.220 --> 02:22.430
+So it is hard to exemplify.
+
+02:22.530 --> 02:29.190
+It is enough to know that the most efficient means the unbiased estimator with the smallest variance.
+
+02:29.460 --> 02:33.490
+All right in the next lecture we will explore confidence intervals.
+
+02:33.510 --> 02:34.380
+So stick around.

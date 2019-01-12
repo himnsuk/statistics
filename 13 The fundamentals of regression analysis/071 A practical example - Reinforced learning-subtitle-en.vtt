@@ -1,0 +1,232 @@
+WEBVTT
+
+00:00.710 --> 00:03.040
+It's time for an example isn't it.
+
+00:03.200 --> 00:08.230
+What we have here is a database with S.A.T. grades and college GPA.
+
+00:08.240 --> 00:09.400
+All right.
+
+00:09.410 --> 00:14.000
+So we have a sample of 100 students who studied in a given college.
+
+00:14.240 --> 00:20.300
+Their total S.A.T. scores include critical reading mathematics and writing and the GPA is the grade
+
+00:20.300 --> 00:23.120
+point average they had at graduation.
+
+00:23.120 --> 00:28.080
+So what would we do if we had to use our knowledge from previous sections.
+
+00:28.160 --> 00:33.650
+The most logical thing would be to see what is the correlation between the two variables S.A.T. grades
+
+00:33.740 --> 00:35.090
+and GPA.
+
+00:35.090 --> 00:41.510
+The simple correlation is 0.6 for we could then further test if this correlation is significant.
+
+00:41.510 --> 00:48.760
+By using hypothesis testing and we would confirm that the two variables are correlated then what these
+
+00:48.760 --> 00:53.540
+tests did not give us any information about any under or over achievers.
+
+00:53.680 --> 00:58.730
+We have no predictive ability except for seeing the two scores move in the same direction.
+
+00:59.080 --> 01:03.270
+Well this is a problem that regression analysis is designed to address.
+
+01:03.490 --> 01:04.700
+So let's get on to it.
+
+01:05.540 --> 01:10.050
+You can see two scatter plots in the first one on the x axes.
+
+01:10.130 --> 01:17.270
+We have a students essay score and on the way axes his GPA in the second one the situation is reversed
+
+01:17.810 --> 01:18.940
+on the x axis.
+
+01:19.010 --> 01:26.610
+We have the GPA and on the y axes the S.A.T. score we have also included the regression lines.
+
+01:26.660 --> 01:29.320
+All right we have two regressions right.
+
+01:29.540 --> 01:31.780
+Should we use both to make predictions.
+
+01:32.730 --> 01:36.870
+Well this is the hardest part of regression analysis.
+
+01:36.870 --> 01:43.300
+In this case one provides a valuable insight and the other is plain wrong and utterly receivable.
+
+01:43.470 --> 01:46.160
+The two variables are definitely correlated.
+
+01:46.170 --> 01:47.510
+We already tested that.
+
+01:47.640 --> 01:51.500
+But what's the causal relationship if there is one.
+
+01:51.670 --> 01:58.860
+Let's think about the problem you attend the S.A.T. and get a score with this score you apply to college.
+
+01:59.110 --> 02:05.150
+The next four years you attend college and graduate receiving many grades forming your GPA.
+
+02:05.170 --> 02:07.170
+So that's your timeline.
+
+02:07.540 --> 02:09.010
+What does this mean.
+
+02:09.010 --> 02:16.690
+Well the S.A.T. test is taken before you see any exams in college and have a GPA actually three to five
+
+02:16.690 --> 02:18.190
+years before that.
+
+02:18.190 --> 02:23.800
+Is there any logic in predicting S.A.T. scores using your college graduation GPA.
+
+02:23.800 --> 02:25.480
+No there isn't.
+
+02:25.480 --> 02:29.890
+This is like predicting how much you spend yesterday based on how much money you found on the street
+
+02:29.890 --> 02:30.800
+today.
+
+02:30.940 --> 02:33.240
+No logic whatsoever.
+
+02:33.250 --> 02:37.390
+Therefore the second regression is meaningless.
+
+02:37.430 --> 02:39.100
+What's the takeaway.
+
+02:39.170 --> 02:44.420
+Whenever you find data that looks regrettable you should not dive straight into regression analysis
+
+02:44.840 --> 02:48.010
+caution and logic should be applied beforehand.
+
+02:49.080 --> 02:50.020
+All right.
+
+02:50.020 --> 02:58.420
+So I am saying we should predict college GPA using S.A.T. scores but don't believe me just yet use your
+
+02:58.420 --> 03:02.650
+logic instead ask yourself what's rationale.
+
+03:03.130 --> 03:10.300
+Well the S.A.T. is considered one of the best estimators of intellectual capacity and capability on
+
+03:10.300 --> 03:16.030
+average if you did well on your S.A.T. you will do well in college and at the workplace.
+
+03:16.030 --> 03:21.500
+Almost all colleges across the USA are using the S.A.T. as a proxy for admission.
+
+03:21.670 --> 03:27.510
+The S.A.T. stood the test of time and established itself as the leading exam for college admission.
+
+03:27.550 --> 03:34.770
+It is safe to say our regression makes sense OK after we've cleared things up we know which of the two
+
+03:34.770 --> 03:36.230
+graphs we should focus on.
+
+03:37.560 --> 03:40.090
+You can see the best fitting line between the points.
+
+03:40.140 --> 03:44.270
+Also known as the regression line our dependent variable.
+
+03:44.280 --> 03:49.850
+Why is college GPA the independent variable x is the S.A.T. score.
+
+03:49.860 --> 03:56.560
+A student received the equation that determines the regression line is why hat equals zero point for
+
+03:56.580 --> 04:01.840
+8 plus 0.00 1 5 times x OK.
+
+04:01.970 --> 04:03.950
+How can we use this equation.
+
+04:04.870 --> 04:11.930
+Say you got 1700 on your S.A.T. you plug it in and get a GPA of 3.0 or 3.
+
+04:11.950 --> 04:17.890
+Interpreting this result is if you attended the specific college and were admitted with an S.A.T. score
+
+04:17.890 --> 04:19.630
+of 1700.
+
+04:19.660 --> 04:27.390
+The model predicts you will graduate with a GPA of 3.0 3 What if you got 2000 on your S.A.T..
+
+04:27.580 --> 04:30.440
+Your GPA would then be near 3.4 8.
+
+04:30.700 --> 04:34.850
+You get the gist of how powerful regression analysis can be.
+
+04:34.890 --> 04:37.250
+However there are pitfalls.
+
+04:37.520 --> 04:40.970
+What if you've got 2400 on the S.A.T..
+
+04:41.010 --> 04:47.310
+Predicted GPA is 4.00 8 from more than the maximum.
+
+04:47.400 --> 04:53.790
+Here we touch upon the limitations of regression analysis as the maximum S.A.T. score we had in our
+
+04:53.790 --> 04:55.600
+sample was 2050.
+
+04:55.620 --> 05:00.400
+It is not correct to make predictions for data points that are outside the regress data.
+
+05:00.600 --> 05:07.230
+A possible rationale may be people that go over 2050 on the S.A.T. went to better universities where
+
+05:07.230 --> 05:10.310
+it is much harder to get such a high GPA.
+
+05:10.350 --> 05:12.930
+All the data was coming from the same college.
+
+05:12.930 --> 05:17.640
+Therefore the profile of a typical student there is very specific.
+
+05:17.640 --> 05:20.910
+It may be an engineering college or an arts college.
+
+05:20.910 --> 05:23.610
+These factors and many more affect the result.
+
+05:23.670 --> 05:29.780
+So you should know your data but don't worry we will see enough examples so you will become confident
+
+05:29.780 --> 05:33.010
+with identifying and interpreting regressions.
+
+05:33.020 --> 05:35.330
+Keep up the good work and thanks for watching.

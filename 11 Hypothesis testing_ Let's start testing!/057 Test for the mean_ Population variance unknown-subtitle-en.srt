@@ -1,0 +1,248 @@
+﻿1
+00:00:00,760 --> 00:00:01,420
+All right.
+
+2
+00:00:01,540 --> 00:00:02,650
+Great.
+
+3
+00:00:02,650 --> 00:00:08,530
+Now that we know what the value is and how to use it we will give back to hypothesis testing.
+
+4
+00:00:08,530 --> 00:00:11,380
+We saw only one of the two possible cases.
+
+5
+00:00:11,380 --> 00:00:18,120
+Remember we haven't covered the more commonly observed case when the population variance is unknown.
+
+6
+00:00:18,130 --> 00:00:18,970
+All right.
+
+7
+00:00:18,970 --> 00:00:24,310
+Imagine you are the marketing analyst of a company and you've been asked to estimate if the e-mail open
+
+8
+00:00:24,310 --> 00:00:28,240
+rate of one of the firm's competitors is above your company's.
+
+9
+00:00:28,240 --> 00:00:34,640
+Your company has an open rate of 40 percent an email open rate is a measure of how many people on the
+
+10
+00:00:34,640 --> 00:00:38,070
+e-mail list actually open the e-mails they have received.
+
+11
+00:00:38,230 --> 00:00:43,600
+At first you struggled to figure out how to get such specific information about a competitor company
+
+12
+00:00:43,780 --> 00:00:50,170
+but then you see that an employee of that competitor company posted a selfie on Facebook saying oh well
+
+13
+00:00:50,320 --> 00:00:55,060
+the e-mail management software we are using drives me nuts in the background.
+
+14
+00:00:55,090 --> 00:01:00,460
+You can see her screen and it shows clearly the summaries of the last 10 email campaigns that were sent
+
+15
+00:01:00,580 --> 00:01:02,720
+and their corresponding open rates.
+
+16
+00:01:02,890 --> 00:01:06,780
+Bingo with your statistical skills.
+
+17
+00:01:06,870 --> 00:01:10,560
+That's all you need a little help from Facebook.
+
+18
+00:01:10,700 --> 00:01:18,680
+Let's stay the hypotheses no hypothesis mean open rate is lower or equal to 40 percent.
+
+19
+00:01:18,680 --> 00:01:23,230
+Alternative Hypothesis mean open rate is higher than 40 percent.
+
+20
+00:01:24,140 --> 00:01:24,570
+No.
+
+21
+00:01:24,590 --> 00:01:31,100
+That in hypothesis testing we are aiming to reject the no hypothesis when we want to test if the open
+
+22
+00:01:31,100 --> 00:01:32,860
+rate is higher than 40 percent.
+
+23
+00:01:32,870 --> 00:01:36,540
+The null hypothesis actually states the opposite statement.
+
+24
+00:01:36,830 --> 00:01:42,200
+Also pay attention that this time we're dealing with a one sided test.
+
+25
+00:01:42,200 --> 00:01:42,930
+All right.
+
+26
+00:01:42,940 --> 00:01:48,030
+Your boss told you that 0.05 is an adequate significance level for this test.
+
+27
+00:01:48,040 --> 00:01:49,500
+So that's what you'll use.
+
+28
+00:01:49,750 --> 00:01:56,210
+Here's the data set you calculate the sample mean and get thirty seven point seven percent.
+
+29
+00:01:56,400 --> 00:02:00,480
+The sample standard deviation is thirteen point seventy four percent.
+
+30
+00:02:00,480 --> 00:02:04,840
+Thus the standard error is 1.3 7 percent.
+
+31
+00:02:04,860 --> 00:02:10,650
+You assume that the population of open rates of sent e-mails is normally distributed like confidence
+
+32
+00:02:10,650 --> 00:02:13,440
+intervals with variants are known and a small sample.
+
+33
+00:02:13,470 --> 00:02:17,280
+The correct statistic to use is the t statistic.
+
+34
+00:02:17,280 --> 00:02:21,780
+Remember you do not know the variance and the sample is not big enough.
+
+35
+00:02:21,780 --> 00:02:27,760
+This means that the variable follows the Student's t distribution and you must employ the t statistic
+
+36
+00:02:28,790 --> 00:02:36,230
+let's calculate it then we calculate the T score the same way as the Z score the T score is equal to
+
+37
+00:02:36,230 --> 00:02:42,140
+the sample mean minus the hypothesized mean value divided by the standard error.
+
+38
+00:02:42,140 --> 00:02:50,090
+The result that we get is minus 1.6 7 as we said earlier is easier to work with positive numbers so
+
+39
+00:02:50,090 --> 00:02:56,480
+we should compare the absolute value of minus 1.6 7 with the appropriate t with and minus 1 degrees
+
+40
+00:02:56,480 --> 00:03:01,160
+of freedom at 0.05 one sided significance.
+
+41
+00:03:01,160 --> 00:03:06,830
+We quickly navigate through the table and get 1.8 three at the 5 percent significance critical value
+
+42
+00:03:08,280 --> 00:03:13,270
+OK 1.6 7 is lower than 1.8 3.
+
+43
+00:03:13,290 --> 00:03:14,890
+Remember the decision rule.
+
+44
+00:03:15,030 --> 00:03:20,430
+If the absolute value of the T score is lower than the statistic from the table we cannot reject the
+
+45
+00:03:20,430 --> 00:03:22,050
+no hypothesis.
+
+46
+00:03:22,050 --> 00:03:24,650
+Therefore we must accept it.
+
+47
+00:03:24,660 --> 00:03:31,260
+What you do next is you go and tell your boss that at this level of significance statistically we cannot
+
+48
+00:03:31,260 --> 00:03:36,350
+say that the evil open rate of our competitors is higher than 40 percent.
+
+49
+00:03:36,360 --> 00:03:38,910
+What about the second measurement we saw.
+
+50
+00:03:38,910 --> 00:03:40,080
+What was that.
+
+51
+00:03:40,380 --> 00:03:49,890
+Ah yes the p value the p value of this statistic is 0.06 5 as the p value is greater than the significance
+
+52
+00:03:49,890 --> 00:03:51,670
+level of 0.05.
+
+53
+00:03:51,780 --> 00:03:53,670
+We come to the same conclusion.
+
+54
+00:03:53,730 --> 00:03:57,260
+We cannot reject the null hypothesis.
+
+55
+00:03:57,280 --> 00:04:03,580
+Let's do a quick check if the significance level was zero point zero or one the p value would still
+
+56
+00:04:03,580 --> 00:04:07,110
+be higher and we wouldn't reject the null hypothesis.
+
+57
+00:04:07,120 --> 00:04:10,340
+This is an important observation that we haven't noted before.
+
+58
+00:04:10,570 --> 00:04:18,200
+If we cannot reject a test at 0.05 significance we cannot reject it at smaller levels either.
+
+59
+00:04:18,260 --> 00:04:20,340
+All right that's all for now.
+
+60
+00:04:20,360 --> 00:04:23,180
+Make sure you learn the material by doing the exercises.
+
+61
+00:04:23,180 --> 00:04:24,860
+After this lesson.
+
+62
+00:04:24,860 --> 00:04:25,980
+Thanks for watching.
+

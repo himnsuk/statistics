@@ -1,0 +1,163 @@
+WEBVTT
+
+00:00.850 --> 00:06.430
+High again as you probably expected in this lesson we will learn about independent samples with known
+
+00:06.430 --> 00:07.470
+variants.
+
+00:07.640 --> 00:13.630
+Once get into the example you may remember this one we are about to test the average grades of students
+
+00:13.630 --> 00:16.300
+from two departments in a UK university.
+
+00:16.360 --> 00:21.310
+I would like to remind you that in the UK grades are expressed in percentages.
+
+00:21.310 --> 00:24.490
+The two departments are engineering and management.
+
+00:24.520 --> 00:30.040
+We were told by the Dean that engineering is a tougher discipline and people tend to get lower grades.
+
+00:30.040 --> 00:36.700
+He believes that on average management students outperform engineering students by four percentage points.
+
+00:36.730 --> 00:40.450
+Now it is our job to verify if that is the case.
+
+00:40.480 --> 00:47.940
+Let's state the two hypotheses age zero is the difference between the means of the two populations is
+
+00:47.940 --> 00:50.190
+for or stated differently.
+
+00:50.190 --> 00:54.750
+New engineering minus new management is equal to minus four.
+
+00:55.020 --> 00:57.510
+H1 is the population mean.
+
+00:57.510 --> 01:00.940
+Difference is different than minus for.
+
+01:00.950 --> 01:03.970
+Once again this is a two sided test.
+
+01:04.040 --> 01:11.550
+Our research question is not to find the difference but to check if it is exactly the minus for right.
+
+01:11.560 --> 01:13.580
+Let's get our hands dirty.
+
+01:13.810 --> 01:16.250
+Here's the table that summarizes the data.
+
+01:16.450 --> 01:19.820
+The sample sizes are 170 respectively.
+
+01:19.900 --> 01:26.080
+The sample means are 58 percent and 65 percent and the population standard deviations are 10 percent
+
+01:26.110 --> 01:29.100
+and 6 percent and are known from the past data.
+
+01:29.110 --> 01:34.510
+If you remember when the population is known for independent samples the standard error of the difference
+
+01:34.570 --> 01:40.060
+is equal to the square root of the sum of the variance of engineering divided by its simple size and
+
+01:40.060 --> 01:41.570
+the variance of management.
+
+01:41.620 --> 01:44.530
+Again divided by sample size.
+
+01:44.650 --> 01:47.830
+All we have left is to compute the test autistic.
+
+01:47.920 --> 01:50.770
+We have big samples and known variances.
+
+01:50.770 --> 01:54.570
+Therefore we can use the Z statistic.
+
+01:54.570 --> 01:56.490
+I hope you are getting the point.
+
+01:56.490 --> 01:59.720
+Small samples and unknown variances mean t.
+
+01:59.970 --> 02:02.770
+When we have large samples and unknown variances.
+
+02:02.790 --> 02:08.360
+It is up to the researcher but generally it is OK to use z in that case as well.
+
+02:08.370 --> 02:14.880
+All right here's the formula for the test stick cystic sample difference mean minus hypothesized difference
+
+02:14.880 --> 02:17.630
+mean divided by the standard error.
+
+02:17.910 --> 02:25.440
+We plug in the numbers and get a z score of minus 2.4 for let's calculate the p value once again I'll
+
+02:25.440 --> 02:26.810
+just tell you the p value.
+
+02:26.910 --> 02:30.020
+As usually you will obtain it using a software.
+
+02:30.180 --> 02:34.800
+The p value of the two sided test is 0.01 5.
+
+02:34.980 --> 02:39.390
+We can say at 5 percent significance which is common for such a study.
+
+02:39.390 --> 02:44.220
+The p value of zero point zero 1 5 is lower than 0.05.
+
+02:44.340 --> 02:47.320
+Thus we reject the null hypothesis.
+
+02:47.370 --> 02:52.340
+There is enough statistical evidence that the difference of the two means is not 4 percent.
+
+02:52.700 --> 02:53.990
+Alright cool.
+
+02:54.210 --> 03:00.360
+Here's a trick What if you want to know if the difference is higher or lower than for the sign of the
+
+03:00.360 --> 03:02.920
+test tested mistake can give you that information.
+
+03:03.150 --> 03:09.060
+A minus sign of the tested tested means it's smaller if you reverse engineered the standardization process
+
+03:09.170 --> 03:14.360
+you will find that the true value is likely to be lower than the hypothesized value.
+
+03:14.490 --> 03:21.510
+In our case this translates into the true mean is likely to be lower than minus for lower than minus
+
+03:21.510 --> 03:26.760
+for entails that possible values are minus 5 minus 6 and so on.
+
+03:26.820 --> 03:30.280
+This is additional information you can give to the Dean.
+
+03:30.280 --> 03:31.050
+All right.
+
+03:31.110 --> 03:32.630
+Done with that lesson too.
+
+03:32.700 --> 03:34.860
+Let's proceed to the final topic.
+
+03:34.950 --> 03:37.620
+Independent samples and unknown variances.

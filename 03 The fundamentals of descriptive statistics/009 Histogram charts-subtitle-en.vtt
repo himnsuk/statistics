@@ -1,0 +1,91 @@
+WEBVTT
+
+00:00.790 --> 00:07.210
+The most common graph used to represent numerical data is the histogram first we'll learn how to create
+
+00:07.210 --> 00:11.330
+it and then we'll provide a description of the way the data is represented.
+
+00:11.380 --> 00:16.420
+We are going to use the frequency distribution table from our previous example to help us.
+
+00:16.660 --> 00:23.320
+Here it is as you can see it looks like a bar chart but actually conveys very different information
+
+00:23.950 --> 00:25.250
+as in the bar chart.
+
+00:25.330 --> 00:30.440
+The vertical axis is the numerical type and shows the absolute frequency.
+
+00:30.550 --> 00:34.780
+This time though the horizontal axes is numerical 2.
+
+00:34.930 --> 00:41.130
+To use the other classification we already know it is quantitative data of the interval type.
+
+00:41.260 --> 00:47.520
+All right so each bar has with equal to the interval and height equal to the frequency.
+
+00:47.520 --> 00:50.490
+Notice how the different bars are touching.
+
+00:50.520 --> 00:56.580
+This is to show that there is continuation between the intervals each interval ends where the next one
+
+00:56.580 --> 00:58.990
+starts in the bar chart.
+
+00:59.010 --> 01:02.520
+However different bars represented different categories.
+
+01:02.580 --> 01:07.000
+So the bars were completely separate ok.
+
+01:07.070 --> 01:13.360
+Sometimes it is useful to plot the intervals against the relative rather than the absolute frequency
+
+01:14.170 --> 01:19.900
+as you can see the histogram looks the same visually but gives different information to the audience
+
+01:20.470 --> 01:24.890
+remember relative frequency is made up of percentages.
+
+01:25.650 --> 01:28.220
+There is one last thing to note here.
+
+01:28.290 --> 01:31.760
+We may create a histogram with an equal intervals.
+
+01:31.770 --> 01:34.490
+An example is designing age groups.
+
+01:34.710 --> 01:39.690
+You've likely completed some survey where you were asked about your age and the possible answers were
+
+01:40.200 --> 01:49.770
+18 to 25 then 25 to 30 30 to 35 and so on until 60 plus clearly the interval widths vary and reflect
+
+01:49.770 --> 01:52.850
+different focus groups for the experiment at hand.
+
+01:52.890 --> 01:59.340
+An explanation for this choice may be young adults under-25 cannot afford the product while adults over
+
+01:59.340 --> 02:01.940
+60 have no interest in the product.
+
+02:01.980 --> 02:07.610
+In any case you should be quite experienced to accurately design and interpret such groups.
+
+02:07.710 --> 02:13.860
+It is highly recommended that you stick with the equal with intervals until you gain enough experience.
+
+02:14.290 --> 02:20.660
+OK great this is how we can build a histogram in order to represent numerical data.
+
+02:20.670 --> 02:26.520
+Stay tuned for our next lesson where we will see graphs that allow us to observe the relationship between
+
+02:26.520 --> 02:27.240
+variables.

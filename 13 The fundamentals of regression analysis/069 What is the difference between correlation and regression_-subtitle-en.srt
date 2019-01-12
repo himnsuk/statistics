@@ -1,0 +1,84 @@
+﻿1
+00:00:00,740 --> 00:00:05,410
+Before we go any further what did we say about correlation.
+
+2
+00:00:05,420 --> 00:00:08,470
+Correlation does not imply causation.
+
+3
+00:00:08,480 --> 00:00:14,890
+Let's spend one more minute on that first correlation measures the degree of relationship between two
+
+4
+00:00:14,890 --> 00:00:16,010
+variables.
+
+5
+00:00:16,150 --> 00:00:22,430
+Regression analysis is about how one variable affects another or what changes it causes to the other.
+
+6
+00:00:22,670 --> 00:00:28,850
+Second correlation doesn't capture causality but the degree of interrelation between the two variables.
+
+7
+00:00:29,080 --> 00:00:34,510
+As with Vin Diesel movies variables we're moving together but were not causing each other.
+
+8
+00:00:34,570 --> 00:00:37,130
+Regression is based on causality.
+
+9
+00:00:37,180 --> 00:00:40,790
+It shows no degree of connection but cause and effect.
+
+10
+00:00:41,140 --> 00:00:47,620
+Third a property of correlation is that the correlation between X and Y is the same as between y and
+
+11
+00:00:47,620 --> 00:00:48,610
+X..
+
+12
+00:00:48,610 --> 00:00:55,440
+This you can easily see from the formula which is symmetrical regressions of y on X and X on Y.
+
+13
+00:00:55,450 --> 00:00:57,340
+You'll different results.
+
+14
+00:00:57,340 --> 00:01:03,580
+Think about our example with income and education predicting income based on education makes sense.
+
+15
+00:01:03,640 --> 00:01:06,270
+But the opposite does not.
+
+16
+00:01:06,270 --> 00:01:10,630
+Finally the two methods have very different graphical representation.
+
+17
+00:01:10,740 --> 00:01:15,900
+Linear regression analysis is known for the best fitting line that goes through the data points and
+
+18
+00:01:15,900 --> 00:01:17,960
+minimizes the distance between them.
+
+19
+00:01:18,090 --> 00:01:22,170
+While correlation is a single point alright.
+
+20
+00:01:22,350 --> 00:01:25,960
+Hopefully this short video clears some doubts you had.
+
+21
+00:01:25,980 --> 00:01:27,300
+Stay tuned.
+

@@ -1,0 +1,220 @@
+﻿1
+00:00:00,610 --> 00:00:06,170
+All right the second assumption is the so called no endogenous of regressors.
+
+2
+00:00:06,350 --> 00:00:12,050
+It refers to the prohibition of a link between the independent variables and the errors mathematically
+
+3
+00:00:12,050 --> 00:00:14,690
+expressed in the following way.
+
+4
+00:00:14,690 --> 00:00:20,960
+Think about it here the error the difference between the observed values and the predicted values is
+
+5
+00:00:20,960 --> 00:00:23,800
+correlated with our independent values.
+
+6
+00:00:23,800 --> 00:00:24,680
+Hmm.
+
+7
+00:00:25,570 --> 00:00:32,460
+This is a problem referred to as omitted variable bias omitted variable bias is introduced to the model
+
+8
+00:00:32,470 --> 00:00:38,970
+when you forget to include a relevant variable as each independent variable explains why they moved
+
+9
+00:00:38,970 --> 00:00:41,460
+together and are somewhat correlated.
+
+10
+00:00:41,550 --> 00:00:45,360
+Similarily Y is also explained by the omitted variable.
+
+11
+00:00:45,360 --> 00:00:47,530
+So they are also correlated.
+
+12
+00:00:47,550 --> 00:00:53,150
+Chances are the omitted variable is also correlated with at least one independent X..
+
+13
+00:00:53,250 --> 00:00:56,420
+However you forgot to include it as a regressors.
+
+14
+00:00:56,670 --> 00:01:00,090
+Everything you don't explain with your model goes into the error.
+
+15
+00:01:00,180 --> 00:01:07,030
+So actually the error becomes correlated with everything else before you are too confused.
+
+16
+00:01:07,030 --> 00:01:08,770
+I'll give you an example.
+
+17
+00:01:08,860 --> 00:01:14,770
+Imagine we are trying to predict the price of an apartment building in London based on its size.
+
+18
+00:01:14,770 --> 00:01:18,520
+This is a rigid model that will have high explanatory power.
+
+19
+00:01:18,580 --> 00:01:24,950
+However from our sample it seems that the smaller the size of the houses the higher the price.
+
+20
+00:01:24,970 --> 00:01:27,800
+This is extremely counter intuitive.
+
+21
+00:01:27,880 --> 00:01:33,340
+We look for remedies and it seems the covariance of the independent variables and the error terms is
+
+22
+00:01:33,340 --> 00:01:34,440
+not zero.
+
+23
+00:01:34,750 --> 00:01:36,850
+We are missing something crucial.
+
+24
+00:01:37,870 --> 00:01:40,990
+Omitted variable bias is hard to fix.
+
+25
+00:01:40,990 --> 00:01:45,230
+Think of all the things you may have missed that led to this poor result.
+
+26
+00:01:45,280 --> 00:01:51,940
+We have only one variable but when your model is exhaustive with 10 variables or more you may feel disheartened
+
+27
+00:01:53,130 --> 00:01:54,870
+critical thinking time.
+
+28
+00:01:54,900 --> 00:01:57,120
+Where did we draw the sample from.
+
+29
+00:01:57,180 --> 00:01:59,230
+Can we get a better sample.
+
+30
+00:01:59,310 --> 00:02:02,380
+Why is bigger real estate cheaper.
+
+31
+00:02:02,480 --> 00:02:03,270
+All right.
+
+32
+00:02:03,360 --> 00:02:05,630
+Let me give you more information.
+
+33
+00:02:05,640 --> 00:02:10,230
+The sample comprises apartment buildings in central London and was large.
+
+34
+00:02:10,530 --> 00:02:13,350
+So the problem is not with the simple.
+
+35
+00:02:13,650 --> 00:02:18,570
+From what is it about smaller size that is making it so expensive.
+
+36
+00:02:18,570 --> 00:02:20,750
+Where are the small houses.
+
+37
+00:02:20,790 --> 00:02:26,850
+There is rarely construction of new apartment buildings in central London and then you realize the City
+
+38
+00:02:26,850 --> 00:02:28,500
+of London was in the sample.
+
+39
+00:02:28,560 --> 00:02:33,540
+The place where most buildings and skyscrapers with some of the most valuable real estate in the world
+
+40
+00:02:34,110 --> 00:02:40,410
+if central London was just central London we omitted the exact location as a variable in almost any
+
+41
+00:02:40,410 --> 00:02:41,120
+other city.
+
+42
+00:02:41,130 --> 00:02:46,680
+This would not be a factor but in our particular example the million dollar suites in the city of London
+
+43
+00:02:46,680 --> 00:02:52,500
+turn things around after we include a variable that measures if the property is in London city.
+
+44
+00:02:52,520 --> 00:02:54,320
+Everything falls into place.
+
+45
+00:02:54,470 --> 00:02:57,690
+Larger properties are more expensive and vice versa.
+
+46
+00:02:58,880 --> 00:03:06,320
+OK before we wrap up an important remark the incorrect exclusion of a variable like in this case leads
+
+47
+00:03:06,320 --> 00:03:12,980
+to biased and counter-intuitive estimates that are toxic to your regression analysis and incorrect inclusion
+
+48
+00:03:12,980 --> 00:03:18,920
+of a variable as we saw in our adjusted r squared lecture leads to inefficient estimates which don't
+
+49
+00:03:18,920 --> 00:03:22,020
+bias the regression and you can immediately drop them.
+
+50
+00:03:22,430 --> 00:03:27,540
+So when in doubt just include the variables and try your luck.
+
+51
+00:03:27,630 --> 00:03:32,380
+Once the bottom line omitted variable bias is a pain in the neck.
+
+52
+00:03:32,460 --> 00:03:33,960
+It is always different.
+
+53
+00:03:33,960 --> 00:03:38,860
+Always sneaky and only experience and advance knowledge on the subject can help.
+
+54
+00:03:38,970 --> 00:03:40,080
+Always check for it.
+
+55
+00:03:40,140 --> 00:03:43,430
+And if you can't think of anything ask a colleague for assistance.
+

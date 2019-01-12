@@ -1,0 +1,166 @@
+WEBVTT
+
+00:00.610 --> 00:06.170
+All right the second assumption is the so called no endogenous of regressors.
+
+00:06.350 --> 00:12.050
+It refers to the prohibition of a link between the independent variables and the errors mathematically
+
+00:12.050 --> 00:14.690
+expressed in the following way.
+
+00:14.690 --> 00:20.960
+Think about it here the error the difference between the observed values and the predicted values is
+
+00:20.960 --> 00:23.800
+correlated with our independent values.
+
+00:23.800 --> 00:24.680
+Hmm.
+
+00:25.570 --> 00:32.460
+This is a problem referred to as omitted variable bias omitted variable bias is introduced to the model
+
+00:32.470 --> 00:38.970
+when you forget to include a relevant variable as each independent variable explains why they moved
+
+00:38.970 --> 00:41.460
+together and are somewhat correlated.
+
+00:41.550 --> 00:45.360
+Similarily Y is also explained by the omitted variable.
+
+00:45.360 --> 00:47.530
+So they are also correlated.
+
+00:47.550 --> 00:53.150
+Chances are the omitted variable is also correlated with at least one independent X..
+
+00:53.250 --> 00:56.420
+However you forgot to include it as a regressors.
+
+00:56.670 --> 01:00.090
+Everything you don't explain with your model goes into the error.
+
+01:00.180 --> 01:07.030
+So actually the error becomes correlated with everything else before you are too confused.
+
+01:07.030 --> 01:08.770
+I'll give you an example.
+
+01:08.860 --> 01:14.770
+Imagine we are trying to predict the price of an apartment building in London based on its size.
+
+01:14.770 --> 01:18.520
+This is a rigid model that will have high explanatory power.
+
+01:18.580 --> 01:24.950
+However from our sample it seems that the smaller the size of the houses the higher the price.
+
+01:24.970 --> 01:27.800
+This is extremely counter intuitive.
+
+01:27.880 --> 01:33.340
+We look for remedies and it seems the covariance of the independent variables and the error terms is
+
+01:33.340 --> 01:34.440
+not zero.
+
+01:34.750 --> 01:36.850
+We are missing something crucial.
+
+01:37.870 --> 01:40.990
+Omitted variable bias is hard to fix.
+
+01:40.990 --> 01:45.230
+Think of all the things you may have missed that led to this poor result.
+
+01:45.280 --> 01:51.940
+We have only one variable but when your model is exhaustive with 10 variables or more you may feel disheartened
+
+01:53.130 --> 01:54.870
+critical thinking time.
+
+01:54.900 --> 01:57.120
+Where did we draw the sample from.
+
+01:57.180 --> 01:59.230
+Can we get a better sample.
+
+01:59.310 --> 02:02.380
+Why is bigger real estate cheaper.
+
+02:02.480 --> 02:03.270
+All right.
+
+02:03.360 --> 02:05.630
+Let me give you more information.
+
+02:05.640 --> 02:10.230
+The sample comprises apartment buildings in central London and was large.
+
+02:10.530 --> 02:13.350
+So the problem is not with the simple.
+
+02:13.650 --> 02:18.570
+From what is it about smaller size that is making it so expensive.
+
+02:18.570 --> 02:20.750
+Where are the small houses.
+
+02:20.790 --> 02:26.850
+There is rarely construction of new apartment buildings in central London and then you realize the City
+
+02:26.850 --> 02:28.500
+of London was in the sample.
+
+02:28.560 --> 02:33.540
+The place where most buildings and skyscrapers with some of the most valuable real estate in the world
+
+02:34.110 --> 02:40.410
+if central London was just central London we omitted the exact location as a variable in almost any
+
+02:40.410 --> 02:41.120
+other city.
+
+02:41.130 --> 02:46.680
+This would not be a factor but in our particular example the million dollar suites in the city of London
+
+02:46.680 --> 02:52.500
+turn things around after we include a variable that measures if the property is in London city.
+
+02:52.520 --> 02:54.320
+Everything falls into place.
+
+02:54.470 --> 02:57.690
+Larger properties are more expensive and vice versa.
+
+02:58.880 --> 03:06.320
+OK before we wrap up an important remark the incorrect exclusion of a variable like in this case leads
+
+03:06.320 --> 03:12.980
+to biased and counter-intuitive estimates that are toxic to your regression analysis and incorrect inclusion
+
+03:12.980 --> 03:18.920
+of a variable as we saw in our adjusted r squared lecture leads to inefficient estimates which don't
+
+03:18.920 --> 03:22.020
+bias the regression and you can immediately drop them.
+
+03:22.430 --> 03:27.540
+So when in doubt just include the variables and try your luck.
+
+03:27.630 --> 03:32.380
+Once the bottom line omitted variable bias is a pain in the neck.
+
+03:32.460 --> 03:33.960
+It is always different.
+
+03:33.960 --> 03:38.860
+Always sneaky and only experience and advance knowledge on the subject can help.
+
+03:38.970 --> 03:40.080
+Always check for it.
+
+03:40.140 --> 03:43.430
+And if you can't think of anything ask a colleague for assistance.

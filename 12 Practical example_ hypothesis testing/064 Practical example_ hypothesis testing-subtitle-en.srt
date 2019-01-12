@@ -1,0 +1,344 @@
+﻿1
+00:00:01,000 --> 00:00:08,380
+Hello and welcome to our third practical example this time we will explore the topic of gender pay gap.
+
+2
+00:00:08,520 --> 00:00:13,920
+We will test whether a particular company is discriminating against some of its employees on a gender
+
+3
+00:00:13,920 --> 00:00:15,080
+basis.
+
+4
+00:00:15,510 --> 00:00:19,950
+Our fictitious company is called Sparke fortress incorporated.
+
+5
+00:00:19,950 --> 00:00:23,370
+It is a big company with more than 5000 employees.
+
+6
+00:00:23,520 --> 00:00:28,270
+And here we will work with a sample of one hundred seventy four of them.
+
+7
+00:00:28,300 --> 00:00:37,810
+We have data showing us their name age gender nationality ethnicity tenure Department position and annual
+
+8
+00:00:37,810 --> 00:00:39,090
+salary.
+
+9
+00:00:39,160 --> 00:00:43,340
+I believe there is no need for further explanation of the data set.
+
+10
+00:00:43,560 --> 00:00:47,140
+We are going to test if there is a significant difference in the salaries.
+
+11
+00:00:47,140 --> 00:00:50,020
+Employees are paid based on their gender.
+
+12
+00:00:50,050 --> 00:00:52,680
+It would be easier if we looked at the problem at hand.
+
+13
+00:00:52,690 --> 00:01:00,700
+In the following way our 174 employees sample can be divided into two sub samples one that is exclusively
+
+14
+00:01:00,700 --> 00:01:03,170
+male and one female.
+
+15
+00:01:03,230 --> 00:01:10,460
+So we have two samples drawn from the same population which are independent although so far we've worked
+
+16
+00:01:10,460 --> 00:01:16,130
+with different populations only if the values in one sample reveal no information about the other sample
+
+17
+00:01:16,220 --> 00:01:19,180
+then they are considered independent.
+
+18
+00:01:19,220 --> 00:01:24,590
+There are different methodologies to conduct such a study and while regression analysis is my preferred
+
+19
+00:01:24,590 --> 00:01:29,190
+one we will have to wait until the next section for that here.
+
+20
+00:01:29,220 --> 00:01:34,580
+We will use a hypothesis test for the mean salary to determine if there is reasonable evidence of gender
+
+21
+00:01:34,580 --> 00:01:41,570
+discrimination let's state the two hypotheses age zero.
+
+22
+00:01:41,570 --> 00:01:51,290
+The average male salary is equal to the average female salary or myu F-minus me f equal zero H-1 the
+
+23
+00:01:51,290 --> 00:01:57,140
+average male salary differs from the average female salary OK.
+
+24
+00:01:57,270 --> 00:02:01,030
+The test we should use is the t test for independent samples.
+
+25
+00:02:02,180 --> 00:02:04,980
+What about the salary population variance.
+
+26
+00:02:05,000 --> 00:02:11,640
+It is a known and we can assume it has equal let's construct a frequency distribution table.
+
+27
+00:02:11,640 --> 00:02:15,300
+We have 98 females and 76 males.
+
+28
+00:02:15,300 --> 00:02:17,610
+These are our sample sizes.
+
+29
+00:02:18,360 --> 00:02:24,300
+Next we should calculate the means and the sample variances of the two samples that we have as we assume
+
+30
+00:02:24,300 --> 00:02:26,550
+that the population variances are equal.
+
+31
+00:02:26,550 --> 00:02:29,260
+We should also compute the pooled variance.
+
+32
+00:02:29,670 --> 00:02:35,940
+Here's the good old formula and here's the ginormous results.
+
+33
+00:02:35,970 --> 00:02:41,830
+Finally the score for this test is computed following the familiar expression.
+
+34
+00:02:41,920 --> 00:02:50,190
+We get a score of 1.3 for the degrees of freedom are one hundred seventy two as we said earlier.
+
+35
+00:02:50,220 --> 00:02:55,800
+Once we have surpassed 50 degrees of freedom the Student's t distribution almost completely overlaps
+
+36
+00:02:55,800 --> 00:02:57,960
+with the normal distribution.
+
+37
+00:02:57,960 --> 00:03:06,640
+Thus the p values for a score of 1.3 for an a z score of 1.3 for will be virtually the same you already
+
+38
+00:03:06,640 --> 00:03:08,780
+know how to use a p value calculator.
+
+39
+00:03:08,800 --> 00:03:11,150
+So I'll just give you the p value.
+
+40
+00:03:11,500 --> 00:03:18,710
+It's 0.1 8 to the p value is much greater than all common levels of significance.
+
+41
+00:03:19,900 --> 00:03:23,830
+We conclude that we cannot reject the null hypothesis.
+
+42
+00:03:23,830 --> 00:03:28,390
+There isn't enough statistical evidence that there is a wage gap in this firm.
+
+43
+00:03:28,390 --> 00:03:29,430
+Now that's cool.
+
+44
+00:03:29,470 --> 00:03:32,180
+Sparke fortress seems like a nice place to work at.
+
+45
+00:03:32,290 --> 00:03:35,400
+But let's dig just a bit deeper into this result.
+
+46
+00:03:36,260 --> 00:03:40,280
+Personally I'd be interested to know if there is no wage gap at all.
+
+47
+00:03:40,280 --> 00:03:44,960
+Or maybe there is one hidden beneath the aggregate values we just investigated.
+
+48
+00:03:46,060 --> 00:03:50,040
+Sometimes it is a good idea to examine the data set manually.
+
+49
+00:03:50,080 --> 00:03:56,230
+That's something we didn't do in the beginning but we should have done let's order the salaries from
+
+50
+00:03:56,230 --> 00:04:02,780
+largest to the smallest we can see that the highest paid employee is actually the president and CEO
+
+51
+00:04:02,780 --> 00:04:03,790
+of the company.
+
+52
+00:04:03,800 --> 00:04:06,360
+Caroline bulled who is female.
+
+53
+00:04:06,410 --> 00:04:12,680
+This may explain the gelateria and culture of the company but it may also mean that her high salary
+
+54
+00:04:12,680 --> 00:04:14,960
+biased our data.
+
+55
+00:04:14,980 --> 00:04:21,420
+What if on average it seems that women are rewarded the same as men but in fact very few of them are
+
+56
+00:04:22,660 --> 00:04:23,810
+in such cases.
+
+57
+00:04:23,820 --> 00:04:30,780
+I would normally further segment the data lets divide the employees into two more groups below 35 and
+
+58
+00:04:30,780 --> 00:04:32,400
+above 35.
+
+59
+00:04:32,490 --> 00:04:37,450
+This will give us valuable information about the wage equality of younger and older staff.
+
+60
+00:04:38,420 --> 00:04:42,820
+I've created two more data sets that are based on the original one.
+
+61
+00:04:42,930 --> 00:04:49,250
+Let's run the same tests as before but this time we will do it on our segmented data.
+
+62
+00:04:49,250 --> 00:04:51,690
+The hypotheses are the same.
+
+63
+00:04:51,770 --> 00:05:00,170
+What we get for these two tests is a score of 0.4 3 for employees below 35 and 2.00 for employees over
+
+64
+00:05:00,170 --> 00:05:01,190
+35.
+
+65
+00:05:01,250 --> 00:05:07,610
+The corresponding p values are 0.6 x 8 and zero point zero for eight.
+
+66
+00:05:07,630 --> 00:05:14,490
+What these numbers mean is that in the group below 35 there is virtually no wage gap on a gender basis.
+
+67
+00:05:14,500 --> 00:05:21,520
+The p value is so big that we made sure there is no discrimination going on in the older group however
+
+68
+00:05:21,640 --> 00:05:24,960
+the p value is zero point zero for eight.
+
+69
+00:05:25,000 --> 00:05:29,020
+This is very close to 0.05 but still below it.
+
+70
+00:05:29,020 --> 00:05:34,160
+This implies that at a 95 percent significance we reject the null hypothesis.
+
+71
+00:05:34,180 --> 00:05:38,870
+Therefore a wage gap does exist for older employees.
+
+72
+00:05:38,910 --> 00:05:39,800
+All right.
+
+73
+00:05:39,810 --> 00:05:41,710
+This was a two sided test.
+
+74
+00:05:41,850 --> 00:05:44,770
+So we are not sure who gets more money right.
+
+75
+00:05:45,620 --> 00:05:50,570
+Well do you remember the nifty trick the score of 2 is positive.
+
+76
+00:05:50,570 --> 00:05:55,210
+Therefore the difference in pay is positive in favor of males.
+
+77
+00:05:56,050 --> 00:06:01,590
+A limitation for this analysis is that we omitted other factors such as position and ethnicity.
+
+78
+00:06:01,600 --> 00:06:07,150
+So we are not completely sure what's going on in the firm but we can say that overall there is no wage
+
+79
+00:06:07,150 --> 00:06:08,630
+gap and Sparke fortress.
+
+80
+00:06:08,680 --> 00:06:12,340
+And this is driven by wage equality among young employees.
+
+81
+00:06:12,340 --> 00:06:18,190
+This is a good indicator as it means that the company is firmly moving towards complete equality.
+
+82
+00:06:18,190 --> 00:06:19,330
+All right.
+
+83
+00:06:19,390 --> 00:06:24,520
+Your homework is to conduct a similar test that aims to capture if there is racial discrimination in
+
+84
+00:06:24,520 --> 00:06:25,300
+the firm.
+
+85
+00:06:25,330 --> 00:06:28,410
+You can find the data in the resources for this lesson.
+
+86
+00:06:28,510 --> 00:06:30,530
+Good luck and thanks for watching.
+

@@ -1,0 +1,238 @@
+WEBVTT
+
+00:00.660 --> 00:07.470
+A confidence interval is the range within which you expect the population parameter to be and its estimation
+
+00:07.470 --> 00:10.360
+is based on the data we have in our sample.
+
+00:10.410 --> 00:16.500
+There are two main situations when we can calculate the confidence intervals for a population when the
+
+00:16.500 --> 00:22.980
+population variance is known and when it is unknown depending on which situation we are in we would
+
+00:22.980 --> 00:25.610
+use a different calculation method.
+
+00:25.790 --> 00:31.700
+In this lesson we will explore the confidence intervals for a population mean with a known variance
+
+00:32.790 --> 00:38.700
+an important assumption and this calculation is that the population is normally distributed even if
+
+00:38.700 --> 00:39.450
+it is not.
+
+00:39.480 --> 00:45.250
+You should use a large sample and let the Central Limit Theorem do the normalization magic for you.
+
+00:45.270 --> 00:53.180
+Remember if you work with a sample which is large enough you can assume normality of sample means Alright.
+
+00:53.400 --> 00:58.850
+Let's say you want to become a data scientist and you are interested in the salary you're going to get.
+
+00:58.860 --> 01:04.900
+You are also aware that population standard deviation of data science salaries is equal to fifteen thousand
+
+01:04.890 --> 01:06.300
+dollars.
+
+01:06.330 --> 01:12.840
+Furthermore you know the salaries are normally distributed and your sample consists of 30 salary's.
+
+01:12.940 --> 01:18.910
+The formula for the confidence interval with a known variance is given below the population mean will
+
+01:18.910 --> 01:27.700
+fall between the sample mean minus Z of Alpha divided by two times the standard error and the sample
+
+01:27.700 --> 01:35.900
+mean plus Z of Alpha divided by two times the standard error the sample mean is the point estimator.
+
+01:35.910 --> 01:38.100
+You know all about the standard error already.
+
+01:38.100 --> 01:41.240
+So let's compute it using the formula.
+
+01:41.260 --> 01:50.680
+What we have left is the so called reliability factor Z of Alpha divided by two Z is the statistic that
+
+01:50.680 --> 01:52.390
+we've described earlier.
+
+01:52.480 --> 01:57.880
+The standardized variable that has a standard normal distribution right.
+
+01:57.940 --> 01:59.710
+And what about Alpha.
+
+01:59.710 --> 02:03.960
+This is the same alpha we had when we defined our confidence level.
+
+02:04.030 --> 02:10.070
+So for a confidence level of 95 percent Alpha would be equal to 5 percent.
+
+02:10.270 --> 02:16.780
+Similarily for a confidence level of 99 percent Alpha would be equal to 1 percent.
+
+02:16.780 --> 02:18.160
+It all falls into place.
+
+02:18.160 --> 02:21.520
+Now let's get back to our example.
+
+02:21.970 --> 02:27.700
+The sample mean is one hundred thousand two hundred dollars and the standard deviation is known to be
+
+02:27.700 --> 02:29.460
+fifteen thousand dollars.
+
+02:29.470 --> 02:34.430
+Thus the standard error is two thousand seven hundred thirty nine dollars.
+
+02:34.600 --> 02:41.500
+Having calculated these values we can take the next step and choose our confidence level calm and confidence
+
+02:41.500 --> 02:49.600
+levels are 90 percent 95 percent and 99 percent with respective Alfas of 10 percent 5 percent and 1
+
+02:49.600 --> 02:50.850
+percent.
+
+02:50.860 --> 02:58.410
+Another way to put in the value of alpha is 0.1 0.05 and 0.01 respectively.
+
+02:58.420 --> 03:04.060
+Keep in mind that a 95 percent confidence interval means that you are sure that in 95 percent of the
+
+03:04.060 --> 03:08.830
+cases the true population parameter would fall into the specified interval.
+
+03:09.840 --> 03:16.300
+The CSY of Alpha comes from the so-called standard normal distribution table it is best to first see
+
+03:16.300 --> 03:17.990
+it and then comment on it.
+
+03:18.250 --> 03:25.710
+Let's say we want to find the values for the 95 percent confidence interval Alpha is 0.05.
+
+03:25.840 --> 03:34.060
+Therefore we are looking for Z of Alpha divided by two or zero point zero to five in this table.
+
+03:34.180 --> 03:42.550
+This will match the value of one minus zero point zero to five or zero point nine seventy five the corresponding
+
+03:42.550 --> 03:47.740
+z comes from the sum of the row and column table headers associated with the cell.
+
+03:47.860 --> 03:54.440
+In our case the value is one point nine plus 0.06 or 1.9 six.
+
+03:54.700 --> 03:58.660
+A commonly used term for the z is critical value.
+
+03:58.660 --> 04:04.130
+So we have found the critical value for this confidence interval.
+
+04:04.130 --> 04:07.220
+Now we can easily substitute in the formula.
+
+04:07.430 --> 04:12.590
+The final confidence interval becomes ninety four thousand eight hundred thirty three to one hundred
+
+04:12.590 --> 04:15.390
+five thousand five hundred sixty eight.
+
+04:15.410 --> 04:17.850
+The interpretation is the following.
+
+04:17.990 --> 04:23.700
+We are 95 percent confident that the average data scientists salary will be in the interval.
+
+04:23.720 --> 04:28.700
+Ninety four thousand eight hundred thirty three and one hundred five thousand five hundred sixty eight
+
+04:28.700 --> 04:29.470
+dollars.
+
+04:30.390 --> 04:34.120
+Let's repeat the exercise using a higher confidence level.
+
+04:34.320 --> 04:38.250
+Say we want to be 99 percent certain of the outcome.
+
+04:38.250 --> 04:41.070
+Alpha is zero point zero one.
+
+04:41.250 --> 04:49.110
+We look at the table for the value of one minus 0.00 five which is equal to zero point nine nine five.
+
+04:49.160 --> 04:51.940
+Bummer there is no such value.
+
+04:51.990 --> 04:58.380
+When this happens we just have to round to the nearest value available the corresponding critical value
+
+04:58.530 --> 05:01.630
+is 2.5 plus zero point zero or eight.
+
+05:01.720 --> 05:09.180
+Thus 2.5 8 we plug it into our formula once more and the new confidence interval is equal to ninety
+
+05:09.180 --> 05:14.370
+three thousand one hundred thirty five and one hundred seven thousand two hundred six.
+
+05:14.370 --> 05:20.160
+This means that we are 99 percent confident that the average data scientists salary is going to lie
+
+05:20.160 --> 05:25.260
+in the interval between ninety three thousand one hundred thirty five and one hundred seven thousand
+
+05:25.260 --> 05:28.120
+two hundred six dollars.
+
+05:28.130 --> 05:34.190
+Please note that in this case there is a tradeoff between the level of confidence we chose and the estimation
+
+05:34.190 --> 05:38.110
+precision the interval we obtained is broader.
+
+05:38.120 --> 05:40.190
+The opposite is also true.
+
+05:40.490 --> 05:45.710
+A narrow confidence interval translate to higher uncertainty makes sense right.
+
+05:46.610 --> 05:52.430
+If we are trying to estimate the population mean and we are picking a larger interval we are increasing
+
+05:52.430 --> 05:58.640
+our chances of having an interval that actually includes the mean and vice versa.
+
+05:58.750 --> 06:02.080
+If we want to be more specific about the population mean range.
+
+06:02.080 --> 06:07.190
+This will take away from our confidence about this statement OK.
+
+06:07.270 --> 06:11.020
+This lecture was a bit longer but very insightful.
+
+06:11.260 --> 06:17.470
+Don't skip the exercises provided they will help you reinforce the knowledge about this concept which
+
+06:17.470 --> 06:21.590
+is fundamental for everybody who wants to work with numbers in their job.
+
+06:22.460 --> 06:28.220
+In the next few lessons we will study some particular cases and teach you how to find confidence intervals
+
+06:28.220 --> 06:29.360
+for them.
+
+06:29.360 --> 06:30.320
+Thanks for watching.

@@ -1,0 +1,109 @@
+WEBVTT
+
+00:00.560 --> 00:01.380
+OK.
+
+00:01.520 --> 00:09.170
+Excellent so far we learned about the simple linear regression we predicted the dependent variable y
+
+00:09.260 --> 00:11.930
+with a single regressors x.
+
+00:11.930 --> 00:13.340
+It is time to level up.
+
+00:13.340 --> 00:21.710
+Now we said that in real life a person's income does not depend solely on education but also their experience
+
+00:21.980 --> 00:25.610
+the time they have spent with their current employer and so on.
+
+00:25.790 --> 00:32.140
+House prices do not depend on solely their size but also on location and year of construction.
+
+00:32.330 --> 00:38.720
+College GPA cannot be predicted solely by a student's S.A.T. score but also by their high school GPA
+
+00:39.050 --> 00:41.190
+income gender and so on.
+
+00:42.460 --> 00:48.970
+If we want to make good models we need multi-variate regressions multi-variate regressions address the
+
+00:48.970 --> 00:54.850
+higher complexity of problems the more variables you have the more factors you are considering in a
+
+00:54.850 --> 00:55.850
+model.
+
+00:56.140 --> 01:02.480
+In the real world things depend on two three or even 10 or 20 factors.
+
+01:02.660 --> 01:07.960
+All right so this is the population multivariate regression model.
+
+01:07.990 --> 01:10.490
+It is similar to a simple regression.
+
+01:10.510 --> 01:17.190
+The main difference is there are a bunch of independent variables not just one what we are interested
+
+01:17.190 --> 01:20.280
+in is the multivariate regression equation.
+
+01:20.280 --> 01:24.060
+We want to plug in numbers and predict outcomes right.
+
+01:24.210 --> 01:30.310
+Once again why had is the inferred value and 0 is the int..
+
+01:30.360 --> 01:36.880
+The independent variables range from x 1 to x K be 1 to be k.
+
+01:36.890 --> 01:39.710
+Are there corresponding coefficients.
+
+01:39.720 --> 01:45.630
+The last thing to say about multivariate regressions is that it's not about the best fitting line anymore.
+
+01:45.720 --> 01:51.450
+Actually it stops being two dimensional and when we have over three dimensions there is no visual way
+
+01:51.450 --> 01:53.480
+to represent the data.
+
+01:53.690 --> 01:57.480
+So if it is not about the line what is it about.
+
+01:57.890 --> 01:58.600
+It's a bell.
+
+01:58.640 --> 02:02.260
+The best fitting model as we saw from the OS.
+
+02:02.300 --> 02:06.100
+What we really want is the least sum of squared errors.
+
+02:06.180 --> 02:13.940
+All right so how do we decrease the models error well by increasing the explanatory power of the model.
+
+02:14.300 --> 02:17.940
+Ss e n ss are communicating vessels.
+
+02:17.950 --> 02:20.620
+Remember each time we lower one.
+
+02:20.620 --> 02:24.220
+The other goes higher with each additional variable.
+
+02:24.280 --> 02:28.400
+We increase the explanatory power by zero or more than zero.
+
+02:28.420 --> 02:33.450
+We cannot lower it more variables usually equal a better fitting model.
+
+02:34.640 --> 02:40.130
+In the next lesson we will see how to determine the optimal number of variables to use.
+
+02:40.530 --> 02:41.580
+Thanks for watching.

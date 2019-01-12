@@ -1,0 +1,142 @@
+WEBVTT
+
+00:00.380 --> 00:03.850
+Know we know how to test hypotheses and how to reject them.
+
+00:04.260 --> 00:10.110
+Actually we rejected the hypothesis at various levels of significance but we couldn't find a level of
+
+00:10.110 --> 00:12.690
+significance for which we could no longer do it.
+
+00:12.720 --> 00:16.970
+This is the right moment to introduce a measure called the P-value.
+
+00:17.040 --> 00:23.820
+This is the most common way to test hypotheses instead of testing at pre-assigned levels of significance.
+
+00:23.850 --> 00:29.580
+We can find the smallest level of significance at which we can still reject the null hypothesis given
+
+00:29.580 --> 00:32.420
+the observed sample statistic.
+
+00:32.430 --> 00:34.390
+So how do we do that.
+
+00:34.410 --> 00:37.220
+Recall the test with the data scientists salary.
+
+00:37.470 --> 00:43.380
+We had a standard error of two thousand seven hundred thirty nine known population standard deviation
+
+00:43.440 --> 00:51.300
+of 15000 normally distributed population and a sample size of 30 the corresponding z score was minus
+
+00:51.300 --> 00:53.270
+4.6 7.
+
+00:53.280 --> 00:59.650
+We rejected the hypothesis at significant levels of 0.05 and 0.01.
+
+00:59.790 --> 01:03.510
+But we wanted to know how much lower we could go.
+
+01:03.580 --> 01:12.150
+We can check the Z table for plus 4.6 7 which gives us the same result as minus 4.6 7 in most Z tables.
+
+01:12.220 --> 01:15.110
+You would not find this value as it is so large.
+
+01:15.130 --> 01:22.020
+Thus we round up to the Close's value available and get 0.00 0 1 way.
+
+01:22.280 --> 01:25.540
+But how do we actually test the hypothesis.
+
+01:25.580 --> 01:30.860
+Well after choosing a significance level of alpha you compare the P-value to it.
+
+01:30.980 --> 01:36.560
+You should reject the hypothesis if the p value is lower than the significance level.
+
+01:36.560 --> 01:42.780
+Therefore we can safely say that such a result is extremely significant by any measurement of significance.
+
+01:43.940 --> 01:51.230
+Let's see another example if ours the score was 2.1 2 we would reject the no hypothesis at 5 percent
+
+01:51.350 --> 01:54.950
+but not reject it at 1 percent significance.
+
+01:54.950 --> 02:01.820
+Now it becomes more interesting at this point we can actually look at the table and then find the P-value
+
+02:02.450 --> 02:09.990
+we look for the value that corresponds with 2.1 to and find that it is zero point 983 the p value for
+
+02:09.990 --> 02:13.850
+a one sided test is 1 minus the number we see in the table.
+
+02:14.010 --> 02:22.710
+So the corresponding p value is equal to zero point zero 1 7 the p value for a two sided test is 1 minus
+
+02:22.710 --> 02:25.890
+the number we see in the table multiplied by 2.
+
+02:25.980 --> 02:30.010
+Therefore the p value would be zero point zero three four.
+
+02:30.060 --> 02:32.460
+This is also the answer to our question.
+
+02:33.380 --> 02:39.980
+All right so where are the values used most testicle software packages run tests and then provide us
+
+02:39.980 --> 02:46.640
+with a series of results one of them is P-value it is then up to the researcher to decide whether the
+
+02:46.640 --> 02:49.560
+variable is statistically significant or not.
+
+02:49.910 --> 02:56.420
+Generally software is designed to calculate the p value to the third digit after the separator.
+
+02:56.420 --> 03:01.610
+The point is when you start conducting your own research you would love to be able to see the three
+
+03:01.610 --> 03:03.780
+zeros after the dot.
+
+03:03.920 --> 03:09.780
+The closer to 0 Your p value is the more significant is the result you've obtained.
+
+03:10.000 --> 03:16.370
+The final consideration is that the p value is an extremely powerful measure as it works for all distributions
+
+03:16.810 --> 03:23.180
+no matter if we are dealing with the normal Student's t by Gnomeo or uniform distribution.
+
+03:23.560 --> 03:30.280
+Whatever the test the P-value rationale holds if the p value is lower than the level of significance
+
+03:30.370 --> 03:33.340
+you reject the null hypothesis.
+
+03:33.360 --> 03:39.570
+Having said that you would normally use the p value in the presence of a digital medium throughout this
+
+03:39.570 --> 03:40.260
+course.
+
+03:40.260 --> 03:45.690
+I recommend that you use online P-value calculators to support your studies and double check your answers
+
+03:45.690 --> 03:47.640
+when doing exercises.
+
+03:47.640 --> 03:52.500
+Please download the PTF that comes with this lesson as it will include detailed instructions for how
+
+03:52.500 --> 03:54.570
+to use online P-value calculators.

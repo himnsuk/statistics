@@ -1,0 +1,67 @@
+WEBVTT
+
+00:00.790 --> 00:02.870
+Hi and welcome back.
+
+00:03.070 --> 00:06.660
+This is the last lesson about confidence intervals.
+
+00:06.690 --> 00:11.740
+We are not going to get too deep into it as it is just about knowing the formula.
+
+00:11.740 --> 00:15.910
+Sometimes we want to find the confidence interval for two simple means.
+
+00:15.910 --> 00:22.060
+When the samples are independent with unknown variances and when the variances are assumed to be different
+
+00:22.960 --> 00:25.920
+you can think about comparing apples and oranges.
+
+00:25.930 --> 00:29.470
+You've heard the expression right well in statistics.
+
+00:29.470 --> 00:34.680
+If you actually want to compare apples and oranges This is the right way to do it.
+
+00:34.690 --> 00:38.020
+Here's the confidence interval formula.
+
+00:38.050 --> 00:42.730
+Once again we have the differences of the means of the two samples.
+
+00:42.730 --> 00:46.860
+The variances are the simple variances of each of the two variables.
+
+00:46.900 --> 00:50.040
+And here are the respective sample sizes.
+
+00:50.050 --> 00:55.260
+The tough thing about this is to estimate the degrees of freedom well.
+
+00:55.300 --> 01:00.070
+Statisticians have come up with a formula that allows us to do just that.
+
+01:00.100 --> 01:05.650
+You have all the information but it is highly unlikely that you will remember the formula.
+
+01:05.700 --> 01:06.530
+All right.
+
+01:06.680 --> 01:11.110
+We won't give an example of this case as it will add any value to this course.
+
+01:11.270 --> 01:16.330
+In this video we just wanted to show you the right way to compare apples and oranges.
+
+01:16.520 --> 01:19.610
+Next time we will get to the core of statistics.
+
+01:19.730 --> 01:21.850
+Hypothesis Testing.
+
+01:21.950 --> 01:22.880
+Don't miss out.
+
+01:22.970 --> 01:24.140
+And thanks for watching.

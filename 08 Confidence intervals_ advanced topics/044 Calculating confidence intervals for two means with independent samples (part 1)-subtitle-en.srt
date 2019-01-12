@@ -1,0 +1,248 @@
+﻿1
+00:00:00,600 --> 00:00:06,910
+In our last video we learned about confidence intervals for two means based on dependent samples.
+
+2
+00:00:07,080 --> 00:00:12,320
+In this video we will explore independent samples as we said earlier.
+
+3
+00:00:12,420 --> 00:00:18,990
+There are three sub cases known population variances unknown population variances but assumed to be
+
+4
+00:00:18,990 --> 00:00:24,310
+equal an unknown population variances that are assumed to be different.
+
+5
+00:00:24,320 --> 00:00:29,910
+Here we will focus on independent samples with known population variances.
+
+6
+00:00:29,920 --> 00:00:36,460
+All right let's jump right into the example that would allow us to understand the concept a bit better.
+
+7
+00:00:36,730 --> 00:00:40,990
+We would like to get the test grades of two departments in a UK university.
+
+8
+00:00:41,140 --> 00:00:45,190
+University grades in the UK expressed in percentages.
+
+9
+00:00:45,520 --> 00:00:51,220
+Our samples are taken from two departments engineering and management.
+
+10
+00:00:51,220 --> 00:00:54,870
+The table you see here summarizes the data.
+
+11
+00:00:54,980 --> 00:01:00,900
+We have a sample of 100 engineering students and the average grade is 58 percent.
+
+12
+00:01:01,010 --> 00:01:06,740
+From past years we know that the population standard deviation is 10 percentage points.
+
+13
+00:01:06,740 --> 00:01:09,260
+Thus the variance is known.
+
+14
+00:01:09,260 --> 00:01:14,960
+We also have a sample of 70 students from the management department and we've got a sample mean of 65
+
+15
+00:01:14,960 --> 00:01:16,280
+percent.
+
+16
+00:01:16,290 --> 00:01:23,550
+Again from past data we know that the population standard deviation is 5 percent OK.
+
+17
+00:01:23,680 --> 00:01:25,790
+But before we get on with calculations.
+
+18
+00:01:25,870 --> 00:01:28,550
+Let's point out three important considerations.
+
+19
+00:01:29,310 --> 00:01:33,380
+First the populations are normally distributed.
+
+20
+00:01:33,450 --> 00:01:40,900
+Second the population variances are known and third the sample sizes are different.
+
+21
+00:01:40,920 --> 00:01:47,140
+Different sample sizes are a common occurrence in the real world in our previous lesson.
+
+22
+00:01:47,140 --> 00:01:52,870
+When we had dependent samples we were testing the same people over time so it made sense that the sample
+
+23
+00:01:52,870 --> 00:01:55,020
+sizes were equally big.
+
+24
+00:01:55,030 --> 00:01:59,400
+This time however the observations are completely different.
+
+25
+00:01:59,410 --> 00:02:04,570
+They are students from different departments with different teachers obtaining different grades when
+
+26
+00:02:04,570 --> 00:02:06,790
+taking different exams.
+
+27
+00:02:06,790 --> 00:02:11,890
+The great of a person from engineering doesn't in any way affect the grade of a person studying management
+
+28
+00:02:12,060 --> 00:02:12,750
+right.
+
+29
+00:02:13,180 --> 00:02:16,850
+The two samples are truly independent.
+
+30
+00:02:16,910 --> 00:02:17,980
+All right.
+
+31
+00:02:18,050 --> 00:02:19,760
+What are we testing.
+
+32
+00:02:19,820 --> 00:02:25,330
+We want to find a 95 percent confidence interval for the difference between the grades of the students
+
+33
+00:02:25,340 --> 00:02:30,190
+from engineering and management as with every confidence interval.
+
+34
+00:02:30,300 --> 00:02:33,900
+We must identify the test to take samples.
+
+35
+00:02:33,900 --> 00:02:40,830
+Our big population variances are known and populations are assumed to follow the normal distribution.
+
+36
+00:02:40,830 --> 00:02:46,320
+All this information points us to the Z statistic instead of the T.
+
+37
+00:02:46,480 --> 00:02:49,300
+The last ingredient is the variance.
+
+38
+00:02:49,300 --> 00:02:54,520
+We haven't been through enough mathematics in this course to derive the formula so we will simply state
+
+39
+00:02:54,520 --> 00:02:55,250
+it.
+
+40
+00:02:55,360 --> 00:03:00,520
+The variance of the difference between the two means is equal to the variance of the grades received
+
+41
+00:03:00,550 --> 00:03:07,060
+by engineering students divided by the sample size of engineering students plus the variance of grades
+
+42
+00:03:07,090 --> 00:03:14,120
+obtained by management students divided by the sample size of management students the underlying logic
+
+43
+00:03:14,180 --> 00:03:16,790
+is that dispersion is additive.
+
+44
+00:03:16,790 --> 00:03:21,470
+More variables means higher or equal variability.
+
+45
+00:03:21,470 --> 00:03:29,600
+OK so what is the confidence interval formula this time well it is given by the expression below.
+
+46
+00:03:30,760 --> 00:03:35,810
+X bar minus Y Bar is the difference point estimator Z is the statistic.
+
+47
+00:03:35,830 --> 00:03:38,680
+And this is the variance of the difference.
+
+48
+00:03:38,680 --> 00:03:46,570
+We plug in the numbers and get a confidence interval between minus nine point to 8 and minus 4.7 to.
+
+49
+00:03:46,720 --> 00:03:49,310
+All right what's the interpretation.
+
+50
+00:03:49,580 --> 00:03:55,370
+We are 95 percent confident that the true mean difference between engineering and management grades
+
+51
+00:03:55,400 --> 00:03:58,000
+falls into this interval.
+
+52
+00:03:58,010 --> 00:04:01,820
+Note that this time the whole interval is negative.
+
+53
+00:04:01,820 --> 00:04:08,840
+This is because we were calculating engineering grade minus management grade as the engineers were consistently
+
+54
+00:04:08,840 --> 00:04:10,040
+getting lower grades.
+
+55
+00:04:10,040 --> 00:04:12,050
+The difference is negative.
+
+56
+00:04:12,110 --> 00:04:17,090
+Had we calculated the difference as management minus engineering we would have obtained a confidence
+
+57
+00:04:17,090 --> 00:04:23,620
+interval between 4.7 to and nine point to eight completely symmetrical around zero.
+
+58
+00:04:24,340 --> 00:04:26,320
+All right great.
+
+59
+00:04:26,320 --> 00:04:31,930
+Remember to do all the exercises available in the course materials as the topics are getting tougher
+
+60
+00:04:31,930 --> 00:04:33,150
+and tougher.
+
+61
+00:04:33,160 --> 00:04:34,320
+See you next time.
+
+62
+00:04:34,360 --> 00:04:35,530
+And thanks for watching.
+

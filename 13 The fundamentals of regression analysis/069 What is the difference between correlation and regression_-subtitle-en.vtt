@@ -1,0 +1,64 @@
+WEBVTT
+
+00:00.740 --> 00:05.410
+Before we go any further what did we say about correlation.
+
+00:05.420 --> 00:08.470
+Correlation does not imply causation.
+
+00:08.480 --> 00:14.890
+Let's spend one more minute on that first correlation measures the degree of relationship between two
+
+00:14.890 --> 00:16.010
+variables.
+
+00:16.150 --> 00:22.430
+Regression analysis is about how one variable affects another or what changes it causes to the other.
+
+00:22.670 --> 00:28.850
+Second correlation doesn't capture causality but the degree of interrelation between the two variables.
+
+00:29.080 --> 00:34.510
+As with Vin Diesel movies variables we're moving together but were not causing each other.
+
+00:34.570 --> 00:37.130
+Regression is based on causality.
+
+00:37.180 --> 00:40.790
+It shows no degree of connection but cause and effect.
+
+00:41.140 --> 00:47.620
+Third a property of correlation is that the correlation between X and Y is the same as between y and
+
+00:47.620 --> 00:48.610
+X..
+
+00:48.610 --> 00:55.440
+This you can easily see from the formula which is symmetrical regressions of y on X and X on Y.
+
+00:55.450 --> 00:57.340
+You'll different results.
+
+00:57.340 --> 01:03.580
+Think about our example with income and education predicting income based on education makes sense.
+
+01:03.640 --> 01:06.270
+But the opposite does not.
+
+01:06.270 --> 01:10.630
+Finally the two methods have very different graphical representation.
+
+01:10.740 --> 01:15.900
+Linear regression analysis is known for the best fitting line that goes through the data points and
+
+01:15.900 --> 01:17.960
+minimizes the distance between them.
+
+01:18.090 --> 01:22.170
+While correlation is a single point alright.
+
+01:22.350 --> 01:25.960
+Hopefully this short video clears some doubts you had.
+
+01:25.980 --> 01:27.300
+Stay tuned.

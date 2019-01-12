@@ -1,0 +1,88 @@
+﻿1
+00:00:00,710 --> 00:00:06,480
+In the previous lesson we showed that no matter the underlying distribution of the data set the distribution
+
+2
+00:00:06,480 --> 00:00:12,000
+of the sample means would be normal with the mean equal to the original mean and variance equal to the
+
+3
+00:00:12,000 --> 00:00:15,490
+original variance divided by the sample size.
+
+4
+00:00:15,560 --> 00:00:16,320
+All right.
+
+5
+00:00:16,410 --> 00:00:22,180
+This lecture will be very short and has the sole purpose of defining what a standard error is.
+
+6
+00:00:22,470 --> 00:00:28,680
+The standard error is the standard deviation of the distribution formed by the sample means.
+
+7
+00:00:28,690 --> 00:00:30,340
+So how do we find it.
+
+8
+00:00:30,370 --> 00:00:31,690
+We know it's variants.
+
+9
+00:00:31,690 --> 00:00:34,160
+Sigma squared divided by n.
+
+10
+00:00:34,270 --> 00:00:41,580
+Therefore the standard deviation is Sigma divided by the square root of N like a standard deviation.
+
+11
+00:00:41,620 --> 00:00:44,070
+The standard error shows variability.
+
+12
+00:00:44,230 --> 00:00:50,020
+In this case it is the variability of the means of the different samples we extracted.
+
+13
+00:00:50,020 --> 00:00:52,600
+You can guess that since the term has its own name.
+
+14
+00:00:52,600 --> 00:00:56,120
+It is widely used and very important.
+
+15
+00:00:56,200 --> 00:00:57,510
+Why is it important.
+
+16
+00:00:57,790 --> 00:01:03,760
+Well it is used for almost all statistical tests because it shows you how well you approximated the
+
+17
+00:01:03,760 --> 00:01:04,690
+true mean.
+
+18
+00:01:04,930 --> 00:01:07,380
+More on that in the next lessons.
+
+19
+00:01:07,730 --> 00:01:11,470
+Know that it decreases as the sample size increases.
+
+20
+00:01:11,470 --> 00:01:16,940
+This makes sense as bigger samples give a better approximation of the population.
+
+21
+00:01:16,990 --> 00:01:18,070
+That's all for now.
+
+22
+00:01:18,160 --> 00:01:19,000
+Thanks for watching.
+

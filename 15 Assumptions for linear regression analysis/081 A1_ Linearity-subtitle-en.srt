@@ -1,0 +1,92 @@
+﻿1
+00:00:00,610 --> 00:00:07,300
+The first assumption we will discuss is linearity as we explained earlier a linear regression is the
+
+2
+00:00:07,300 --> 00:00:09,670
+simplest non-trivial relationship.
+
+3
+00:00:09,850 --> 00:00:13,540
+It is called linear because the equation is linear.
+
+4
+00:00:13,540 --> 00:00:19,630
+Each independent variable is multiplied by a coefficient and summed up to predict the value of the dependent
+
+5
+00:00:19,630 --> 00:00:21,020
+variable.
+
+6
+00:00:21,070 --> 00:00:25,810
+How can you verify if the relationship between two variables is linear.
+
+7
+00:00:25,810 --> 00:00:31,960
+The easiest way is to choose an independent variable x one and plot it against the dependent y on a
+
+8
+00:00:31,960 --> 00:00:37,690
+scatterplot if the data points form a pattern that looks like a straight line then a linear regression
+
+9
+00:00:37,690 --> 00:00:39,670
+model is suitable.
+
+10
+00:00:39,690 --> 00:00:46,230
+Let's see a case where the assumption is violated after pulling another variable x 2 against Y on a
+
+11
+00:00:46,230 --> 00:00:49,760
+scatterplot we see there is no straight line that fits the data.
+
+12
+00:00:49,770 --> 00:00:57,580
+Well actually a curved line would be a very good fit using a linear regression would not be appropriate.
+
+13
+00:00:57,600 --> 00:01:04,030
+All clear linearity seems restrictive but there are easy fixes for it.
+
+14
+00:01:04,120 --> 00:01:08,390
+You can run a non linear regression or transform your relationship.
+
+15
+00:01:08,470 --> 00:01:13,000
+There are exponential and logarithmic transformations that can help with that.
+
+16
+00:01:13,200 --> 00:01:18,010
+The quadratic relationship we saw in this video could be easily transformed into a straight line with
+
+17
+00:01:18,010 --> 00:01:20,220
+the appropriate methods.
+
+18
+00:01:20,230 --> 00:01:26,020
+The takeaway is if the relationship is nonlinear you should not use the data before transforming it
+
+19
+00:01:26,020 --> 00:01:27,160
+appropriately.
+
+20
+00:01:28,160 --> 00:01:33,920
+That summarized linearity next assumption is in Dodge NHT of regressors.
+
+21
+00:01:33,920 --> 00:01:35,940
+What exactly does it mean.
+
+22
+00:01:35,990 --> 00:01:38,300
+We'll see in the next lesson.
+
+23
+00:01:38,300 --> 00:01:39,200
+Thanks for watching.
+

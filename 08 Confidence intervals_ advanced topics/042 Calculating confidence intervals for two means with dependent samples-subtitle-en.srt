@@ -1,0 +1,240 @@
+﻿1
+00:00:00,780 --> 00:00:06,750
+So far we have talked about confidence intervals with population variances that are either known or
+
+2
+00:00:06,810 --> 00:00:08,410
+unknown.
+
+3
+00:00:08,430 --> 00:00:14,340
+However we were considering only one population in the next couple of lessons.
+
+4
+00:00:14,370 --> 00:00:18,960
+We will explore confidence intervals looking into two populations.
+
+5
+00:00:18,960 --> 00:00:24,180
+These cases are more important as they have a wide range of real world applications.
+
+6
+00:00:25,560 --> 00:00:27,750
+A few important distinctions need to be made.
+
+7
+00:00:27,750 --> 00:00:34,990
+Before we dive into this topic in some cases the samples that we have taken from the two populations
+
+8
+00:00:35,080 --> 00:00:41,410
+will be dependent on each other and in others they will be independent dependent.
+
+9
+00:00:41,410 --> 00:00:48,370
+Samples are easier you will experience this firsthand when we have independent samples however we can
+
+10
+00:00:48,370 --> 00:00:54,490
+further distinguish three cases when the population variance is known when the population variance is
+
+11
+00:00:54,550 --> 00:00:56,500
+unknown but assumed to be equal.
+
+12
+00:00:56,560 --> 00:01:01,430
+And when it is unknown and assumed to be different sounds a bit overwhelming.
+
+13
+00:01:01,450 --> 00:01:07,300
+But don't worry in statistics many concepts are similar to each other and you will quickly see that
+
+14
+00:01:07,300 --> 00:01:13,420
+you have already acquired the intuition that allows you to understand these concepts pretty fast.
+
+15
+00:01:13,420 --> 00:01:18,510
+All right let's get onto the first case namely dependent samples.
+
+16
+00:01:18,530 --> 00:01:23,100
+This statistical test is often used when developing medicine.
+
+17
+00:01:23,160 --> 00:01:28,500
+Let's say you have developed a pill that increases the concentration of magnesium in the blood.
+
+18
+00:01:28,500 --> 00:01:32,600
+It is very promising but there is no data to support your claim.
+
+19
+00:01:32,850 --> 00:01:38,700
+After testing the drug in the laboratory it is time to see its actual effect on people.
+
+20
+00:01:38,790 --> 00:01:44,310
+What you would typically do is take a sample of 10 people and test their magnesium levels before and
+
+21
+00:01:44,310 --> 00:01:46,010
+after taking the pill.
+
+22
+00:01:46,260 --> 00:01:53,140
+The two dependent samples are the magnesium levels before and the magnesium levels after it is clear
+
+23
+00:01:53,140 --> 00:01:55,450
+that it is the same people we are testing.
+
+24
+00:01:55,510 --> 00:02:03,730
+Thus the samples are dependent an important note is that the populations are normally distributed actually
+
+25
+00:02:03,940 --> 00:02:05,490
+when dealing with biology.
+
+26
+00:02:05,500 --> 00:02:11,360
+Normality is so often observed that we immediately assume that such variables are normally distributed
+
+27
+00:02:13,140 --> 00:02:15,350
+OK back to the example.
+
+28
+00:02:15,640 --> 00:02:21,460
+Whenever you take a blood test the magnesium levels are stated in milligrams per deciliter and a healthy
+
+29
+00:02:21,460 --> 00:02:29,100
+person would usually have somewhere between 1.7 and 2.2 milligrams of magnesium per deciliter.
+
+30
+00:02:29,140 --> 00:02:34,900
+Here is a table that contains the sample of 10 people and their levels of magnesium before and after
+
+31
+00:02:34,900 --> 00:02:37,210
+taking the pill for some time.
+
+32
+00:02:37,270 --> 00:02:43,630
+We've also added a cell that calculates the difference in levels before and after taking the pill instead
+
+33
+00:02:43,630 --> 00:02:45,250
+of dealing with two variables.
+
+34
+00:02:45,280 --> 00:02:48,780
+We now have only one in this way.
+
+35
+00:02:48,910 --> 00:02:51,810
+The data looks as a single population doesn't it.
+
+36
+00:02:53,150 --> 00:02:59,320
+Let's calculate the mean and the standard deviation of the differences the mean is zero point three
+
+37
+00:02:59,320 --> 00:02:59,860
+three.
+
+38
+00:02:59,900 --> 00:03:03,090
+And the standard deviation is zero point four or five.
+
+39
+00:03:03,500 --> 00:03:08,140
+Moreover we know that the sample size is 10.
+
+40
+00:03:08,300 --> 00:03:13,400
+The formula that would allow us to calculate a confidence interval is the following.
+
+41
+00:03:13,480 --> 00:03:19,640
+The population is normally distributed but the sample we have contains only 10 observations.
+
+42
+00:03:19,930 --> 00:03:26,720
+Therefore the distribution will have to work with students T and the appropriate statistic is t.
+
+43
+00:03:26,740 --> 00:03:32,550
+You can clearly see that it is the same as the one for a single population with an unknown variance.
+
+44
+00:03:33,360 --> 00:03:39,020
+Let's choose a level of confidence and plug in the numbers as we have said many times.
+
+45
+00:03:39,190 --> 00:03:42,580
+95 percent confidence is one of the most common levels.
+
+46
+00:03:42,630 --> 00:03:45,280
+And so we will use it here as well.
+
+47
+00:03:45,330 --> 00:03:52,730
+The t statistic with nine degrees of freedom for a 95 percent confidence interval is 2.2 6.
+
+48
+00:03:52,740 --> 00:03:57,750
+Now we have everything we need and we can calculate the confidence interval.
+
+49
+00:03:57,750 --> 00:04:02,980
+It lies in the range between 0.01 and 0.6 5.
+
+50
+00:04:03,000 --> 00:04:04,970
+How do we interpret this result.
+
+51
+00:04:05,310 --> 00:04:11,200
+Well 95 percent of the cases the true mean will fall in this interval.
+
+52
+00:04:11,210 --> 00:04:14,840
+Moreover the whole interval is positive.
+
+53
+00:04:14,850 --> 00:04:19,310
+This shows that the true meaning of the difference is definitely positive.
+
+54
+00:04:19,350 --> 00:04:25,740
+Therefore with 95 percent certainty we can say that the levels of magnesium in the test subjects blood
+
+55
+00:04:25,770 --> 00:04:27,710
+is higher.
+
+56
+00:04:27,750 --> 00:04:33,530
+The purpose of this test was to determine whether the drug is effective based on our small sample.
+
+57
+00:04:33,600 --> 00:04:35,970
+It most likely is.
+
+58
+00:04:36,050 --> 00:04:37,050
+All right.
+
+59
+00:04:37,050 --> 00:04:40,780
+This shows you some of the practical applications of inference.
+
+60
+00:04:40,800 --> 00:04:46,530
+Stay tuned for our next lesson in which we will explore confidence intervals on independence Serviles.
+

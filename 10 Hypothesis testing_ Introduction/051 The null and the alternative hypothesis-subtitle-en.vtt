@@ -1,0 +1,202 @@
+WEBVTT
+
+00:00.420 --> 00:02.870
+Hi and welcome back.
+
+00:03.030 --> 00:05.220
+This is the main section of this course.
+
+00:05.340 --> 00:08.110
+It is based on the knowledge that you acquired previously.
+
+00:08.130 --> 00:11.460
+So if you haven't been through it you may have a hard time keeping up.
+
+00:12.410 --> 00:18.400
+Make sure you have seen all the videos about confidence intervals distribution's the tables and tea
+
+00:18.400 --> 00:21.520
+tables and have done all the exercises.
+
+00:21.800 --> 00:24.570
+If you've completed them already you are good to go.
+
+00:25.440 --> 00:30.200
+Confidence Intervals provide us with an estimation of where the parameters are located.
+
+00:30.210 --> 00:35.180
+However when you are making a decision you need a yes or no answer.
+
+00:35.190 --> 00:39.050
+The correct approach in this case is to use a test.
+
+00:39.200 --> 00:44.420
+In this section we will learn how to perform one of the fundamental tasks in statistics.
+
+00:44.450 --> 00:46.090
+Hypothesis Testing.
+
+00:46.550 --> 00:51.240
+OK there are four steps in data driven decision making.
+
+00:51.250 --> 00:55.540
+First you must formulate a hypothesis second.
+
+00:55.660 --> 01:00.960
+Once you have formulated a hypothesis you will have to find the right test for your hypothesis.
+
+01:01.700 --> 01:04.000
+Third you execute the test.
+
+01:04.610 --> 01:07.830
+And fourth you make a decision based on the result.
+
+01:08.910 --> 01:13.050
+Let's start from the beginning what is a hypothesis.
+
+01:13.050 --> 01:14.990
+Though there are many ways to define it.
+
+01:15.060 --> 01:21.190
+The most intuitive I've seen is a hypothesis is an idea that can be tested.
+
+01:21.270 --> 01:25.420
+This is not the formal definition but it explains the point very well.
+
+01:25.860 --> 01:29.390
+So if I tell you that apples in New York are expensive.
+
+01:29.460 --> 01:35.210
+This is an idea or a statement but is not testable until I have something to compare it with.
+
+01:35.220 --> 01:41.580
+For instance if I define expensive as any price higher than one dollar and seventy five cents per pound
+
+01:41.790 --> 01:44.450
+then it immediately becomes a hypothesis.
+
+01:45.240 --> 01:46.190
+All right what.
+
+01:46.270 --> 01:49.570
+Something that cannot be tested with a hypothesis.
+
+01:49.570 --> 01:51.260
+An example may be.
+
+01:51.310 --> 01:57.490
+Would the USA do better or worse under a Clinton administration compared to a Trump administration.
+
+01:57.490 --> 02:04.000
+Statistically speaking this is an idea but there is no data to test it therefore it cannot be a hypothesis
+
+02:04.060 --> 02:05.980
+of a statistical test.
+
+02:05.980 --> 02:10.220
+Actually it is more likely to be a topic of another discipline.
+
+02:10.240 --> 02:15.730
+Conversely in statistics we may compare different U.S. presidencies that have already been completed
+
+02:15.970 --> 02:19.620
+such as the Obama administration and the Bush administration.
+
+02:19.690 --> 02:22.060
+As we have data on both.
+
+02:22.170 --> 02:26.460
+All right let's get out of politics and get into hypotheses.
+
+02:26.740 --> 02:32.940
+Here's a simple topic that can be tested according to Glassdoor the popular selling information Web
+
+02:32.940 --> 02:39.850
+site the mean data scientists cellaring the US is one hundred thirteen thousand dollars so we wanted
+
+02:39.850 --> 02:42.020
+to test if their estimate is correct.
+
+02:42.790 --> 02:49.780
+There are two hypotheses that are made the null hypothesis denoted h zero and the Alternative Hypothesis
+
+02:49.960 --> 02:52.270
+denoted h 1 or H.
+
+02:52.840 --> 02:59.560
+The null hypothesis is the one to be tested and the alternative is everything else in our example.
+
+02:59.560 --> 03:05.890
+The null hypothesis would be the mean data scientists salary is one hundred thirteen thousand dollars
+
+03:06.280 --> 03:12.550
+while the alternative the mean data scientists salary is not one hundred thirteen thousand dollars.
+
+03:12.610 --> 03:17.980
+Now you would want to check if one hundred thirteen thousand is close enough to the true mean predicted
+
+03:17.980 --> 03:23.240
+by our sample in case it is you would accept the null hypothesis.
+
+03:23.320 --> 03:26.950
+Otherwise you would reject the null hypothesis.
+
+03:27.010 --> 03:32.840
+The concept of the null hypothesis is similar to innocent until proven guilty.
+
+03:32.890 --> 03:38.960
+We assume that the mean salary is one hundred thirteen thousand dollars and we try to prove otherwise.
+
+03:39.900 --> 03:44.740
+All right this was an example of a two sided or a two tailed test.
+
+03:44.750 --> 03:51.250
+You can also form one sided or OneTel tests say your friend Paul told you that he thinks data scientists
+
+03:51.260 --> 03:54.390
+are more than one hundred twenty five thousand dollars per year.
+
+03:54.590 --> 03:57.690
+You don't him so you design a test to see who is right.
+
+03:58.790 --> 04:04.790
+The null hypothesis of this test would be the mean data scientists salary is more than one hundred twenty
+
+04:04.790 --> 04:06.700
+five thousand dollars.
+
+04:06.710 --> 04:09.090
+The alternative will cover everything else.
+
+04:09.170 --> 04:15.620
+Thus the mean data scientists salary is less than or equal to one hundred twenty five thousand dollars.
+
+04:16.730 --> 04:22.130
+It is important to note that outcomes of tests refer to the population parameter rather than the sample
+
+04:22.130 --> 04:24.210
+statistic as such.
+
+04:24.290 --> 04:32.170
+The result that we get is for the population another crucial consideration is that generally the researcher
+
+04:32.170 --> 04:34.960
+is trying to reject the null hypothesis.
+
+04:34.960 --> 04:40.930
+Think about the null hypothesis as the status quo and the alternative as the change or innovation that
+
+04:40.930 --> 04:42.810
+challenges that status quo.
+
+04:43.180 --> 04:49.270
+In our example Paul was representing the status quo which we were challenging.
+
+04:49.340 --> 04:50.110
+All right.
+
+04:50.240 --> 04:52.750
+That's all for now in the next lectures.
+
+04:52.770 --> 04:56.420
+We'll see some examples and learn how to make data driven decisions.

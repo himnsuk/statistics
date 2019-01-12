@@ -1,0 +1,142 @@
+WEBVTT
+
+00:00.460 --> 00:05.900
+In this lesson we will learn about the errors that can be made in hypothesis testing.
+
+00:05.900 --> 00:11.010
+In general we can have two types of errors type 1 error and type 2 error.
+
+00:11.090 --> 00:15.560
+Sounds a bit boring but this will be a fun lecture I promise.
+
+00:15.560 --> 00:22.320
+First we will define the problems and then we will see some interesting examples type 1 error is when
+
+00:22.320 --> 00:26.180
+you reject a true null hypothesis and is the more serious error.
+
+00:26.370 --> 00:28.920
+It is also called a false positive.
+
+00:29.130 --> 00:32.100
+The probability of making this error is alpha.
+
+00:32.100 --> 00:36.740
+The level of significance since you the researcher choose the alpha.
+
+00:36.810 --> 00:43.580
+The responsibility for making this error lies solely on you type 2 error is when you accept a false
+
+00:43.580 --> 00:45.230
+null hypothesis.
+
+00:45.230 --> 00:52.010
+The probability of making this error is denoted by beda beda depends mainly on sample size and population
+
+00:52.010 --> 00:52.980
+variance.
+
+00:53.060 --> 00:59.120
+So if your topic is difficult to test due to a hard sampling or as high variability it is more likely
+
+00:59.120 --> 01:01.000
+to make this type of error.
+
+01:01.130 --> 01:05.410
+As you can imagine if the data set is hard to test it is not your fault.
+
+01:05.460 --> 01:09.220
+So Type 2 error is considered a smaller problem.
+
+01:09.250 --> 01:14.830
+We should also mention that the probability of rejecting a false null hypothesis is equal to 1 minus
+
+01:14.830 --> 01:15.860
+beta.
+
+01:15.880 --> 01:20.830
+This is the researchers go to reject a false null hypothesis.
+
+01:20.830 --> 01:25.620
+Therefore one minus Bayda is called The Power of the test.
+
+01:25.660 --> 01:31.360
+Generally researchers increase the power of a test by increasing the sample size.
+
+01:31.360 --> 01:36.790
+This is a common table statisticians used to summarize the types of errors.
+
+01:36.790 --> 01:42.870
+Now let's see an example that I heard from my professor back when I was studying statistics in university.
+
+01:42.970 --> 01:47.970
+You're in love with this girl from the other class but are unsure if she likes you.
+
+01:47.980 --> 01:50.070
+There are two errors you can make.
+
+01:50.140 --> 01:56.150
+First if she likes you back and you don't invite her out you are making the type 1 error.
+
+01:56.170 --> 02:00.470
+The null hypothesis in this situation is she likes you back.
+
+02:00.490 --> 02:03.010
+It turns out that she really did like you back.
+
+02:03.340 --> 02:08.980
+Unfortunately you did not invite her out because after testing the situation you wrongly thought the
+
+02:08.980 --> 02:11.200
+null hypothesis was false.
+
+02:11.200 --> 02:16.210
+In other words you rejected a true null hypothesis and lost her chance.
+
+02:16.210 --> 02:22.270
+It is a very serious problem because you could have been made for each other but you didn't even try.
+
+02:22.270 --> 02:28.370
+Now imagine another situation she doesn't like you back but you go and invite her out.
+
+02:28.420 --> 02:33.460
+The null hypothesis is still she likes you back but this time it is false.
+
+02:33.460 --> 02:35.440
+In reality she doesn't really like you back.
+
+02:35.440 --> 02:43.130
+That is however after testing you accept the null hypotheses and wrongly go and invite her out.
+
+02:43.320 --> 02:48.270
+She tells you that she has a boyfriend that is much older smarter and better at statistics than you
+
+02:48.330 --> 02:50.000
+and turns her back.
+
+02:50.010 --> 02:54.890
+You made a type 2 error accepted a false null hypothesis.
+
+02:54.990 --> 02:59.910
+However it is no big deal as you go back to your normal life without her and soon forget about this
+
+02:59.910 --> 03:01.800
+awkward situation.
+
+03:01.800 --> 03:04.370
+Hypothesis Testing is usually like that.
+
+03:04.530 --> 03:08.560
+You don't really want to make any of the two errors but it happens sometimes.
+
+03:08.670 --> 03:13.620
+You should be aware that statistics is very useful but not perfect.
+
+03:13.810 --> 03:14.570
+All right.
+
+03:14.630 --> 03:18.860
+That's all from our love slash life slash statistics lesson.
+
+03:18.860 --> 03:19.780
+Thanks for watching.

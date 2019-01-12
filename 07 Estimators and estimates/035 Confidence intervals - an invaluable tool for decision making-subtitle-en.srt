@@ -1,0 +1,124 @@
+﻿1
+00:00:01,100 --> 00:00:05,900
+High again in the previous lesson we learned about point estimators.
+
+2
+00:00:05,900 --> 00:00:09,180
+But as you can guess they are not very reliable.
+
+3
+00:00:09,230 --> 00:00:14,880
+Imagine visiting 5 percent of the restaurants in London and saying that the average meal is worth fifty
+
+4
+00:00:14,880 --> 00:00:16,360
+pounds.
+
+5
+00:00:16,550 --> 00:00:22,400
+You may be close but chances are that the true value is it really twenty two point fifty but somewhere
+
+6
+00:00:22,400 --> 00:00:29,230
+around it it's much safer to say that the average meal in London is somewhere between 20 and 25 pounds
+
+7
+00:00:29,240 --> 00:00:30,380
+isn't it.
+
+8
+00:00:30,380 --> 00:00:38,230
+In this way you have created a confidence interval around your point estimate of 20 2.50 a confidence
+
+9
+00:00:38,230 --> 00:00:42,130
+interval is a much more accurate representation of reality.
+
+10
+00:00:42,750 --> 00:00:48,010
+However there is still some uncertainty left which we measure in levels of confidence.
+
+11
+00:00:48,030 --> 00:00:54,630
+So getting back to our example you may say that you are 95 percent confident that the population parameter
+
+12
+00:00:54,720 --> 00:00:57,910
+lies between 20 and 25 quid.
+
+13
+00:00:57,930 --> 00:01:04,190
+Keep in mind that you can never be 100 percent confident unless you go through the entire population
+
+14
+00:01:04,980 --> 00:01:12,060
+and there is of course a 5 percent chance that the actual population parameter is outside of the 20
+
+15
+00:01:12,060 --> 00:01:14,200
+to 25 pounds range.
+
+16
+00:01:14,340 --> 00:01:20,720
+We'll observe that if the sample we have considered deviate significantly from the entire population.
+
+17
+00:01:20,800 --> 00:01:21,780
+All right.
+
+18
+00:01:21,830 --> 00:01:24,210
+There is one more ingredient needed.
+
+19
+00:01:24,290 --> 00:01:32,490
+The level of confidence it is denoted by one minus Alpha and is called the confidence level of the interval
+
+20
+00:01:33,530 --> 00:01:36,990
+Alpha is a value between 0 and 1.
+
+21
+00:01:37,100 --> 00:01:43,610
+For example if we want to be 95 percent confident that the parameter is inside the interval Alpha is
+
+22
+00:01:43,610 --> 00:01:45,170
+5 percent.
+
+23
+00:01:45,170 --> 00:01:51,500
+If we want a higher confidence level say 99 percent Alpha will be 1 percent.
+
+24
+00:01:51,500 --> 00:01:55,690
+Don't worry we will discuss this in more detail in our next video.
+
+25
+00:01:56,520 --> 00:01:58,580
+You can't wait until the next lesson.
+
+26
+00:01:58,770 --> 00:02:00,770
+Ok then here it is.
+
+27
+00:02:01,110 --> 00:02:09,090
+The formula for all confidence intervals is from the point estimate minus the reliability factor times
+
+28
+00:02:09,090 --> 00:02:16,620
+the standard error to the point estimate Plus the reliability factor times the standard error.
+
+29
+00:02:16,620 --> 00:02:21,840
+We know that the point estimate is values like X bar and S Bar right.
+
+30
+00:02:21,840 --> 00:02:27,110
+We also know what the standard error is one about the reliability factor.
+
+31
+00:02:27,330 --> 00:02:29,810
+We'll have to introduce in our next lesson.
+

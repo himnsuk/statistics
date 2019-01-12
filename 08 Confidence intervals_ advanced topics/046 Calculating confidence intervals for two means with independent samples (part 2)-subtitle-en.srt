@@ -1,0 +1,188 @@
+﻿1
+00:00:00,480 --> 00:00:05,660
+High again in the last few lessons we've been focusing on confidence intervals.
+
+2
+00:00:05,910 --> 00:00:07,290
+We'll do that here too.
+
+3
+00:00:07,590 --> 00:00:13,790
+This lesson is about independent samples with variances unknown but assumed to be equal.
+
+4
+00:00:13,800 --> 00:00:14,630
+All right.
+
+5
+00:00:14,630 --> 00:00:20,300
+Think about this example you are trying to calculate the difference of the price of apples in New York
+
+6
+00:00:20,360 --> 00:00:27,140
+and L.A. you go to 10 grocery shops in New York and your friend Paul who lives in L.A. visits a grocery
+
+7
+00:00:27,140 --> 00:00:29,490
+shops in order to help you with the research.
+
+8
+00:00:30,230 --> 00:00:35,630
+Once you've organized the data in a table you start reflecting on how you can create a confidence interval
+
+9
+00:00:35,690 --> 00:00:38,880
+that shows the difference between the price of apples or New York.
+
+10
+00:00:38,900 --> 00:00:45,620
+And that way you don't know what the population variance of apples or New York or L.A. is but you assume
+
+11
+00:00:45,620 --> 00:00:53,510
+it should be the same for NY and L.A. So you calculate the mean price in NY and L.A. and obtained $3
+
+12
+00:00:53,510 --> 00:00:58,230
+and 94 cents and $3 and 25 cents respectively.
+
+13
+00:00:58,250 --> 00:01:05,020
+Moreover their sample standard deviations are 18 cents and 27 cents.
+
+14
+00:01:05,110 --> 00:01:06,540
+What should we do now.
+
+15
+00:01:06,880 --> 00:01:10,280
+Well we assume that the population variances are equal.
+
+16
+00:01:10,330 --> 00:01:12,130
+So we have to estimate them.
+
+17
+00:01:12,580 --> 00:01:18,070
+The unbiased estimate or in this case is called the pooled sample variance and we could use the following
+
+18
+00:01:18,070 --> 00:01:25,620
+formula to calculate it as you can see it is based solely on the sample sizes and the sample standard
+
+19
+00:01:25,620 --> 00:01:29,010
+deviations of the two datasets.
+
+20
+00:01:29,210 --> 00:01:36,470
+We quickly plug in the numbers and get a pooled sample variance of 0.05 and a pooled standard deviation
+
+21
+00:01:36,530 --> 00:01:38,900
+of 22 cents.
+
+22
+00:01:38,910 --> 00:01:45,920
+How about the statistic needed to form a confidence interval Well we have an unknown variance.
+
+23
+00:01:45,920 --> 00:01:50,960
+So you guessed it it's the t statistic.
+
+24
+00:01:51,090 --> 00:01:53,760
+Here's the formula for the confidence interval.
+
+25
+00:01:54,560 --> 00:01:59,310
+Let's compare it to the formula for independent samples with known variance.
+
+26
+00:01:59,360 --> 00:02:05,750
+We have the same difference of sample means for the variances instead of population variances.
+
+27
+00:02:05,750 --> 00:02:13,670
+We have the pooled sample variants and then instead of the Z statistic we have the statistic although
+
+28
+00:02:13,670 --> 00:02:15,140
+the formulas are different.
+
+29
+00:02:15,140 --> 00:02:18,090
+They are very consistent right.
+
+30
+00:02:18,110 --> 00:02:23,160
+You must be wondering about the statistic though it is a bit stranger this time.
+
+31
+00:02:23,210 --> 00:02:29,930
+So let's quickly try to clarify it the degrees of freedom are equal to the total sample size minus the
+
+32
+00:02:29,930 --> 00:02:31,350
+number of variables.
+
+33
+00:02:32,220 --> 00:02:39,420
+So far we have seen t's with n minus 1 degrees of freedom because we had a sample size of N and only
+
+34
+00:02:39,420 --> 00:02:41,070
+one variable.
+
+35
+00:02:41,260 --> 00:02:49,180
+This time we have two sample sizes one of ten and one of eight observations and two variables.
+
+36
+00:02:49,180 --> 00:02:52,570
+Apple prices in New York and aval prices in L.A..
+
+37
+00:02:52,840 --> 00:02:57,150
+Therefore we have 16 degrees of freedom.
+
+38
+00:02:57,200 --> 00:02:58,190
+All right.
+
+39
+00:02:58,190 --> 00:03:04,400
+Checking the statistic from the table for a 95 percent confidence interval with 16 degrees of freedom
+
+40
+00:03:04,670 --> 00:03:06,760
+we get 2.1 too.
+
+41
+00:03:07,040 --> 00:03:14,900
+Let's plug everything in and get our answer the 95 percent confidence interval is between 0.4 7 and
+
+42
+00:03:14,900 --> 00:03:17,040
+0.9 to.
+
+43
+00:03:17,280 --> 00:03:19,320
+What's the interpretation.
+
+44
+00:03:19,320 --> 00:03:26,070
+Well we are 95 percent confident that the actual difference between the two populations price of apples
+
+45
+00:03:26,070 --> 00:03:34,290
+in New York and in L.A. is somewhere between 0.4 7 and 0.9 to therefore it is clear that apples in New
+
+46
+00:03:34,290 --> 00:03:37,770
+York are much more expensive than in Olay.
+
+47
+00:03:37,920 --> 00:03:39,750
+Good job and thanks for watching.
+

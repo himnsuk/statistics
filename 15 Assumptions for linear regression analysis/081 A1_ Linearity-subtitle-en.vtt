@@ -1,0 +1,70 @@
+WEBVTT
+
+00:00.610 --> 00:07.300
+The first assumption we will discuss is linearity as we explained earlier a linear regression is the
+
+00:07.300 --> 00:09.670
+simplest non-trivial relationship.
+
+00:09.850 --> 00:13.540
+It is called linear because the equation is linear.
+
+00:13.540 --> 00:19.630
+Each independent variable is multiplied by a coefficient and summed up to predict the value of the dependent
+
+00:19.630 --> 00:21.020
+variable.
+
+00:21.070 --> 00:25.810
+How can you verify if the relationship between two variables is linear.
+
+00:25.810 --> 00:31.960
+The easiest way is to choose an independent variable x one and plot it against the dependent y on a
+
+00:31.960 --> 00:37.690
+scatterplot if the data points form a pattern that looks like a straight line then a linear regression
+
+00:37.690 --> 00:39.670
+model is suitable.
+
+00:39.690 --> 00:46.230
+Let's see a case where the assumption is violated after pulling another variable x 2 against Y on a
+
+00:46.230 --> 00:49.760
+scatterplot we see there is no straight line that fits the data.
+
+00:49.770 --> 00:57.580
+Well actually a curved line would be a very good fit using a linear regression would not be appropriate.
+
+00:57.600 --> 01:04.030
+All clear linearity seems restrictive but there are easy fixes for it.
+
+01:04.120 --> 01:08.390
+You can run a non linear regression or transform your relationship.
+
+01:08.470 --> 01:13.000
+There are exponential and logarithmic transformations that can help with that.
+
+01:13.200 --> 01:18.010
+The quadratic relationship we saw in this video could be easily transformed into a straight line with
+
+01:18.010 --> 01:20.220
+the appropriate methods.
+
+01:20.230 --> 01:26.020
+The takeaway is if the relationship is nonlinear you should not use the data before transforming it
+
+01:26.020 --> 01:27.160
+appropriately.
+
+01:28.160 --> 01:33.920
+That summarized linearity next assumption is in Dodge NHT of regressors.
+
+01:33.920 --> 01:35.940
+What exactly does it mean.
+
+01:35.990 --> 01:38.300
+We'll see in the next lesson.
+
+01:38.300 --> 01:39.200
+Thanks for watching.

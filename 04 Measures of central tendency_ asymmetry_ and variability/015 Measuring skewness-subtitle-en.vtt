@@ -1,0 +1,112 @@
+WEBVTT
+
+00:00.720 --> 00:06.260
+After exploring the measures of central tendency Let's move on to the measures of symmetry.
+
+00:06.270 --> 00:10.410
+The most commonly used tool to measure a symmetry is skewness.
+
+00:10.410 --> 00:16.800
+This is the formula to calculate it almost always you will use software that performs the calculation
+
+00:16.800 --> 00:17.420
+for you.
+
+00:17.430 --> 00:24.620
+So in this lesson we will not get into the computation but rather the meaning of skewness so skewness
+
+00:24.620 --> 00:30.860
+indicates whether the observations in a dataset are concentrated on one side skewness can be confusing
+
+00:30.860 --> 00:31.730
+at the beginning.
+
+00:31.730 --> 00:33.800
+So an example is in place.
+
+00:34.220 --> 00:38.010
+Remember frequency distribution tables from previous lectures.
+
+00:38.060 --> 00:42.510
+Here we have three data sets and their respective frequency distributions.
+
+00:42.740 --> 00:47.630
+We have also calculated the means medians and modes.
+
+00:47.720 --> 00:53.960
+The first data set has a mean of two point seventy nine and a median of two hence the mean is bigger
+
+00:53.960 --> 00:55.330
+than the median.
+
+00:55.430 --> 00:59.940
+We say that this is a positive or right skew from the graph.
+
+00:59.960 --> 01:04.120
+You can clearly see that the data points are concentrated on the left side.
+
+01:04.310 --> 01:08.390
+Note the direction of the skew is counter-intuitive.
+
+01:08.390 --> 01:14.090
+It does not depend on which side the line is leading to but rather to which side its tail is leading
+
+01:14.090 --> 01:15.100
+to.
+
+01:15.170 --> 01:20.620
+So right skewness means that the outliers are to the right.
+
+01:20.640 --> 01:26.160
+It is interesting to see the measures of central tendency incorporated in the graph when we have the
+
+01:26.160 --> 01:31.800
+right skewness the mean is bigger than the median and the mode is the value with the highest visual
+
+01:31.800 --> 01:35.390
+representation in the second graph.
+
+01:35.450 --> 01:42.320
+We have plotted a data set that has an equal mean median and mode the frequency of occurrence is completely
+
+01:42.320 --> 01:46.280
+symmetrical and we call this a zero or no skew.
+
+01:46.280 --> 01:52.950
+Most often you'll hear people say that the distribution is symmetrical for the third dataset.
+
+01:53.070 --> 02:00.440
+We have a mean of 4.9 a median of five and a mode of six as the mean is lower than the median.
+
+02:00.510 --> 02:04.150
+We say that there is a negative or left skew.
+
+02:04.230 --> 02:07.980
+Once again the highest point is defined by the mode.
+
+02:08.310 --> 02:10.950
+Why is it called aleft skew again.
+
+02:10.950 --> 02:15.310
+That's right because the outliers are to the left.
+
+02:15.330 --> 02:16.140
+All right.
+
+02:16.140 --> 02:18.520
+So why is skewness important.
+
+02:18.690 --> 02:22.860
+Skewness tells us a lot about where the data is situated.
+
+02:22.860 --> 02:29.160
+As we mentioned in our previous lesson the mean median and mode should be used together to get a good
+
+02:29.160 --> 02:35.610
+understanding of the data set measures of a symmetry like skewness are the link between central tendency
+
+02:35.610 --> 02:41.340
+measures and probability theory which ultimately allows us to get a more complete understanding of the
+
+02:41.340 --> 02:42.660
+data we are working with.

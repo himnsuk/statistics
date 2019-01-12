@@ -1,0 +1,188 @@
+﻿1
+00:00:00,450 --> 00:00:03,850
+The last assumption is no multi-collinearity.
+
+2
+00:00:04,140 --> 00:00:09,250
+We observe multi-collinearity when two or more variables have high correlation.
+
+3
+00:00:09,510 --> 00:00:18,090
+Let's exemplify this point with an equation A is equal to two plus 5 times B A and B are two variables
+
+4
+00:00:18,090 --> 00:00:20,450
+with an exact linear combination.
+
+5
+00:00:20,620 --> 00:00:27,840
+A can be represented using B and B can be represented using a in a model containing A and B we would
+
+6
+00:00:27,840 --> 00:00:30,420
+have perfect multi-collinearity.
+
+7
+00:00:30,420 --> 00:00:36,600
+This imposes a big problem to our regression model as the coefficients will be wrongly estimated.
+
+8
+00:00:36,600 --> 00:00:42,210
+The reasoning is that if a can be represented using B there is no point using both.
+
+9
+00:00:42,210 --> 00:00:45,480
+We can just keep one of them all right.
+
+10
+00:00:45,510 --> 00:00:51,070
+Another example would be two variables C and D with a correlation of 90 percent.
+
+11
+00:00:51,120 --> 00:00:57,570
+If we had a regression model using C and D We would also have multi-collinearity although not perfect
+
+12
+00:00:58,110 --> 00:00:58,690
+here.
+
+13
+00:00:58,710 --> 00:01:02,580
+The assumption is still violated and poses a problem to our model.
+
+14
+00:01:03,460 --> 00:01:08,530
+Usually real life examples are helpful so let's provide one.
+
+15
+00:01:08,540 --> 00:01:12,980
+There are two bars in the neighborhood bonkers and the Shakespeare bar.
+
+16
+00:01:13,070 --> 00:01:15,950
+We want to predict the market share of bankers.
+
+17
+00:01:16,010 --> 00:01:19,730
+Most people living in the neighborhood drink only beer in the bars.
+
+18
+00:01:19,730 --> 00:01:23,990
+So a good approximation would be a model with three variables.
+
+19
+00:01:23,990 --> 00:01:29,720
+The price of half a pint of beer at bonkers the price of a pint of beer at bonkers and the price of
+
+20
+00:01:29,720 --> 00:01:31,840
+a pint of beer at Shakespear's.
+
+21
+00:01:31,970 --> 00:01:34,130
+This is logical right.
+
+22
+00:01:34,130 --> 00:01:40,190
+If one bar raises prices people would simply switch bars so the price in one bar is a predictor of the
+
+23
+00:01:40,190 --> 00:01:43,000
+market share of the other bar.
+
+24
+00:01:43,060 --> 00:01:43,820
+All right.
+
+25
+00:01:44,050 --> 00:01:45,490
+Where's the problem.
+
+26
+00:01:45,640 --> 00:01:53,830
+Half a pint of beer at bonkers costs around $1 and one pint costs 190 bonkers tries to gain market share
+
+27
+00:01:53,830 --> 00:01:56,290
+by cutting its price to 90 cents.
+
+28
+00:01:56,290 --> 00:02:01,810
+It cannot keep the price of one pint at 190 because people would just buy two times half a pint for
+
+29
+00:02:01,810 --> 00:02:03,730
+one dollar eighty cents.
+
+30
+00:02:03,880 --> 00:02:08,900
+Bonkers management lowers the price of the pint of beer to 1.70.
+
+31
+00:02:08,930 --> 00:02:13,040
+Next we run a regression based on these three variables.
+
+32
+00:02:13,040 --> 00:02:19,310
+The p value for the pint of beer at bonkers and half a pint at bonkers show they are insignificant.
+
+33
+00:02:19,310 --> 00:02:24,170
+Why the underlying logic behind ever model was so rigid.
+
+34
+00:02:24,170 --> 00:02:30,270
+Well no multi-collinearity is an assumption of the calculations behind the regression.
+
+35
+00:02:30,410 --> 00:02:34,730
+The price of half a pint and a full pint at bonkers definitely move together.
+
+36
+00:02:35,150 --> 00:02:40,490
+This messed up the calculations of the computer and it provided us with wrong estimates and wrong p
+
+37
+00:02:40,490 --> 00:02:42,770
+values.
+
+38
+00:02:42,810 --> 00:02:44,870
+So how do we fix it.
+
+39
+00:02:44,880 --> 00:02:47,310
+There are three types of fixes.
+
+40
+00:02:47,370 --> 00:02:50,940
+The first one is to drop one of the two variables.
+
+41
+00:02:51,000 --> 00:02:54,680
+The second is to transform them into one variable.
+
+42
+00:02:54,690 --> 00:02:56,980
+The third possibility is tricky.
+
+43
+00:02:57,060 --> 00:03:03,380
+If you are super confident in your skills you can keep them both while treating them with extreme caution.
+
+44
+00:03:03,390 --> 00:03:06,230
+The correct approach depends on the research at hand.
+
+45
+00:03:07,320 --> 00:03:14,350
+Multi-collinearity is a big problem but it is also the easiest to notice before creating the regression.
+
+46
+00:03:14,430 --> 00:03:20,730
+Find the correlation between each two pairs of the independent variables and you will know if a multi-collinearity
+
+47
+00:03:20,730 --> 00:03:21,990
+problem may arise.
+

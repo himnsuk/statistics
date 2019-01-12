@@ -1,0 +1,244 @@
+﻿1
+00:00:00,440 --> 00:00:01,150
+All right.
+
+2
+00:00:01,290 --> 00:00:06,810
+So we've learned that confidence intervals based on small samples from normally distributed populations
+
+3
+00:00:06,900 --> 00:00:10,190
+are calculated with the t statistic.
+
+4
+00:00:10,230 --> 00:00:13,080
+Let's revisit the example we saw earlier.
+
+5
+00:00:13,200 --> 00:00:19,500
+You are an aspiring did a scientist and are wondering how much the mean data scientists salary is you
+
+6
+00:00:19,500 --> 00:00:24,960
+have a sample of nine compensations you found on glass door and you have summarized the information
+
+7
+00:00:24,960 --> 00:00:26,410
+in the following table.
+
+8
+00:00:26,730 --> 00:00:27,570
+OK.
+
+9
+00:00:27,570 --> 00:00:32,880
+We've already calculated the sample mean and standard error which are ninety two thousand five hundred
+
+10
+00:00:32,880 --> 00:00:37,380
+thirty three dollars and four thousand six hundred forty four dollars respectively.
+
+11
+00:00:38,220 --> 00:00:41,600
+But this time we don't have one key piece of information.
+
+12
+00:00:41,790 --> 00:00:43,840
+The population variance.
+
+13
+00:00:44,130 --> 00:00:45,130
+No problem.
+
+14
+00:00:45,390 --> 00:00:50,800
+As the good statisticians that we are we will use the Student's t distribution.
+
+15
+00:00:51,010 --> 00:00:56,200
+Here's the formula that allows us to find a confidence interval for the mean of a population with an
+
+16
+00:00:56,260 --> 00:00:58,530
+unknown variance.
+
+17
+00:00:58,600 --> 00:01:02,660
+Let's compare it with the formula we used when the variance is known.
+
+18
+00:01:02,740 --> 00:01:04,960
+There are two key differences.
+
+19
+00:01:04,990 --> 00:01:13,180
+First instead of Z statistic we have a t statistic and second instead of population standard deviation
+
+20
+00:01:13,480 --> 00:01:15,790
+we have sample standard deviation.
+
+21
+00:01:15,910 --> 00:01:24,010
+Otherwise everything is the same so it shouldn't be that difficult to remember the logic behind constructing
+
+22
+00:01:24,010 --> 00:01:25,140
+confidence intervals.
+
+23
+00:01:25,180 --> 00:01:27,400
+In both cases is the same.
+
+24
+00:01:27,400 --> 00:01:34,330
+The only two inputs that change are the statistic at hand and the standard deviation when population
+
+25
+00:01:34,330 --> 00:01:35,510
+variance is known.
+
+26
+00:01:35,560 --> 00:01:39,760
+Population standard deviation goes with the Z statistic.
+
+27
+00:01:39,760 --> 00:01:41,850
+When population variance is unknown.
+
+28
+00:01:41,980 --> 00:01:45,840
+Several standard deviation goes with the t statistic.
+
+29
+00:01:45,850 --> 00:01:51,460
+All right so we have the sample mean standard deviation and sample size.
+
+30
+00:01:51,460 --> 00:01:54,530
+All we have to do is find the t statistic.
+
+31
+00:01:54,850 --> 00:01:59,170
+We will be able to obtain the t statistic from the tea table.
+
+32
+00:01:59,200 --> 00:02:04,690
+First we need to specify the degrees of freedom for the Student's t distribution.
+
+33
+00:02:04,720 --> 00:02:07,410
+There are n minus 1 degrees of freedom.
+
+34
+00:02:07,450 --> 00:02:10,340
+Our sample consists of nine observations.
+
+35
+00:02:10,420 --> 00:02:13,270
+So we have eight degrees of freedom.
+
+36
+00:02:13,270 --> 00:02:17,200
+Second we have to find Alpha divided by two.
+
+37
+00:02:17,200 --> 00:02:22,030
+Once again this depends on the confidence level that we want to obtain.
+
+38
+00:02:22,030 --> 00:02:26,930
+In this example we are going to use a confidence level of 95 percent.
+
+39
+00:02:27,250 --> 00:02:30,690
+This means that Alpha is equal to 5 percent.
+
+40
+00:02:30,700 --> 00:02:35,170
+Therefore half of Alpha would be 2.5 percent.
+
+41
+00:02:35,170 --> 00:02:40,810
+You can now see that the associated t statistic is 2.3 1 great.
+
+42
+00:02:40,810 --> 00:02:47,050
+Note that some tables you will find in books or online like this one have a C row.
+
+43
+00:02:47,140 --> 00:02:50,080
+The abbreviation stands for confidence interval.
+
+44
+00:02:50,080 --> 00:02:55,810
+Instead of finding Alpha we can just check the 95 percent confidence interval and get the same result.
+
+45
+00:02:55,990 --> 00:02:59,110
+Easy OK.
+
+46
+00:02:59,290 --> 00:03:03,680
+We have all the information needed so we just plug in the numbers.
+
+47
+00:03:03,850 --> 00:03:09,490
+What we get is a confidence interval from eighty one thousand eight hundred six dollars to one hundred
+
+48
+00:03:09,490 --> 00:03:12,270
+three thousand $261.
+
+49
+00:03:12,730 --> 00:03:18,070
+Let's compare this result to the result for the confidence interval with known population.
+
+50
+00:03:18,070 --> 00:03:23,320
+We got a 95 percent confidence interval that was between ninety four thousand eight hundred thirty three
+
+51
+00:03:23,320 --> 00:03:27,770
+dollars and one hundred five thousand five hundred sixty eight dollars.
+
+52
+00:03:27,820 --> 00:03:33,450
+You can clearly note that when we know the population variance we get a narrower confidence interval.
+
+53
+00:03:33,940 --> 00:03:39,400
+When we do not know the population variance there is a higher uncertainty that is reflected by wider
+
+54
+00:03:39,400 --> 00:03:41,530
+boundaries for our interval.
+
+55
+00:03:41,620 --> 00:03:43,070
+Makes sense doesn't it.
+
+56
+00:03:44,030 --> 00:03:50,090
+So what we learned today is that even when we do not know the population variance we can still make
+
+57
+00:03:50,090 --> 00:03:53,090
+predictions but they will be less accurate.
+
+58
+00:03:53,130 --> 00:03:58,520
+Furthermore the proper statistic for estimating the confidence interval when the population variance
+
+59
+00:03:58,520 --> 00:04:03,370
+is unknown is the t statistic and not the Z statistic.
+
+60
+00:04:03,380 --> 00:04:04,780
+All right great.
+
+61
+00:04:04,940 --> 00:04:05,970
+Thanks for watching.
+

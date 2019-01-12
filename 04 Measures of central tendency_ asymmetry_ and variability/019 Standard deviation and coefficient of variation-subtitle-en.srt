@@ -1,0 +1,272 @@
+﻿1
+00:00:00,880 --> 00:00:04,300
+Wild variance is a common measure of data dispersion.
+
+2
+00:00:04,360 --> 00:00:10,030
+In most cases the figure you will obtain is pretty large and hard to compare as the unit of measurement
+
+3
+00:00:10,030 --> 00:00:11,590
+is squared.
+
+4
+00:00:11,590 --> 00:00:19,330
+The easy fix is to calculate it square root and obtain a statistic known as standard deviation in most
+
+5
+00:00:19,330 --> 00:00:26,500
+analysis you perform standard deviation will be much more meaningful than variance as we saw in the
+
+6
+00:00:26,500 --> 00:00:27,640
+previous lecture.
+
+7
+00:00:27,670 --> 00:00:31,640
+There are different measures for the population and sample variance.
+
+8
+00:00:31,660 --> 00:00:36,670
+Consequently there is also population and sample standard deviation.
+
+9
+00:00:36,820 --> 00:00:42,550
+The formulas are the square root of the population variance and the square root of the sample variance
+
+10
+00:00:42,550 --> 00:00:43,800
+respectively.
+
+11
+00:00:43,960 --> 00:00:48,180
+I believe there is no need for an example of the calculation right.
+
+12
+00:00:48,250 --> 00:00:51,490
+If you have a calculator in your hands you'll be able to do the job.
+
+13
+00:00:52,730 --> 00:00:53,630
+All right.
+
+14
+00:00:53,820 --> 00:00:58,400
+The other measure we still have to introduce is the coefficient of variation.
+
+15
+00:00:58,420 --> 00:01:02,500
+It is equal to the standard deviation divided by the mean.
+
+16
+00:01:02,700 --> 00:01:06,740
+Another name for the term is relative standard deviation.
+
+17
+00:01:06,750 --> 00:01:09,690
+This is an easy way to remember its formula.
+
+18
+00:01:09,690 --> 00:01:16,610
+It is simply the standard deviation relative to the mean as you probably guessed there is a population
+
+19
+00:01:16,700 --> 00:01:17,810
+and simple formula.
+
+20
+00:01:17,810 --> 00:01:25,550
+Once again so standard deviation is the most common measure of variability for a single dataset.
+
+21
+00:01:25,600 --> 00:01:30,320
+But why do we need yet another measure such as the coefficient of variation.
+
+22
+00:01:30,640 --> 00:01:36,490
+Well comparing the standard deviations of two different data sets is meaningless but comparing coefficients
+
+23
+00:01:36,490 --> 00:01:41,010
+of variation is not Aristotle once said.
+
+24
+00:01:41,010 --> 00:01:42,840
+Tell me I'll forget.
+
+25
+00:01:42,840 --> 00:01:44,820
+Show me I remember.
+
+26
+00:01:44,820 --> 00:01:47,180
+Involve me all understand.
+
+27
+00:01:47,460 --> 00:01:52,920
+To make sure you remember here's an example of a comparison between standard deviations.
+
+28
+00:01:53,370 --> 00:01:57,740
+Let's take the prices of pizza at 10 different places in New York.
+
+29
+00:01:57,750 --> 00:02:01,050
+They range from 1 to $11.
+
+30
+00:02:01,050 --> 00:02:06,960
+Now imagine that you only have Mexican pesos and to you the prices look more like eighteen point eight
+
+31
+00:02:06,970 --> 00:02:10,690
+one pesos to two hundred six point ninety one pesos.
+
+32
+00:02:10,710 --> 00:02:17,090
+Given the exchange rate of eighteen point eight one pesos for one dollar let's combine our knowledge
+
+33
+00:02:17,090 --> 00:02:23,660
+so far and find the standard deviations and coefficients of variation of these two data sets.
+
+34
+00:02:23,720 --> 00:02:28,230
+First we have to see if this is a sample or a population.
+
+35
+00:02:28,280 --> 00:02:31,310
+Are there only 11 restaurants in New York.
+
+36
+00:02:31,310 --> 00:02:32,240
+Of course not.
+
+37
+00:02:32,390 --> 00:02:36,580
+This is obviously a sample drawn from all the restaurants in the city.
+
+38
+00:02:36,650 --> 00:02:41,150
+Then we have to use the formulas for sample measures of variability.
+
+39
+00:02:41,150 --> 00:02:49,070
+Second we have to find the mean the mean in dollars is equal to 5.5 and the meat in pesos is one hundred
+
+40
+00:02:49,070 --> 00:02:51,190
+three point forty six.
+
+41
+00:02:51,200 --> 00:02:55,290
+The third step of the process is finding the sample variance.
+
+42
+00:02:55,460 --> 00:03:01,070
+Following the formula that we showed earlier we can obtain ten point seventy two dollars squared and
+
+43
+00:03:01,070 --> 00:03:07,070
+three thousand seven hundred ninety three point sixty nine peso squared the respective sample standard
+
+44
+00:03:07,070 --> 00:03:12,480
+deviations are three point seven dollars and sixty one point five nine pesos.
+
+45
+00:03:13,810 --> 00:03:16,290
+Let's make a couple of observations.
+
+46
+00:03:16,420 --> 00:03:23,060
+First variance gives results in squared units while standard deviation in original units.
+
+47
+00:03:23,080 --> 00:03:29,650
+This is the main reasons why professionals prefer to use standard deviation as the main measure of variability.
+
+48
+00:03:29,650 --> 00:03:36,280
+It is directly interpretable squared dollars means nothing even in the field of statistics.
+
+49
+00:03:36,280 --> 00:03:43,480
+Second we got standard deviations of 3.2 seven and sixty one point five nine for the same pizza at the
+
+50
+00:03:43,480 --> 00:03:46,160
+same eleven restaurants in New York City.
+
+51
+00:03:46,330 --> 00:03:47,210
+Seems wrong.
+
+52
+00:03:47,290 --> 00:03:48,120
+Right.
+
+53
+00:03:48,130 --> 00:03:48,970
+Don't worry.
+
+54
+00:03:49,060 --> 00:03:51,880
+It is time to use our last tool.
+
+55
+00:03:51,880 --> 00:03:59,140
+The coefficient of variation dividing the standard deviations by the respective means we get the two
+
+56
+00:03:59,140 --> 00:04:01,450
+coefficients of variation.
+
+57
+00:04:01,450 --> 00:04:05,080
+The result is the same 0.60.
+
+58
+00:04:05,080 --> 00:04:07,140
+Notice that it is not dollars.
+
+59
+00:04:07,240 --> 00:04:10,750
+Pesos dollars squared or pesos squared.
+
+60
+00:04:10,780 --> 00:04:13,600
+It is just 0.60.
+
+61
+00:04:13,600 --> 00:04:18,570
+This shows us the great advantage that the coefficient of variation gives us.
+
+62
+00:04:18,640 --> 00:04:23,490
+Now we can confidently say that the two data sets have the same variability.
+
+63
+00:04:23,590 --> 00:04:25,910
+Which is what we expected beforehand.
+
+64
+00:04:26,920 --> 00:04:29,790
+Let's recap what we have learned so far.
+
+65
+00:04:29,860 --> 00:04:37,180
+There are three main measures of variability variance standard deviation and coefficient of variation.
+
+66
+00:04:37,180 --> 00:04:43,870
+You should feel confident using all of them as we're getting closer to more complex statistical topics.
+
+67
+00:04:43,870 --> 00:04:49,120
+And remember Aristotle's advice involve me I'll understand.
+
+68
+00:04:49,120 --> 00:04:53,060
+So please don't forget to get involved with the exercises.
+

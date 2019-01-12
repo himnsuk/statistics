@@ -1,0 +1,127 @@
+WEBVTT
+
+00:00.890 --> 00:07.820
+It's time for a short break from all these numbers and calculations I would like to tell you a story.
+
+00:07.850 --> 00:13.160
+William Gosset was an English statistician who worked for the brewery of Guinness.
+
+00:13.160 --> 00:18.680
+He developed different methods for the selection of the best yielding varieties of barley an important
+
+00:18.680 --> 00:23.300
+ingredient when making beer Gosset found big samples tedious.
+
+00:23.360 --> 00:29.700
+So he was trying to develop a way to extract small samples but still come up with meaningful predictions.
+
+00:30.670 --> 00:36.040
+He was a curious and productive researcher and published a number of papers that are still relevant
+
+00:36.040 --> 00:37.020
+today.
+
+00:37.090 --> 00:43.120
+However due to the Guinness company policy he was not allowed to sign the papers with his own name.
+
+00:43.160 --> 00:47.560
+Therefore all of his work was under the pen name student.
+
+00:48.010 --> 00:54.460
+Later on a friend of his and a famous statistician Ronald Fischer stepping on the findings of Gosset
+
+00:54.670 --> 01:00.670
+introduced the t statistic and the name that stuck with the corresponding distribution even today is
+
+01:00.670 --> 01:07.880
+students t the Student's t distribution is one of the biggest breakthroughs in statistics as it allowed
+
+01:07.970 --> 01:12.560
+inference through small samples with an unknown population variance.
+
+01:12.560 --> 01:18.050
+This sitting can be applied to a big part of statistical problems we face today and is an important
+
+01:18.050 --> 01:19.980
+part of this course.
+
+01:20.010 --> 01:26.150
+All right visually the Student's t distribution looks much like a normal distribution but generally
+
+01:26.150 --> 01:28.950
+has fatter tails fatter tails.
+
+01:28.970 --> 01:35.560
+As you may remember allows for a higher dispersion of variables as there is more uncertainty in the
+
+01:35.560 --> 01:39.960
+same way that the Z statistic is related to the standard normal distribution.
+
+01:39.970 --> 01:44.190
+The statistic is related to the Student's t distribution.
+
+01:44.290 --> 01:51.340
+The formula that allows us to calculate it is t with and minus 1 degrees of freedom any significance
+
+01:51.340 --> 01:57.490
+level of Alpha equals the sample mean minus the population mean divided by the standard error of the
+
+01:57.490 --> 01:58.370
+sample.
+
+01:58.780 --> 02:02.590
+As you can see it is very similar to the Z statistic.
+
+02:02.620 --> 02:07.080
+After all this is an approximation of the normal distribution.
+
+02:07.240 --> 02:12.520
+The last characteristic of the Student's t statistic is that there are degrees of freedom.
+
+02:12.700 --> 02:18.270
+Usually for a sample of N we have n minus 1 degrees of freedom.
+
+02:18.310 --> 02:24.460
+So for a sample of 20 observations the degrees of freedom are 19.
+
+02:24.460 --> 02:27.040
+Much like the standard normal distribution table.
+
+02:27.130 --> 02:29.710
+We also have a students tea table.
+
+02:29.710 --> 02:30.880
+Here it is.
+
+02:31.030 --> 02:33.740
+The rows indicate different degrees of freedom.
+
+02:33.820 --> 02:39.390
+Abbreviated as D F while the columns common Alfas.
+
+02:39.460 --> 02:44.130
+Please note that after the 30th row the numbers don't vary that much.
+
+02:44.200 --> 02:50.980
+Actually after 30 degrees of freedom the statistic table becomes almost the same as the Z statistic
+
+02:51.730 --> 02:54.310
+as the degrees of freedom depend on the sample.
+
+02:54.340 --> 02:59.350
+In essence the bigger the sample the closer we get to the actual numbers.
+
+02:59.410 --> 03:05.260
+A common rule of thumb is that for a simple containing more than 50 observations we use the Z table
+
+03:05.320 --> 03:07.840
+instead of the tea table.
+
+03:07.870 --> 03:09.560
+All right great.
+
+03:09.640 --> 03:12.310
+In our next lecture we will apply our knowledge.
+
+03:12.340 --> 03:13.180
+In practice.

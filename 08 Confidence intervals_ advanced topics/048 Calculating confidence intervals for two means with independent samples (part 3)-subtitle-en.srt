@@ -1,0 +1,88 @@
+﻿1
+00:00:00,790 --> 00:00:02,870
+Hi and welcome back.
+
+2
+00:00:03,070 --> 00:00:06,660
+This is the last lesson about confidence intervals.
+
+3
+00:00:06,690 --> 00:00:11,740
+We are not going to get too deep into it as it is just about knowing the formula.
+
+4
+00:00:11,740 --> 00:00:15,910
+Sometimes we want to find the confidence interval for two simple means.
+
+5
+00:00:15,910 --> 00:00:22,060
+When the samples are independent with unknown variances and when the variances are assumed to be different
+
+6
+00:00:22,960 --> 00:00:25,920
+you can think about comparing apples and oranges.
+
+7
+00:00:25,930 --> 00:00:29,470
+You've heard the expression right well in statistics.
+
+8
+00:00:29,470 --> 00:00:34,680
+If you actually want to compare apples and oranges This is the right way to do it.
+
+9
+00:00:34,690 --> 00:00:38,020
+Here's the confidence interval formula.
+
+10
+00:00:38,050 --> 00:00:42,730
+Once again we have the differences of the means of the two samples.
+
+11
+00:00:42,730 --> 00:00:46,860
+The variances are the simple variances of each of the two variables.
+
+12
+00:00:46,900 --> 00:00:50,040
+And here are the respective sample sizes.
+
+13
+00:00:50,050 --> 00:00:55,260
+The tough thing about this is to estimate the degrees of freedom well.
+
+14
+00:00:55,300 --> 00:01:00,070
+Statisticians have come up with a formula that allows us to do just that.
+
+15
+00:01:00,100 --> 00:01:05,650
+You have all the information but it is highly unlikely that you will remember the formula.
+
+16
+00:01:05,700 --> 00:01:06,530
+All right.
+
+17
+00:01:06,680 --> 00:01:11,110
+We won't give an example of this case as it will add any value to this course.
+
+18
+00:01:11,270 --> 00:01:16,330
+In this video we just wanted to show you the right way to compare apples and oranges.
+
+19
+00:01:16,520 --> 00:01:19,610
+Next time we will get to the core of statistics.
+
+20
+00:01:19,730 --> 00:01:21,850
+Hypothesis Testing.
+
+21
+00:01:21,950 --> 00:01:22,880
+Don't miss out.
+
+22
+00:01:22,970 --> 00:01:24,140
+And thanks for watching.
+

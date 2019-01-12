@@ -1,0 +1,82 @@
+WEBVTT
+
+00:00.430 --> 00:06.670
+In the lecture about regression tables we mentioned the statistic which we saw in the Nova table.
+
+00:06.840 --> 00:10.430
+Let's try to explain its essence and see how it's useful to us.
+
+00:10.710 --> 00:16.140
+Much like the Z statistic that follows a normal distribution and the t statistic that follows the Student's
+
+00:16.140 --> 00:17.240
+t distribution.
+
+00:17.370 --> 00:20.760
+The F statistic follows an F distribution.
+
+00:20.760 --> 00:22.650
+I'm calling it a statistic.
+
+00:22.650 --> 00:25.170
+So it is used for tests right.
+
+00:25.170 --> 00:31.270
+You guessed correctly the test is known as the test for overall significance of the model.
+
+00:31.350 --> 00:36.760
+The null hypothesis is all the betas are equal to zero simultaneously.
+
+00:37.110 --> 00:42.410
+The alternative hypothesis is at least one Bayda defers from zero.
+
+00:42.410 --> 00:48.210
+What's the interpretation if all betas are zero then none of the independent variables matter.
+
+00:48.210 --> 00:50.690
+Therefore our model has no merit.
+
+00:51.590 --> 00:56.430
+Let's see the Nova table for the S.A.T. score college GPA regression.
+
+00:56.690 --> 01:02.690
+The statistic is fifty five point five and its p value is zero point zero zero zero.
+
+01:02.780 --> 01:05.990
+We say the overall model is significant.
+
+01:05.990 --> 01:10.310
+Notice how the p value is a universal measure for all tests.
+
+01:10.310 --> 01:16.570
+There is an F table used for the F statistic but we don't need it because the p value notion is so powerful
+
+01:17.860 --> 01:23.120
+the F-test is important for multivariate regressions as it gives us some important insights.
+
+01:23.440 --> 01:28.930
+Let's see the Nova table for the model where we added the random 1 to 3 variable that had nothing to
+
+01:28.930 --> 01:30.530
+do with anything.
+
+01:30.550 --> 01:36.790
+The statistic is twenty seven point eight and the p value is zero point zero zero zero.
+
+01:36.820 --> 01:39.420
+You can see the f statistic is lower.
+
+01:39.580 --> 01:46.900
+The model is still significant but less so the lower the statistic the closer to a non-significant model.
+
+01:46.960 --> 01:51.950
+This is yet another tool that allows us to compare models OK.
+
+01:51.980 --> 01:54.970
+This was the test for overall significance of the model.
+
+01:55.190 --> 01:58.430
+Don't forget to look for the three zeros after the dot.
+
+01:58.760 --> 01:59.960
+And thanks for watching.

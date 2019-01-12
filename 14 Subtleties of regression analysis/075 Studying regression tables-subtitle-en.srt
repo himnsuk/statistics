@@ -1,0 +1,236 @@
+﻿1
+00:00:00,570 --> 00:00:05,670
+When you perform regression analysis using software you'll find something different than a scatterplot
+
+2
+00:00:05,670 --> 00:00:07,180
+with a regression line.
+
+3
+00:00:07,460 --> 00:00:09,950
+The graph is a visual representation.
+
+4
+00:00:09,990 --> 00:00:15,480
+And what we really want is to have the equation of the model and a measure of its significance and explanatory
+
+5
+00:00:15,480 --> 00:00:16,510
+power.
+
+6
+00:00:16,530 --> 00:00:21,270
+This is the reason the software provides a couple of tables instead of a graph.
+
+7
+00:00:21,300 --> 00:00:27,920
+In this lesson we will learn how to read and understand these tables typically we will have three main
+
+8
+00:00:27,920 --> 00:00:33,330
+tables a model summary and a nova table and a table with coefficients.
+
+9
+00:00:33,410 --> 00:00:35,330
+Here's what we have in Excel.
+
+10
+00:00:35,330 --> 00:00:37,900
+These tables contain all kinds of information.
+
+11
+00:00:37,910 --> 00:00:39,800
+So let me quickly clear it up.
+
+12
+00:00:39,920 --> 00:00:43,560
+We want to see only information that is important and relevant.
+
+13
+00:00:44,420 --> 00:00:45,400
+All right.
+
+14
+00:00:45,420 --> 00:00:47,940
+First we have the model summary.
+
+15
+00:00:48,090 --> 00:00:53,390
+It will contain the R-squared the sample size and the standard error of the estimate.
+
+16
+00:00:53,460 --> 00:00:55,920
+We already know what the R squared is.
+
+17
+00:00:56,160 --> 00:01:01,920
+The standard error of the estimate similarily to the standard errors we have seen so far is a correction
+
+18
+00:01:01,950 --> 00:01:05,820
+of the standard deviation that takes into account the sample size.
+
+19
+00:01:05,820 --> 00:01:10,780
+The formula is square root of SSD divided by and minus 2.
+
+20
+00:01:11,100 --> 00:01:16,830
+We will not dig deeper into this topic but as we had with inferential statistics the bigger the sample
+
+21
+00:01:16,830 --> 00:01:21,610
+size the lower the standard error and the better the model.
+
+22
+00:01:21,790 --> 00:01:28,840
+The second table is a nova and Nova is an abbreviation of analysis of variance and is a collection of
+
+23
+00:01:28,840 --> 00:01:33,760
+statistical models used for comparing means in the context of regressions.
+
+24
+00:01:33,790 --> 00:01:43,090
+The Nova table summarizes the variance we've talked about so far as s t ss are an SSD in the Nova table.
+
+25
+00:01:43,090 --> 00:01:49,310
+You will also find the statistic which we will discuss in a separate lesson.
+
+26
+00:01:49,400 --> 00:01:52,090
+The third table is the coefficients table.
+
+27
+00:01:52,370 --> 00:01:55,330
+If you are new to regression analysis you wouldn't know.
+
+28
+00:01:55,400 --> 00:01:57,340
+But this is the heart of the regression.
+
+29
+00:01:57,380 --> 00:01:58,560
+So get excited.
+
+30
+00:01:59,660 --> 00:02:06,740
+The first row describes the intercept while the second row the independent variable OK.
+
+31
+00:02:06,750 --> 00:02:09,550
+Now let's go column by column.
+
+32
+00:02:09,880 --> 00:02:16,490
+The first one is about the coefficients we can see the coefficient of the intercept is zero point 4
+
+33
+00:02:16,520 --> 00:02:21,680
+8 0 or 3 which means be 0 is zero point 4 8 0 3.
+
+34
+00:02:21,950 --> 00:02:27,530
+Looking below we notice the other coefficient is zero point 0 0 1 5.
+
+35
+00:02:27,590 --> 00:02:30,040
+This is our b one.
+
+36
+00:02:30,130 --> 00:02:36,720
+These are the only two numbers we need to define the regression equation Y had equals zero point 4 8
+
+37
+00:02:36,750 --> 00:02:44,320
+0 3 plus 0.00 1 5 times x that is also the correct way to get the regression equation.
+
+38
+00:02:45,920 --> 00:02:50,510
+Next we have the standard errors of each estimate which we will need in a second.
+
+39
+00:02:52,080 --> 00:02:55,790
+The two values are a t statistic and it's P-value.
+
+40
+00:02:56,190 --> 00:03:01,660
+If you have paid close attention to the course you will know there is a hypothesis involved here.
+
+41
+00:03:01,800 --> 00:03:06,870
+The null hypothesis of this test is beta equals zero.
+
+42
+00:03:06,870 --> 00:03:10,340
+In other words is the coefficient equal to zero.
+
+43
+00:03:10,680 --> 00:03:18,170
+If a coefficient is zero for the intercept be 0 that is then the line crosses the y axes at the origin.
+
+44
+00:03:19,790 --> 00:03:24,910
+If beta 1 is zero then 0 times X will always be NULL for any x.
+
+45
+00:03:24,950 --> 00:03:28,840
+So this variable will not be considered for the model.
+
+46
+00:03:28,860 --> 00:03:31,650
+Let's paraphrase the null hypothesis.
+
+47
+00:03:31,770 --> 00:03:35,760
+Essentially it means is this variable useful.
+
+48
+00:03:35,760 --> 00:03:39,930
+Does it help us explain the variability we have in this case.
+
+49
+00:03:39,960 --> 00:03:46,060
+The answer is contained in the p value column as we have discussed earlier in this course.
+
+50
+00:03:46,140 --> 00:03:52,510
+We are longing for those three zeros but it is up to the researcher to choose the significance level
+
+51
+00:03:53,760 --> 00:03:58,790
+in our example the S.A.T. score is significant in determining college GPA.
+
+52
+00:03:59,930 --> 00:04:04,370
+What you may notice is that the int. p value is not zero.
+
+53
+00:04:04,370 --> 00:04:06,070
+Let's think about this.
+
+54
+00:04:06,140 --> 00:04:07,780
+Does it matter that much.
+
+55
+00:04:08,060 --> 00:04:12,220
+Even if the p value is large the intercept is insignificant.
+
+56
+00:04:12,350 --> 00:04:18,560
+So the test is about do we have enough statistical evidence that the intercept differs from 0.
+
+57
+00:04:18,650 --> 00:04:28,000
+Usually this is not essential as it is the x's we are interested in all right starting from our next
+
+58
+00:04:28,000 --> 00:04:28,660
+lesson.
+
+59
+00:04:28,780 --> 00:04:33,360
+We will get into more serious regression analysis by exploring multivariate regressions.
+

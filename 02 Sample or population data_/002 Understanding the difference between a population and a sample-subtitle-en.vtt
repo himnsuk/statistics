@@ -1,0 +1,235 @@
+WEBVTT
+
+0
+00:00.440 --> 00:04.050
+Alright. Before crunching any numbers and making decisions,
+
+1
+00:04.110 --> 00:06.610
+we should introduce some key definitions.
+
+2
+00:06.750 --> 00:11.790
+The first step of every statistical analysis you will perform is to determine whether the data you are
+
+3
+00:11.790 --> 00:18.180
+dealing with is a population, or a sample. 
+A population is the collection of all items of interest
+
+4
+00:18.180 --> 00:24.120
+to our study and is usually denoted with an uppercase N. The numbers we've obtained when using a population
+
+5
+00:24.180 --> 00:26.130
+The numbers we've obtained when using a population are called parameters.
+
+6
+00:26.130 --> 00:32.100
+A sample is a subset of the population and is denoted with a lowercase n, and the numbers we've obtained
+
+7
+00:32.100 --> 00:35.310
+when working with a sample are called: statistics.
+
+8
+00:35.310 --> 00:39.610
+Now you know why the field we are studying is called statistics.
+
+9
+00:39.650 --> 00:45.430
+Let's say we want to make a survey of the job prospects of the students studying in the New York University.
+
+10
+00:45.470 --> 00:51.810
+What is the population?
+You can simply walk into NYU and find every student, right?
+
+11
+00:52.130 --> 00:56.230
+Well probably that would not be the population of NYU students.
+
+12
+00:56.450 --> 01:02.510
+The population of interest includes not only the students on campus, but also the ones at home, on exchange,
+
+13
+01:02.690 --> 01:03.380
+abroad,
+
+14
+01:03.440 --> 01:08.690
+distance education students, part time students, even the ones who are enrolled but are still at high school.
+
+15
+01:08.690 --> 01:15.130
+Though exhaustive, even this list misses someone. Point taken.
+
+16
+01:15.170 --> 01:19.800
+Populations are hard to define and hard to observe in real-life.
+
+17
+01:19.850 --> 01:23.430
+A sample, however, is much easier to contact.
+
+18
+01:23.450 --> 01:29.540
+It is less time consuming and less costly. 
+Time and resources are the main reasons we prefer drawing samples
+
+19
+01:29.540 --> 01:33.210
+compared to analyzing an entire population.
+
+20
+01:33.260 --> 01:39.710
+So, let's draw a sample then.
+As we first wanted to do, we can just go to the NYU campus.
+
+21
+01:39.710 --> 01:43.840
+Next let's enter the canteen because we know it will be full of people.
+
+22
+01:44.000 --> 01:46.080
+We can then interview 50 of them.
+
+23
+01:46.220 --> 01:47.240
+Cool.
+
+24
+01:47.330 --> 01:48.840
+This is a sample.
+
+25
+01:48.950 --> 01:55.490
+Good job! But what are the chances of these 50 people provide us answers that are a true representation
+
+26
+01:55.520 --> 01:57.500
+of the whole university?
+
+27
+01:57.500 --> 01:59.160
+Pretty slim, right?
+
+28
+01:59.270 --> 02:05.630
+The sample is neither random, nor representative. 
+A random sample is collected when each member of the
+
+29
+02:05.630 --> 02:09.430
+sample is chosen from the population strictly by chance.
+
+30
+02:09.440 --> 02:13.810
+We must ensure each member is equally likely to be chosen.
+
+31
+02:13.820 --> 02:15.670
+Let's go back to our example.
+
+32
+02:15.740 --> 02:19.920
+We walked into the university canteen and violated both conditions.
+
+33
+02:20.030 --> 02:22.010
+People were not chosen by chance.
+
+34
+02:22.040 --> 02:25.550
+They were a group of NYU students who were there for lunch.
+
+35
+02:25.580 --> 02:30.360
+Most members did not even get the chance to be chosen as they were not on campus.
+
+36
+02:30.410 --> 02:34.060
+Thus we conclude the sample was not random.
+
+37
+02:34.100 --> 02:36.640
+What about the representativeness of the sample?
+
+38
+02:36.890 --> 02:42.680
+A representative sample is a subset of the population that accurately reflects the members of the entire population.
+
+39
+02:42.680 --> 02:44.390
+A representative sample is a subset of the population that accurately reflects the members of the entire population.
+
+40
+02:44.420 --> 02:48.090
+Our sample was not random but was it representative?
+
+41
+02:48.530 --> 02:55.250
+Well, it represented a group of people but definitely not all students in the university to be exact.
+
+42
+02:55.280 --> 02:59.240
+It represented the people who have lunch at the university canteen.
+
+43
+02:59.240 --> 03:04.790
+Had our survey been about job prospects of NYU students who eat in the university canteen we would have done well.
+
+44
+03:04.790 --> 03:07.370
+Had our survey been about job prospects of NYU students who eat in the university canteen we would have done well.
+
+45
+03:07.410 --> 03:11.780
+By now, you must be wondering how to draw a sample that is both random and representative.
+
+46
+03:12.150 --> 03:18.060
+Well, the safest way would be to get access to the student database and contact individuals in a random manner.
+
+47
+03:18.060 --> 03:18.930
+Well, the safest way would be to get access to the student database and contact individuals in a random manner.
+
+48
+03:18.930 --> 03:24.500
+However, such surveys are almost impossible to conduct without assistance from the university.
+
+49
+03:25.460 --> 03:28.470
+We said populations are hard to define and observe.
+
+50
+03:28.730 --> 03:34.340
+Then we saw that sampling is difficult. 
+But samples have two big advantages.
+
+51
+03:34.430 --> 03:39.870
+First, after you have experience, it is not hard to recognize, if a sample is representative.
+
+52
+03:40.370 --> 03:44.950
+And second statistical tests are designed to work with incomplete data.
+
+53
+03:45.140 --> 03:49.510
+Thus, making a small mistake while sampling is not always a problem.
+
+54
+03:49.640 --> 03:50.630
+Don't worry.
+
+55
+03:50.630 --> 03:55.430
+After completing this course samples and populations will be a piece of cake for you!
+
+56
+03:55.430 --> 03:56.390
+Thanks for watching!

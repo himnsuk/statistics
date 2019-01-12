@@ -1,0 +1,217 @@
+WEBVTT
+
+00:00.700 --> 00:02.300
+Okay great.
+
+00:02.480 --> 00:05.370
+So far we've seen assumptions 1 and 2.
+
+00:05.570 --> 00:13.820
+Here's the third one it comprises of three parts normality zero mean and homo Adeste history of the
+
+00:13.820 --> 00:15.240
+era term.
+
+00:15.260 --> 00:16.860
+The first one is easy.
+
+00:16.880 --> 00:20.430
+We assumed the error term is normally distributed.
+
+00:20.450 --> 00:26.870
+Normal Distribution is not required for creating the regression but for making inferences remember all
+
+00:26.870 --> 00:30.610
+regression tables were full of T statistics and statistics.
+
+00:30.890 --> 00:35.780
+Well these things work because we assume normality of the error return.
+
+00:35.840 --> 00:40.070
+What should we do if the error term is not normally distributed.
+
+00:40.070 --> 00:44.500
+You probably remember the theorem we studied earlier in the course right.
+
+00:44.510 --> 00:46.200
+Yes that's right.
+
+00:46.250 --> 00:49.520
+The central limit theorem for large samples.
+
+00:49.550 --> 00:52.910
+The central limit theorem applies for the error terms too.
+
+00:52.910 --> 00:57.320
+Therefore we can consider normality as a given for us.
+
+00:57.340 --> 01:00.190
+What about a zero mean of error terms.
+
+01:00.190 --> 01:05.620
+Well if the mean is not expected to be 0 then the line is not the best fitting one.
+
+01:05.620 --> 01:08.500
+However having an intercept solves that problem.
+
+01:08.500 --> 01:15.370
+So in real life it is unusual to violate this part of the Assumption and hope most cadet's Tisci.
+
+01:15.470 --> 01:16.720
+What's that about.
+
+01:17.350 --> 01:19.510
+It means to have equal variance.
+
+01:19.660 --> 01:24.200
+So the error terms should have equal variance one with the other.
+
+01:24.250 --> 01:26.810
+What if there was a pattern in the variance.
+
+01:27.250 --> 01:31.480
+Well an example of a dataset where errors have a different variance.
+
+01:31.480 --> 01:36.510
+Looks like this starting close to the regression line and going further away.
+
+01:36.820 --> 01:42.340
+This would imply that for smaller values of the independence and dependent variables we would have a
+
+01:42.340 --> 01:44.800
+better prediction than for the bigger values.
+
+01:44.800 --> 01:48.850
+And I assure you we really don't like this uncertainty.
+
+01:48.860 --> 01:57.280
+Let's see a real life example most examples related to income are heteros Godet stick with varying variants.
+
+01:57.290 --> 02:04.310
+If a person is poor he or she spends a constant amount of money on food entertainment clothes etc..
+
+02:04.490 --> 02:09.610
+The wealthier an individual is the higher the variability of his expenditure.
+
+02:09.620 --> 02:14.890
+For example a poor person may be forced to eat eggs or potatoes everyday.
+
+02:15.050 --> 02:17.910
+Both meals cost a similar amount of money.
+
+02:18.260 --> 02:24.080
+A wealthy person however may go to a fancy gourmet restaurant where truffles are served with expensive
+
+02:24.080 --> 02:28.130
+champagne one day and stay home and boil eggs the next day.
+
+02:28.250 --> 02:31.760
+The variability of his spending habits is tremendous.
+
+02:31.760 --> 02:36.920
+Therefore we expect heteros could TCD well then.
+
+02:37.110 --> 02:44.220
+Is there a way to circumvent heteros get past TCD first check for omitted variable bias.
+
+02:44.220 --> 02:45.920
+That's always an idea.
+
+02:46.200 --> 02:50.120
+After that you can look for outliers and try to remove them.
+
+02:50.130 --> 02:54.180
+Finally we shouldn't forget about a statistician's best friend.
+
+02:54.180 --> 02:59.850
+The log transformation naturally log stands for a logarithm.
+
+02:59.850 --> 03:05.710
+You can change the scale of the graph to a log scale for each observation in the dependent variable
+
+03:05.970 --> 03:12.010
+calculate its natural log and then create a regression between the log of Y and the independent X's.
+
+03:12.240 --> 03:19.310
+Conversely you can take the independent X that is causing you trouble and do the same let's see an example
+
+03:20.030 --> 03:25.790
+this is a scatterplot that represents a high level of heteros get past history on the left hand side
+
+03:25.790 --> 03:26.580
+of the chart.
+
+03:26.660 --> 03:30.940
+The variance of the error is small while on the right it is high.
+
+03:30.950 --> 03:37.040
+Here's the model as x increases by 1 unit y grows by B1 units.
+
+03:37.880 --> 03:43.660
+Let's transform the x variable to a new variable called log of X and plot the data.
+
+03:43.670 --> 03:45.650
+This is the new result.
+
+03:45.650 --> 03:49.090
+Changing the scale of x would reduce the width of the graph.
+
+03:49.190 --> 03:53.210
+You can see how the points came closer to each other from left to right.
+
+03:53.210 --> 03:55.830
+The new model is called a semi log model.
+
+03:56.690 --> 04:02.060
+What if we transform the Y scale instead in a logically to what happened previously.
+
+04:02.090 --> 04:05.400
+We would expect the height of the graph to be reduced.
+
+04:05.420 --> 04:07.430
+That's the result.
+
+04:07.470 --> 04:10.660
+This looks like good linear regression material doesn't it.
+
+04:10.680 --> 04:14.720
+The heteros Adeste history we observed earlier is almost gone.
+
+04:14.730 --> 04:18.360
+This new model is also called a semi log model.
+
+04:18.450 --> 04:25.130
+Its meaning is as x increases by 1 unit Y changes by B 1 percent.
+
+04:25.140 --> 04:28.480
+This is a very common transformation.
+
+04:28.510 --> 04:32.890
+Sometimes we want or need to change both scales to log.
+
+04:33.160 --> 04:35.860
+The result is a log to log model.
+
+04:36.070 --> 04:39.510
+We shrink the graph in height and end with.
+
+04:39.570 --> 04:45.160
+This is the result the improvement is noticeable but not game changing.
+
+04:45.180 --> 04:49.160
+However we may be sure the assumption is not violated.
+
+04:49.210 --> 04:56.830
+The interpretation is for each percentage point change in x y changes by B1 percentage points.
+
+04:56.860 --> 05:02.820
+If you've done economics you would recognize that such a relationship is known as plasticity.
+
+05:02.890 --> 05:04.780
+All right we are done here.
+
+05:04.870 --> 05:07.850
+Three assumptions down two to go.
+
+05:07.870 --> 05:08.610
+Great work.

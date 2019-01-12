@@ -1,0 +1,223 @@
+WEBVTT
+
+00:00.710 --> 00:04.670
+High it is time for the actual introduction of regressions.
+
+00:05.030 --> 00:11.150
+Let's start with some dry theory a linear regression is a linear approximation of a causal relationship
+
+00:11.150 --> 00:17.390
+between two or more variables regressions models are highly valuable as they are one of the most common
+
+00:17.390 --> 00:19.770
+ways to make inferences and predictions.
+
+00:20.750 --> 00:22.590
+The process goes like this.
+
+00:22.730 --> 00:28.070
+You get sample data come up with a model that explains the data and then make predictions for the whole
+
+00:28.070 --> 00:31.610
+population based on the model you have developed.
+
+00:31.630 --> 00:38.230
+There is a dependent variable labeled y being predicted and an independent variable labeled x 1 x 2
+
+00:38.290 --> 00:39.520
+and so forth.
+
+00:39.610 --> 00:46.960
+These are the predictors y is a function of the X variables and the regression model is a linear approximation
+
+00:46.990 --> 00:48.750
+of this function.
+
+00:48.760 --> 00:56.020
+The easiest regression model is the simple linear regression Y is equal to Bayda 0 plus Beta 1 times
+
+00:56.110 --> 00:58.420
+x plus Epsilon.
+
+00:58.440 --> 01:00.670
+Let's see what these values mean.
+
+01:00.720 --> 01:03.300
+Why is the variable we are trying to predict.
+
+01:03.330 --> 01:07.740
+And is called the dependent variable x is the independent variable.
+
+01:08.070 --> 01:15.380
+When using regression analysis we want to predict the value of y provided we have the value of x but
+
+01:15.480 --> 01:23.160
+to have a regression Why must depend on x in some causal way whenever there is a change in x such change
+
+01:23.160 --> 01:28.110
+must translate into a change and why think about the following equation.
+
+01:28.370 --> 01:34.250
+The income a person receives depends on the number of years of education that person has received the
+
+01:34.250 --> 01:36.260
+dependent variable is income.
+
+01:36.290 --> 01:41.870
+While the independent variable is the years of education there is a causal relationship between the
+
+01:41.870 --> 01:42.670
+two.
+
+01:42.680 --> 01:46.850
+The more education you get the higher income you are likely to receive.
+
+01:46.850 --> 01:52.260
+This relationship is so trivial that it is probably the reason you are watching this course right now.
+
+01:52.340 --> 01:55.920
+You want to get a higher income so you are increasing your education.
+
+01:56.710 --> 02:01.200
+Now let's pause for a second and think about the reverse relationship.
+
+02:01.300 --> 02:04.230
+What if education depends on income.
+
+02:04.270 --> 02:09.310
+This would mean the higher your income the more years you spend educating yourself.
+
+02:09.310 --> 02:15.580
+Putting high tuition fees aside wealthier individuals don't spend more years in school and high school
+
+02:15.610 --> 02:17.830
+and college take the same number of years.
+
+02:17.920 --> 02:19.800
+No matter your tax bracket.
+
+02:19.990 --> 02:25.360
+Therefore a causal relationship like this one is faulty if not plain wrong.
+
+02:25.600 --> 02:29.050
+Hence it is unfit for regression analysis.
+
+02:29.470 --> 02:32.010
+Let's go back to the original example.
+
+02:32.020 --> 02:34.630
+Income is a function of education.
+
+02:34.720 --> 02:38.140
+The more years you study the higher income you'll receive.
+
+02:38.140 --> 02:40.070
+This sounds about right.
+
+02:40.250 --> 02:41.230
+All right.
+
+02:41.240 --> 02:48.200
+What we haven't mentioned so far is that in our model there are coefficients bedo one is the coefficient
+
+02:48.200 --> 02:50.700
+that stands before the independent variable.
+
+02:50.750 --> 02:53.840
+It quantifies the effect of education on income.
+
+02:54.140 --> 03:02.440
+If beta 1 is 50 then for each additional year of education your income would grow by $50 in the USA.
+
+03:02.450 --> 03:04.310
+The number is much bigger.
+
+03:04.310 --> 03:07.320
+Somewhere around three to five thousand dollars.
+
+03:07.640 --> 03:14.120
+So for each additional year you spend on education your yearly income is expected to rise by three to
+
+03:14.120 --> 03:15.560
+five thousand dollars.
+
+03:15.860 --> 03:20.400
+And that's not considering higher education or tailored courses like this one.
+
+03:21.150 --> 03:28.430
+The other two components are the constant beta 0 and the error epsilon in this example you can think
+
+03:28.430 --> 03:33.070
+of the constant beta zero as the minimum wage no matter your education.
+
+03:33.170 --> 03:36.110
+If you have a job you will get the minimum wage.
+
+03:36.110 --> 03:38.710
+This is a guaranteed amount.
+
+03:38.870 --> 03:45.440
+So if you never went to school and plug in an education value of zero years in the formula the regression
+
+03:45.440 --> 03:49.660
+will predict that your income will be the minimum wage makes sense right.
+
+03:50.520 --> 03:52.860
+The last term is Epsilon.
+
+03:52.860 --> 03:55.660
+This represents the error of estimation.
+
+03:55.860 --> 04:01.260
+The error is the actual difference between the observed income and the income the regression predicted
+
+04:02.160 --> 04:04.860
+on average across all observations.
+
+04:04.860 --> 04:06.370
+The error is zero.
+
+04:06.690 --> 04:11.790
+If you earn more than what the regression has predicted then someone earns less than what the regression
+
+04:11.790 --> 04:13.130
+has predicted.
+
+04:13.140 --> 04:16.190
+Everything even Zelle all right.
+
+04:16.230 --> 04:19.560
+The original formula was written with Greek letters.
+
+04:19.590 --> 04:21.290
+What does this tell us.
+
+04:21.390 --> 04:27.020
+It was the population formula but we know statistics is all about sample data.
+
+04:27.030 --> 04:30.980
+In practice we use the linear regression equation.
+
+04:30.990 --> 04:35.830
+It is simply y that equals zero plus be one times x.
+
+04:35.970 --> 04:37.110
+You heard it right.
+
+04:37.110 --> 04:40.050
+The Y here is referred to as y hat.
+
+04:40.380 --> 04:47.640
+Whenever we have a hat symbol it is an estimated or a predicted value be 0 is the estimate of the regression
+
+04:47.640 --> 04:48.940
+constant beta 0.
+
+04:48.960 --> 04:55.890
+While B one is the estimate of beta 1 and X is the sample data for the independent variable.
+
+04:55.980 --> 04:57.400
+This will do for now.
+
+04:57.600 --> 05:01.120
+We will discuss this equation in more detail in the next lessons.

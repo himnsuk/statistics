@@ -1,0 +1,187 @@
+WEBVTT
+
+00:00.420 --> 00:06.360
+We are not done with Hypothesis Testing just yet remember how we started with confidence intervals for
+
+00:06.360 --> 00:11.320
+a single population mean and then switched to examples considering multiple populations.
+
+00:11.520 --> 00:18.750
+While we are in the same situation here single populations are just the beginning time to do multiple
+
+00:18.750 --> 00:19.960
+means.
+
+00:20.160 --> 00:23.010
+We will start with dependent samples.
+
+00:23.010 --> 00:28.260
+The most intuitive examples of dependent samples are the ones you have been through like weight loss
+
+00:28.320 --> 00:29.960
+and blood tests.
+
+00:30.000 --> 00:34.440
+The sample is drawn from Weight-Loss data or concentration of nutrient data.
+
+00:34.560 --> 00:41.780
+But the subject of interest is the same person before and after OK let's get to work.
+
+00:41.780 --> 00:45.480
+Do you recall our example with the magnesium levels in one's blood.
+
+00:45.710 --> 00:52.670
+There was this drug company developing a new pill that supposably increased levels of magnesium of recipients.
+
+00:52.670 --> 00:57.530
+There were 10 people involved in the study that were taking the drug for some time and we calculated
+
+00:57.530 --> 01:01.470
+confidence intervals that helped us study the effects of that drug.
+
+01:01.520 --> 01:05.640
+They indicated the range of plausible values for the population mean.
+
+01:05.750 --> 01:11.960
+This time we want to come to a single definite conclusion about the effectiveness of the drug.
+
+01:11.960 --> 01:12.560
+All right.
+
+01:12.740 --> 01:15.230
+Let's state the no hypothesis.
+
+01:15.260 --> 01:22.010
+The population mean before is greater or equal than the population mean after the alternative is that
+
+01:22.010 --> 01:26.210
+the population mean before is lower than the one after.
+
+01:26.210 --> 01:30.980
+Once again we want to know if the magnesium levels are higher.
+
+01:30.980 --> 01:36.530
+We construct a no and alternative hypotheses in such a way so that we are aiming to reject the null
+
+01:36.530 --> 01:38.060
+hypothesis.
+
+01:38.060 --> 01:40.300
+OK let's reorder a bit.
+
+01:40.310 --> 01:48.340
+Age 0 is myu before which is equal or higher than mu after this is equivalent to MMU before minus myu
+
+01:48.350 --> 01:51.710
+after is equal to zero or positive.
+
+01:51.710 --> 01:58.480
+We can substitute this with capital D 0 it stands for the hypothesized population mean difference.
+
+01:58.760 --> 02:02.710
+So we restate our hypotheses using d for simplicity.
+
+02:04.100 --> 02:06.230
+Now we have our test designed.
+
+02:06.320 --> 02:07.920
+Let's crunch some numbers.
+
+02:07.940 --> 02:09.720
+Here's the data set.
+
+02:09.950 --> 02:14.390
+We have 10 observations people have registered before and after.
+
+02:14.390 --> 02:21.050
+Naturally the difference is equal to before minus after we can calculate the sample mean of the difference
+
+02:21.590 --> 02:24.310
+we get minus 0.3 3.
+
+02:24.500 --> 02:27.730
+The sample standard deviation is zero point four or five.
+
+02:27.830 --> 02:35.570
+And the standard error is 0.1 for the appropriate statistic to use here is the t statistic.
+
+02:35.710 --> 02:37.040
+We have a small sample.
+
+02:37.120 --> 02:42.130
+We assume normal distribution of the population and we don't know the variance.
+
+02:42.230 --> 02:47.000
+So the score is equal to the following expression.
+
+02:47.000 --> 02:54.530
+Now we can simply carry up the calculations and find that its value is minus 2.2 none since we don't
+
+02:54.530 --> 02:56.620
+want to choose a level of significance.
+
+02:56.690 --> 03:02.270
+Well solve the problem with the P-value in order to find the value of this one sided test.
+
+03:02.270 --> 03:08.930
+We may go to the table and see it is somewhere between zero point zero one and zero point zero to five.
+
+03:08.960 --> 03:13.060
+As I told you earlier using software is much easier.
+
+03:13.070 --> 03:20.280
+So after using an online P-value calculator I can tell you that it is exactly zero point zero to four.
+
+03:20.330 --> 03:22.560
+What was that decision rule again.
+
+03:22.610 --> 03:26.330
+If the p value is lower than the significance level we are interested in.
+
+03:26.330 --> 03:29.000
+We reject the no hypothesis.
+
+03:29.000 --> 03:36.530
+OK so if the level of significance is 0.05 and the p value is lower we will be able to reject the hypothesis
+
+03:36.590 --> 03:43.510
+at 5 percent if the level of significance is zero point zero one however the p value is higher.
+
+03:43.590 --> 03:48.470
+So we cannot reject the no hypothesis at a 1 percent level of significance.
+
+03:48.780 --> 03:56.530
+The lowest value for which we can reject it is zero point zero to four which is exactly the p value.
+
+03:56.580 --> 03:58.320
+What does this tell us.
+
+03:58.320 --> 04:04.290
+Well it is up to the researcher to choose the level of significance in the case of the magnesium pill.
+
+04:04.470 --> 04:09.840
+We expect that the researcher will be very cautious as he would want to know if this is an effective
+
+04:09.840 --> 04:13.160
+pill they will be able to actually help people.
+
+04:13.320 --> 04:18.540
+If we cannot say that the pill works at a 1 percent significance level perhaps it is better to take
+
+04:18.540 --> 04:24.780
+it back to the laboratory and alternative would be to test again and increase the sample size for better
+
+04:24.780 --> 04:25.750
+results.
+
+04:26.040 --> 04:31.740
+A sample of 100 people would improve the level of precision significantly.
+
+04:31.830 --> 04:37.560
+All right so we've done some more hypothesis testing and we've explored some factors that help you determine
+
+04:37.560 --> 04:40.050
+the significance level of the test.
+
+04:40.110 --> 04:44.850
+Stay with us for our next lesson where we will learn how to test independent samples.
